@@ -1,4 +1,5 @@
 import { Link } from 'wouter';
+import AssetImage from '@/components/AssetImage';
 import type { WikiEntity } from '@/data/entity-types';
 import { translateSchool } from '@/data/entity-translations';
 import { entityDetailPath } from '@/lib/entity-paths';
@@ -55,7 +56,7 @@ export default function EntityCard({ entity, index = 0 }: EntityCardProps) {
           }
         >
           {entity.image ? (
-            <img
+            <AssetImage
               src={entity.image}
               alt=""
               className="w-full h-full object-contain p-1"

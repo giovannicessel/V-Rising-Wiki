@@ -1,4 +1,5 @@
 import mapData from '@/data/vardoran-map.json';
+import { assetUrl } from '@/lib/app-path';
 import { getEntityBySlug } from '@/lib/entities';
 
 export interface MapMarker {
@@ -23,8 +24,7 @@ export interface VardoranMapData {
 export const vardoranMap = mapData as VardoranMapData;
 
 /** Imagem local (baixada do script) ou URL remota. */
-export const MAP_IMAGE_SRC =
-  '/assets/wiki/vardoran-map.jpg';
+export const MAP_IMAGE_SRC = assetUrl('/assets/wiki/vardoran-map.jpg');
 
 export function getMapMarkers(): MapMarker[] {
   return vardoranMap.markers;

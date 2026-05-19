@@ -202,9 +202,33 @@ function vitePluginStorageProxy(): Plugin {
   };
 }
 
-const plugins = [react(), tailwindcss(), vitePluginManusRuntime(), vitePluginManusDebugCollector(), vitePluginStorageProxy()];
+const GITHUB_PAGES_BASE = "/V-Rising-Wiki/";
+const isGitHubPages = process.env.GITHUB_PAGES === "true";
+
+function vitePluginGitHubPagesSpa(): Plugin {
+  return {
+    name: "github-pages-spa",
+    closeBundle() {
+      if (!isGitHubPages) return;
+      const outDir = path.resolve(PROJECT_ROOT, "dist", "public");
+      const indexPath = path.join(outDir, "index.html");
+      if (!fs.existsSync(indexPath)) return;
+      fs.copyFileSync(indexPath, path.join(outDir, "404.html"));
+    },
+  };
+}
+
+const plugins = [
+  react(),
+  tailwindcss(),
+  vitePluginManusRuntime(),
+  vitePluginManusDebugCollector(),
+  vitePluginStorageProxy(),
+  vitePluginGitHubPagesSpa(),
+];
 
 export default defineConfig({
+  base: isGitHubPages ? GITHUB_PAGES_BASE : "/",
   plugins,
   resolve: {
     alias: {

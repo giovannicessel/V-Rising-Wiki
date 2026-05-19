@@ -6,7 +6,8 @@ import EntityListPage from '@/pages/EntityListPage';
 import GlobalSearchPage from '@/pages/GlobalSearchPage';
 import BuildsPage from '@/pages/BuildsPage';
 import type { EntityType } from '@/data/entity-types';
-import { Route, Switch } from 'wouter';
+import { routerBase } from '@/lib/app-path';
+import { Route, Router, Switch } from 'wouter';
 import ErrorBoundary from './components/ErrorBoundary';
 import { ThemeProvider } from './contexts/ThemeContext';
 import Home from './pages/Home';
@@ -26,7 +27,7 @@ function makeDetail(type: EntityType) {
   };
 }
 
-function Router() {
+function AppRouter() {
   return (
     <Switch>
       <Route path="/" component={Home} />
@@ -59,11 +60,17 @@ function App() {
       <ThemeProvider defaultTheme="dark">
         <TooltipProvider>
           <Toaster />
-          <Router />
+          <Router base={routerBase()}>
+            <AppRoutes />
+          </Router>
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>
   );
+}
+
+function AppRoutes() {
+  return <AppRouter />;
 }
 
 export default App;

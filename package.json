@@ -6,8 +6,10 @@
   "scripts": {
     "dev": "vite --host",
     "build": "vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
+    "build:pages": "node scripts/build-pages.mjs",
     "start": "NODE_ENV=production node dist/index.js",
     "preview": "vite preview --host",
+    "preview:pages": "node scripts/preview-pages.mjs",
     "check": "tsc --noEmit",
     "format": "prettier --write .",
     "sync:wiki": "node scripts/sync-fandom.mjs",
