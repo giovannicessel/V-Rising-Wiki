@@ -150,11 +150,6 @@
           "recipes": [],
           "mainRewards": [
             {
-              "name": "Forma de Sapo",
-              "image": "",
-              "description": "Recompensa desbloqueada: Forma de Sapo."
-            },
-            {
               "name": "Cunhagem",
               "nameEn": "Cunhagem",
               "image": "/assets/game/Stunlock_Icon_Structure_Stash_Coins01.webp",
@@ -164,7 +159,9 @@
           "vampirePowers": [
             {
               "name": "Forma de Sapo",
-              "nameEn": "Toad Form"
+              "nameEn": "Toad Form",
+              "image": "/assets/game/Stunlock_Icon_Ability_Shapeshift_Toad.webp",
+              "description": "Poder ou habilidade vampírica: Forma de Sapo."
             }
           ]
         }
@@ -207,17 +204,13 @@
           "hasSpellSchoolUnlock": false,
           "spells": [],
           "recipes": [],
-          "mainRewards": [
-            {
-              "name": "Forma de Lobo",
-              "image": "",
-              "description": "Recompensa desbloqueada: Forma de Lobo."
-            }
-          ],
+          "mainRewards": [],
           "vampirePowers": [
             {
               "name": "Forma de Lobo",
-              "nameEn": "Wolf Form"
+              "nameEn": "Wolf Form",
+              "image": "/assets/game/Stunlock_Icon_Ability_Shapeshift_Wolf.webp",
+              "description": "Poder ou habilidade vampírica: Forma de Lobo."
             }
           ]
         }
@@ -433,20 +426,18 @@
           "recipes": [],
           "mainRewards": [
             {
-              "name": "Forma Humana",
-              "image": "",
-              "description": "Transformação vampírica — aparência humana."
-            },
-            {
               "name": "Slashers",
-              "image": "",
+              "nameEn": "Slashers",
+              "image": "/assets/game/Stunlock_Icon_IronSlashers01.webp",
               "description": "Arma Talhador (Slashers)."
             }
           ],
           "vampirePowers": [
             {
               "name": "Forma Humana",
-              "nameEn": "Human Form"
+              "nameEn": "Human Form",
+              "image": "/assets/game/Stunlock_Icon_Ability_Shapeshift_Human.webp",
+              "description": "Poder ou habilidade vampírica: Forma Humana."
             }
           ],
           "primarySchool": "Unholy",
@@ -1711,7 +1702,8 @@
             },
             {
               "name": "Espadas Gêmeas",
-              "image": "",
+              "nameEn": "Espadas Gêmeas",
+              "image": "/assets/game/Stunlock_Icon_IronTwinBlades01.webp",
               "description": "Arma de lâminas gêmeas."
             }
           ],
@@ -2521,7 +2513,8 @@
             },
             {
               "name": "Pistolas",
-              "image": "",
+              "nameEn": "Pistolas",
+              "image": "/assets/game/Stunlock_Icon_IronPistol01.webp",
               "description": "Armas de fogo — pistolas."
             }
           ],
@@ -2806,17 +2799,13 @@
           "hasSpellSchoolUnlock": false,
           "spells": [],
           "recipes": [],
-          "mainRewards": [
-            {
-              "name": "Forma de Urso",
-              "image": "",
-              "description": "Recompensa desbloqueada: Forma de Urso."
-            }
-          ],
+          "mainRewards": [],
           "vampirePowers": [
             {
               "name": "Forma de Urso",
-              "nameEn": "Bear Form"
+              "nameEn": "Bear Form",
+              "image": "/assets/game/Stunlock_Icon_Ability_Shapeshift_Bear.webp",
+              "description": "Poder ou habilidade vampírica: Forma de Urso."
             }
           ]
         }
@@ -2868,7 +2857,8 @@
           "mainRewards": [
             {
               "name": "Foice (Ceifador)",
-              "image": "",
+              "nameEn": "Iron Reaper",
+              "image": "/assets/game/Stunlock_Icon_IronScythe01.webp",
               "description": "Arma Ceifador (Reaper) desbloqueada."
             }
           ],
@@ -3155,11 +3145,6 @@
           "recipes": [],
           "mainRewards": [
             {
-              "name": "Forma de Morcego",
-              "image": "",
-              "description": "Recompensa desbloqueada: Forma de Morcego."
-            },
-            {
               "name": "Lágrima de Ônix",
               "image": "/assets/game/Stunlock_Icon_Structure_StoneCutting.webp",
               "description": "Lágrima de ônix — crafting lendário."
@@ -3168,7 +3153,9 @@
           "vampirePowers": [
             {
               "name": "Forma de Morcego",
-              "nameEn": "Bat Form"
+              "nameEn": "Bat Form",
+              "image": "/assets/game/Stunlock_Icon_Ability_Shapeshift_Bat.webp",
+              "description": "Poder ou habilidade vampírica: Forma de Morcego."
             }
           ]
         }
@@ -3864,17 +3851,13 @@
           "hasSpellSchoolUnlock": false,
           "spells": [],
           "recipes": [],
-          "mainRewards": [
-            {
-              "name": "Forma de Rato",
-              "image": "",
-              "description": "Recompensa desbloqueada: Forma de Rato."
-            }
-          ],
+          "mainRewards": [],
           "vampirePowers": [
             {
               "name": "Forma de Rato",
-              "nameEn": "Rat Form"
+              "nameEn": "Rat Form",
+              "image": "/assets/game/Stunlock_Icon_Ability_Shapeshift_Rat.webp",
+              "description": "Poder ou habilidade vampírica: Forma de Rato."
             }
           ]
         }
@@ -4377,7 +4360,8 @@
             },
             {
               "name": "Besta de Cobre",
-              "image": "",
+              "nameEn": "Besta de Cobre",
+              "image": "/assets/game/Stunlock_Icon_Copper_Bow01.webp",
               "description": "Arma de distância de cobre desbloqueada na forja."
             }
           ],
@@ -4467,9 +4451,13 @@
           "recipes": [],
           "mainRewards": [
             {
-              "name": "Chicote Sanguíneo",
-              "image": "",
-              "description": "Chicote sanguíneo de Simon Belmont."
+              "name": "Iron Whip",
+              "nameEn": "Iron Whip",
+              "entityId": "iron-whip",
+              "entityType": "weapon",
+              "slug": "Iron_Whip",
+              "image": "/assets/game/Stunlock_Icon_IronWhip02_Legendary.webp",
+              "description": "A weapon with a piercing attack that deals additional physical damage in an area at mid-range."
             }
           ],
           "vampirePowers": []
@@ -4609,13 +4597,10 @@
           "recipes": [],
           "mainRewards": [
             {
-              "name": "Véu das Sombras",
-              "nameEn": "Veil of Shadow",
-              "entityId": "veil-of-shadow",
-              "entityType": "spell",
-              "slug": "Veil_of_Shadow",
+              "name": "Véu do Fantasma",
+              "nameEn": "Véu do Fantasma",
               "image": "/assets/game/Stunlock_Icon_Ability_Spell_Shadow_VeilOfShadow.webp",
-              "description": "Dash towards input direction and elude nearby enemies for 2.2s.\nYour next primary attack heals you 5% of your maximum health."
+              "description": "Feitiço Dash — Véu das Sombras."
             }
           ],
           "vampirePowers": [],
@@ -4826,9 +4811,13 @@
               "description": "Arena para combates e treino."
             },
             {
-              "name": "Espadas Gêmeas (Twinblades)",
-              "image": "",
-              "description": "Arma Twinblades desbloqueada."
+              "name": "Iron Twinblade",
+              "nameEn": "Iron Twinblade",
+              "entityId": "iron-twinblade",
+              "entityType": "weapon",
+              "slug": "Iron_Twinblade",
+              "image": "https://static.wikia.nocookie.net/vrising/images/7/71/Weapon_IronTwinblade.png/revision/latest?cb=20250428195634",
+              "description": "A double-edged weapon that deals physical damage."
             }
           ],
           "vampirePowers": [],
@@ -5133,12 +5122,14 @@
           "mainRewards": [
             {
               "name": "Fome de Sangue",
-              "image": "",
+              "nameEn": "Fome de Sangue",
+              "image": "/assets/game/Stunlock_Icon_BloodHunger.webp",
               "description": "Mecânica ligada à fome de sangue."
             },
             {
               "name": "Essência de Sangue Maior",
-              "image": "",
+              "nameEn": "Essência de Sangue Maior",
+              "image": "/assets/game/Stunlock_Icon_Item_BloodEssence03.webp",
               "description": "Essência para crafting de sangue."
             }
           ],
@@ -5219,11 +5210,6 @@
           "recipes": [],
           "mainRewards": [
             {
-              "name": "Forma de Aranha",
-              "image": "",
-              "description": "Recompensa desbloqueada: Forma de Aranha."
-            },
-            {
               "name": "Seda",
               "image": "/assets/game/Stunlock_Icon_Structure_Loom.webp",
               "description": "Seda de aranha para crafting."
@@ -5232,7 +5218,9 @@
           "vampirePowers": [
             {
               "name": "Forma de Aranha",
-              "nameEn": "Spider Form"
+              "nameEn": "Spider Form",
+              "image": "/assets/game/Stunlock_Icon_Ability_Shapeshift_Spider.webp",
+              "description": "Poder ou habilidade vampírica: Forma de Aranha."
             }
           ],
           "primarySchool": "Unholy",
@@ -15106,7 +15094,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.039Z"
+      "syncedAt": "2026-05-19T21:55:50.691Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_axe_frenzy",
@@ -15122,7 +15110,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.696Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_bow_guidedarrow",
@@ -15138,7 +15126,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.696Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_bow_multishot",
@@ -15154,7 +15142,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.696Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_bow_primaryattack",
@@ -15170,7 +15158,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.696Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_claws_primary_meleeattack",
@@ -15186,7 +15174,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.697Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_claws_skeweringleap",
@@ -15202,7 +15190,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.697Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_claws_vaultslash",
@@ -15218,7 +15206,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.697Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_crossbow_primaryattack",
@@ -15234,7 +15222,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.697Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_crossbow_rainofbolts",
@@ -15250,7 +15238,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.697Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_crossbow_snapshot",
@@ -15266,7 +15254,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.697Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_daggers_calldaggers",
@@ -15282,7 +15270,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.697Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_daggers_primary",
@@ -15298,7 +15286,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.697Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_daggers_rainofdaggers",
@@ -15314,7 +15302,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.697Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_greatsword_deathfromabove",
@@ -15330,7 +15318,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.697Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_greatsword_greatcleaver",
@@ -15346,7 +15334,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.697Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_greatsword_primaryattack",
@@ -15362,7 +15350,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.697Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_mace_crushingblow",
@@ -15378,7 +15366,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.697Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_mace_smack",
@@ -15394,7 +15382,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.697Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_pistols_explosivebullet",
@@ -15410,7 +15398,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.697Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_pistols_fanthehammer",
@@ -15426,7 +15414,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.697Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_pistols_primaryattack",
@@ -15442,7 +15430,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.697Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_scythe_howlingreaper",
@@ -15458,7 +15446,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.697Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_scythe_tendonswing",
@@ -15474,7 +15462,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.697Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_slashers_camoflauge",
@@ -15490,7 +15478,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.697Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_slashers_camoflaugestrike",
@@ -15506,7 +15494,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.697Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_slashers_elusivestrike",
@@ -15522,7 +15510,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.697Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_slashers_primaryattack",
@@ -15538,7 +15526,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.697Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_spear_athousandspears",
@@ -15554,7 +15542,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.697Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_spear_harpoon",
@@ -15570,7 +15558,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.697Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_spear_impale",
@@ -15586,7 +15574,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.697Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_sword_shockwave",
@@ -15602,7 +15590,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.697Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_sword_shockwaverecast",
@@ -15618,7 +15606,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.697Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_sword_whirlwind",
@@ -15634,7 +15622,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.697Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_twinblades_javelin",
@@ -15650,7 +15638,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.697Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_twinblades_javelin_recast",
@@ -15666,7 +15654,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.697Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_twinblades_primary_meleeattack",
@@ -15682,7 +15670,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.697Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_twinblades_sweepingstrike",
@@ -15698,7 +15686,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.697Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_whip_aerialwhiptwirl",
@@ -15714,7 +15702,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.697Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_whip_entanglingwhip",
@@ -15730,7 +15718,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.697Z"
     },
     {
       "id": "stunlock_icon_ability_weapon_whip_primaryattack",
@@ -15746,7 +15734,7 @@
       "fandomUrl": "",
       "infobox": {},
       "sections": [],
-      "syncedAt": "2026-05-19T19:32:07.053Z"
+      "syncedAt": "2026-05-19T21:55:50.697Z"
     }
   ]
 }

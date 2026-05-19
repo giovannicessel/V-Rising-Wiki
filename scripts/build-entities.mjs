@@ -14,6 +14,7 @@ import {
   isLowQualityText,
 } from '../shared/wiki-sanitize.mjs';
 import { resolveMainRewardPt } from '../shared/resolve-reward-item.mjs';
+import { lookupUnlockAssetImage } from '../shared/unlock-asset-resolve.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const RAW = path.join(__dirname, '../client/src/data/entities.raw.json');
@@ -253,7 +254,7 @@ function parseListLines(text) {
     .filter((l) => l.length > 2 && l !== '*');
 }
 
-function resolveUnlockName(name, entitiesByName) {
+function resolveUnlockName(name, entitiesByName, manifestByName) {
   const alias = SPELL_ALIASES[name];
   const key = name.toLowerCase().replace(/[^a-z0-9]/g, '');
   const aliasKey = alias?.toLowerCase().replace(/[^a-z0-9]/g, '');
@@ -261,16 +262,31 @@ function resolveUnlockName(name, entitiesByName) {
     entitiesByName.get(key) ||
     (aliasKey && entitiesByName.get(aliasKey)) ||
     entitiesByName.get(name.toLowerCase().replace(/\s/g, ''));
+
+  const manifestImage = lookupUnlockAssetImage({
+    nameEn: name,
+    namePt: NAME_PT[name],
+    manifestByName,
+  });
+
   if (!hit) {
-    return { name: NAME_PT[name] ?? name, nameEn: name };
+    return {
+      name: NAME_PT[name] ?? name,
+      nameEn: name,
+      image: manifestImage || '',
+      description: manifestImage
+        ? `Poder ou habilidade vampírica: ${NAME_PT[name] ?? name}.`
+        : undefined,
+    };
   }
+
   return {
     name: NAME_PT[name] ?? hit.name,
     nameEn: hit.nameEn || name,
     entityId: hit.id,
     entityType: hit.type,
     slug: hit.slug,
-    image: hit.image || '',
+    image: hit.image || manifestImage || '',
     school: hit.school,
   };
 }
@@ -306,14 +322,16 @@ function spellPointCategory(spellPoint) {
   return 'tier1';
 }
 
-function choicesForSpellPoint(spellPoint, idx) {
+function choicesForSpellPoint(spellPoint, idx, manifestByName) {
   const school = SPELL_PROGRESSION[spellPoint.school];
   if (!school) return [];
   let names = [];
   if (spellPoint.tier === 1) names = school.tier1;
   else if (spellPoint.tier === 2) names = school.tier2;
   else if (spellPoint.tier === 3 || spellPoint.ultimate) names = school.ultimate;
-  return names.map((n) => resolveUnlockName(resolveSpellCatalogName(n), idx));
+  return names.map((n) =>
+    resolveUnlockName(resolveSpellCatalogName(n), idx, manifestByName)
+  );
 }
 
 function findSpellPlacementInProgression(nameEn) {
@@ -444,7 +462,7 @@ function buildCuratedBossRewards(entity, idx, manifestByName) {
       ultimate: Boolean(c.spellPoint.ultimate),
       labelPt: spellPointLabelPt(c.spellPoint),
       category,
-      choices: choicesForSpellPoint(c.spellPoint, idx),
+      choices: choicesForSpellPoint(c.spellPoint, idx, manifestByName),
     };
     rewards.primarySchool = c.spellPoint.school;
     rewards.hasSpellSchoolUnlock = true;
@@ -461,7 +479,7 @@ function buildCuratedBossRewards(entity, idx, manifestByName) {
   };
 
   if (c.veilSpellEn) {
-    const veil = resolveUnlockName(c.veilSpellEn, idx);
+    const veil = resolveUnlockName(c.veilSpellEn, idx, manifestByName);
     const veilSchool = veil.school || VEIL_SCHOOL[c.veilSpellEn] || rewards.primarySchool;
     rewards.dashUnlock = { ...veil, school: veilSchool };
     if (!rewards.primarySchool && veilSchool) rewards.primarySchool = veilSchool;
@@ -469,13 +487,17 @@ function buildCuratedBossRewards(entity, idx, manifestByName) {
   }
 
   for (const en of c.vampirePowersEn ?? []) {
-    rewards.vampirePowers.push(resolveUnlockName(en, idx));
+    rewards.vampirePowers.push(resolveUnlockName(en, idx, manifestByName));
   }
 
+  const vampirePowerPt = new Set(
+    (c.vampirePowersEn ?? []).map((en) => NAME_PT[en] ?? en)
+  );
+
   if (c.mainRewardsPt?.length) {
-    rewards.mainRewards = c.mainRewardsPt.map((name) =>
-      resolveMainRewardPt(name, idx, manifestByName, NAME_PT)
-    );
+    rewards.mainRewards = c.mainRewardsPt
+      .filter((name) => !vampirePowerPt.has(name))
+      .map((name) => resolveMainRewardPt(name, idx, manifestByName, NAME_PT));
   }
 
   return rewards;
@@ -550,10 +572,14 @@ function extractMeta(entity, rawSections, entitiesByName, manifestByName) {
 
     let rewards = curated;
     if (!rewards) {
-      const spells = (parsedRewards.spells ?? []).map((n) => resolveUnlockName(n, idx));
-      const recipes = (parsedRewards.recipes ?? []).map((n) => resolveUnlockName(n, idx));
+      const spells = (parsedRewards.spells ?? []).map((n) =>
+        resolveUnlockName(n, idx, manifestByName)
+      );
+      const recipes = (parsedRewards.recipes ?? []).map((n) =>
+        resolveUnlockName(n, idx, manifestByName)
+      );
       const vampirePowers = (parsedRewards.vampirePowers ?? []).map((n) =>
-        resolveUnlockName(n, idx)
+        resolveUnlockName(n, idx, manifestByName)
       );
 
       let primarySchool = parsedRewards.primarySchool;
@@ -753,7 +779,7 @@ function main() {
   const byName = loadManifestIndex();
 
   const unlockSource = raw.filter((e) =>
-    ['spell', 'item', 'jewel', 'building'].includes(e.type)
+    ['spell', 'item', 'jewel', 'building', 'weapon'].includes(e.type)
   );
   const unlockIndex = buildEntitiesIndex(unlockSource.map((e) => mapEntity(e, byName)));
 

@@ -4,6 +4,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { lookupUnlockAssetImage } from './unlock-asset-resolve.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ALIASES_PATH = path.join(__dirname, '../client/src/data/reward-item-aliases.json');
@@ -93,6 +94,20 @@ export function resolveMainRewardPt(labelPt, entitiesByName, manifestByName, nam
   const alias = aliases[labelPt];
 
   const base = { name: labelPt };
+
+  const unlockIcon = lookupUnlockAssetImage({
+    namePt: labelPt,
+    nameEn: alias?.nameEn,
+    manifestByName,
+  });
+  if (unlockIcon) {
+    return {
+      ...base,
+      nameEn: alias?.nameEn || labelPt,
+      image: unlockIcon,
+      description: alias?.descriptionPt || `Recompensa desbloqueada: ${labelPt}.`,
+    };
+  }
 
   if (alias?.entity) {
     const key = norm(alias.entity);

@@ -127,7 +127,7 @@
       "gameAssetHint": "ateneu"
     },
     "Essência de Sangue Maior": {
-      "entity": "Greater Blood Essence",
+      "gameAsset": "Stunlock_Icon_Item_BloodEssence03",
       "descriptionPt": "Essência para crafting de sangue."
     },
     "Estação de Arena": {
@@ -187,12 +187,13 @@
       "gameAssetHint": "tear"
     },
     "Foice (Ceifador)": {
-      "entity": "Iron Reaper",
+      "gameAsset": "Stunlock_Icon_IronScythe01",
+      "nameEn": "Iron Reaper",
       "descriptionPt": "Arma Ceifador (Reaper) desbloqueada."
     },
     "Fome de Sangue": {
-      "descriptionPt": "Mecânica ligada à fome de sangue.",
-      "gameAssetHint": "sangue"
+      "gameAsset": "Stunlock_Icon_BloodHunger",
+      "descriptionPt": "Mecânica ligada à fome de sangue."
     },
     "Forja Ancestral": {
       "gameAsset": "Stunlock_Icon_Structure_ForgeFloor02",
@@ -203,31 +204,32 @@
       "descriptionPt": "Forja de fusão lendária."
     },
     "Forma Humana": {
+      "gameAsset": "Stunlock_Icon_Ability_Shapeshift_Human",
       "descriptionPt": "Transformação vampírica — aparência humana."
     },
     "Forma de Aranha": {
-      "descriptionPt": "Recompensa desbloqueada: Forma de Aranha.",
-      "gameAssetHint": "Forma de Aranha"
+      "gameAsset": "Stunlock_Icon_Ability_Shapeshift_Spider",
+      "descriptionPt": "Transformação vampírica — forma de aranha."
     },
     "Forma de Lobo": {
-      "descriptionPt": "Recompensa desbloqueada: Forma de Lobo.",
-      "gameAssetHint": "Forma de Lobo"
+      "gameAsset": "Stunlock_Icon_Ability_Shapeshift_Wolf",
+      "descriptionPt": "Transformação vampírica — forma de lobo."
     },
     "Forma de Morcego": {
-      "descriptionPt": "Recompensa desbloqueada: Forma de Morcego.",
-      "gameAssetHint": "Forma de Morcego"
+      "gameAsset": "Stunlock_Icon_Ability_Shapeshift_Bat",
+      "descriptionPt": "Transformação vampírica — forma de morcego."
     },
     "Forma de Rato": {
-      "descriptionPt": "Recompensa desbloqueada: Forma de Rato.",
-      "gameAssetHint": "Forma de Rato"
+      "gameAsset": "Stunlock_Icon_Ability_Shapeshift_Rat",
+      "descriptionPt": "Transformação vampírica — forma de rato."
     },
     "Forma de Sapo": {
-      "descriptionPt": "Recompensa desbloqueada: Forma de Sapo.",
-      "gameAssetHint": "Forma de Sapo"
+      "gameAsset": "Stunlock_Icon_Ability_Shapeshift_Toad",
+      "descriptionPt": "Transformação vampírica — forma de sapo."
     },
     "Forma de Urso": {
-      "descriptionPt": "Recompensa desbloqueada: Forma de Urso.",
-      "gameAssetHint": "Forma de Urso"
+      "gameAsset": "Stunlock_Icon_Ability_Shapeshift_Bear",
+      "descriptionPt": "Transformação vampírica — forma de urso."
     },
     "Forno Avançado": {
       "gameAsset": "Stunlock_Icon_Structure_Furnace",
