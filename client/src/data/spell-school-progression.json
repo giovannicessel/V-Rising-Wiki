@@ -1,0 +1,48 @@
+{
+  "version": "1.1",
+  "note": "Feitiços desbloqueáveis ao gastar pontos de feitiço (v1.1). Dash (Veil) é desbloqueio direto do chefe.",
+  "schools": {
+    "Blood": {
+      "tier1": ["Shadow Bolt", "Blood Rite", "Blood Rage"],
+      "tier2": ["Blood Fountain", "Sanguine Coil", "Carrion Swarm"],
+      "dash": ["Veil of Blood"],
+      "ultimate": ["Crimson Beam", "Heart Strike"]
+    },
+    "Chaos": {
+      "tier1": ["Chaos Volley", "Aftershock", "Power Surge"],
+      "tier2": ["Chaos Barrier", "Void", "Rain of Chaos"],
+      "dash": ["Veil of Chaos"],
+      "ultimate": ["Merciless Charge", "Chaos Barrage"]
+    },
+    "Unholy": {
+      "tier1": ["Corrupted Skull", "Ward of the Damned", "Bone Explosion"],
+      "tier2": ["Soulburn", "Death Knight", "Chains of Death"],
+      "dash": ["Veil of Bones"],
+      "ultimate": ["Army of the Dead", "Volatile Arachnid"]
+    },
+    "Illusion": {
+      "tier1": ["Spectral Wolf", "Phantom Aegis", "Mist Trance"],
+      "tier2": ["Wraith Spear", "Wisp Dance", "Curse"],
+      "dash": ["Veil of Illusion"],
+      "ultimate": ["Spectral Guardian", "Mirror Strike"]
+    },
+    "Frost": {
+      "tier1": ["Frost Bat", "Cold Snap", "Ice Nova"],
+      "tier2": ["Frost Barrier", "Crystal Lance", "Arctic Storm"],
+      "dash": ["Veil of Frost"],
+      "ultimate": ["Arctic Leap", "Ice Block"]
+    },
+    "Storm": {
+      "tier1": ["Cyclone", "Polarity Shift", "Ball Lightning"],
+      "tier2": ["Discharge", "Lightning Curtain", "Lightning Tendrils"],
+      "dash": ["Veil of Storm"],
+      "ultimate": ["Raging Tempest", "Lightning Typhoon"]
+    },
+    "Shadow": {
+      "tier1": [],
+      "tier2": [],
+      "dash": ["Veil of Shadow"],
+      "ultimate": []
+    }
+  }
+}

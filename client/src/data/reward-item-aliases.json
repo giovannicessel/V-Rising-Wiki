@@ -1,0 +1,420 @@
+{
+  "version": 1,
+  "items": {
+    "Alfaiataria": {
+      "gameAsset": "Stunlock_Icon_Structure_Loom",
+      "descriptionPt": "Tear para tecidos e armaduras de tecido."
+    },
+    "Altar do Despertar (Estágio)": {
+      "descriptionPt": "Melhoria do Altar do Despertar.",
+      "gameAssetHint": "altar"
+    },
+    "Armazenamento de Gemas": {
+      "gameAsset": "Stunlock_Icon_Structure_StoneCutting",
+      "descriptionPt": "Estrutura para armazenar e trabalhar gemas."
+    },
+    "Ateneu": {
+      "descriptionPt": "Estrutura de conhecimento em Gloomrot North.",
+      "gameAssetHint": "oficina"
+    },
+    "Bancada de Marcenaria": {
+      "gameAsset": "Stunlock_Icon_Structure_Sawmill",
+      "descriptionPt": "Serraria para processar madeira."
+    },
+    "Banshee": {
+      "descriptionPt": "Unidade profana invocável.",
+      "gameAssetHint": "profano"
+    },
+    "Besta de Cobre": {
+      "entity": "Copper Crossbow",
+      "descriptionPt": "Arma de distância de cobre desbloqueada na forja."
+    },
+    "Bolsa de Couro": {
+      "gameAsset": "Stunlock_Icon_Structure_Stash_Tailoring02",
+      "descriptionPt": "Bolsa extra de inventário (couro)."
+    },
+    "Bolsa de Couro de Morcego": {
+      "gameAsset": "Stunlock_Icon_Structure_Stash_Tailoring02",
+      "descriptionPt": "Bolsa extra de couro de morcego."
+    },
+    "Bolsa de Fio de Prata": {
+      "gameAsset": "Stunlock_Icon_Structure_Stash_Tailoring02",
+      "descriptionPt": "Bolsa de materiais de alfaiataria."
+    },
+    "Botas de Drácula": {
+      "descriptionPt": "Peça do set Drácula (botas).",
+      "gameAssetHint": "dracula"
+    },
+    "Brasão": {
+      "descriptionPt": "Brasão de clã / decoração de castelo.",
+      "gameAssetHint": "castelo"
+    },
+    "Calças de Drácula": {
+      "descriptionPt": "Peça do set Drácula (calças).",
+      "gameAssetHint": "dracula"
+    },
+    "Chicote Sanguíneo": {
+      "entity": "Iron Whip",
+      "descriptionPt": "Chicote sanguíneo de Simon Belmont."
+    },
+    "Conjunto Dawnthorn": {
+      "descriptionPt": "Armadura lendária Dawnthorn — receitas completas.",
+      "gameAssetHint": "forja"
+    },
+    "Couro": {
+      "gameAsset": "Item_Ingredient_BatLeather",
+      "descriptionPt": "Couro usado em receitas de armaduras e equipamentos.",
+      "nameEn": "Leather"
+    },
+    "Couro Grosso": {
+      "entity": "Thick Hide",
+      "descriptionPt": "Material de curtume de tier superior."
+    },
+    "Couro Prístino": {
+      "gameAsset": "Stunlock_Icon_Structure_Tannery",
+      "descriptionPt": "Couro de alta qualidade para equipamentos avançados."
+    },
+    "Couro de Morcego": {
+      "entity": "Bat Hide",
+      "descriptionPt": "Pele de morcego usada em crafting."
+    },
+    "Cunhagem": {
+      "gameAsset": "Stunlock_Icon_Structure_Stash_Coins01",
+      "descriptionPt": "Moedas e cunhagem na base."
+    },
+    "Curtume": {
+      "gameAsset": "Stunlock_Icon_Structure_Tannery",
+      "descriptionPt": "Curtume para converter peles em couro na sua base."
+    },
+    "Curtume Avançado": {
+      "gameAsset": "Stunlock_Icon_Structure_Tannery",
+      "descriptionPt": "Curtume de tier superior."
+    },
+    "Célula de Prisão": {
+      "gameAsset": "Stunlock_Icon_Structure_PrisonCell",
+      "descriptionPt": "Cela para confinar servos."
+    },
+    "Círculo de Invocação (Estágio)": {
+      "descriptionPt": "Círculo de invocação aprimorado.",
+      "gameAssetHint": "invocacao"
+    },
+    "Disfarce de Barril": {
+      "descriptionPt": "Disfarce em forma de barril.",
+      "gameAssetHint": "barril"
+    },
+    "EMP": {
+      "descriptionPt": "Pulso eletromagnético — estrutura ou habilidade.",
+      "gameAssetHint": "energia"
+    },
+    "Elixir do Salgueiro Torcido": {
+      "descriptionPt": "Elixir de Oakveil.",
+      "gameAssetHint": "alquimia"
+    },
+    "Enxame de Carniça": {
+      "entity": "Carrion Swarm",
+      "descriptionPt": "Feitiço de Sangue tier 2."
+    },
+    "Espadas Gêmeas": {
+      "entity": "Iron Twinblade",
+      "descriptionPt": "Arma de lâminas gêmeas."
+    },
+    "Espadas Gêmeas (Twinblades)": {
+      "entity": "Iron Twinblade",
+      "descriptionPt": "Arma Twinblades desbloqueada."
+    },
+    "Esquema": {
+      "descriptionPt": "Esquema de pesquisa desbloqueado.",
+      "gameAssetHint": "ateneu"
+    },
+    "Essência de Sangue Maior": {
+      "entity": "Greater Blood Essence",
+      "descriptionPt": "Essência para crafting de sangue."
+    },
+    "Estação de Arena": {
+      "gameAsset": "Stunlock_Icon_Structure_ArenaStation",
+      "descriptionPt": "Arena para combates e treino."
+    },
+    "Estilhaço da Serpente": {
+      "entity": "Soul Shard of the Serpent",
+      "descriptionPt": "Soul Shard — Megara."
+    },
+    "Estilhaço de Drácula": {
+      "entity": "Soul Shard of Dracula",
+      "descriptionPt": "Soul Shard — Drácula."
+    },
+    "Estilhaço de Solarus": {
+      "entity": "Soul Shard of Solarus",
+      "descriptionPt": "Soul Shard — Solarus, o Imaculado."
+    },
+    "Estilhaço do Horror Alado": {
+      "entity": "Soul Shard of the Winged Horror",
+      "descriptionPt": "Soul Shard — Talzur."
+    },
+    "Estilhaço do Monstro": {
+      "entity": "Soul Shard of the Monster",
+      "descriptionPt": "Soul Shard — Adam."
+    },
+    "Estruturas de Jardim": {
+      "gameAsset": "Stunlock_Icon_Structure_GardenUrn01",
+      "descriptionPt": "Conjunto de decorações de jardim."
+    },
+    "Estábulos": {
+      "gameAsset": "Stunlock_Icon_Structure_StableFence",
+      "descriptionPt": "Cercado e estábulo para cavalos."
+    },
+    "Fabricador": {
+      "gameAsset": "Stunlock_Icon_Structure_SimpleCraftingBench",
+      "descriptionPt": "Bancada de fabricação industrial."
+    },
+    "Ferraria": {
+      "gameAsset": "Stunlock_Icon_Structure_ForgeFloor",
+      "descriptionPt": "Forja para armas e armaduras de ferro."
+    },
+    "Ferro": {
+      "entity": "Iron Ingot",
+      "descriptionPt": "Lingote de ferro para crafting avançado."
+    },
+    "Fio Fantasma": {
+      "descriptionPt": "Fio espectral para alfaiataria.",
+      "gameAssetHint": "tear"
+    },
+    "Fio de Algodão": {
+      "descriptionPt": "Fio básico para alfaiataria.",
+      "gameAssetHint": "tear"
+    },
+    "Fio de Lã": {
+      "descriptionPt": "Fio de lã para receitas de tecido.",
+      "gameAssetHint": "tear"
+    },
+    "Foice (Ceifador)": {
+      "entity": "Iron Reaper",
+      "descriptionPt": "Arma Ceifador (Reaper) desbloqueada."
+    },
+    "Fome de Sangue": {
+      "descriptionPt": "Mecânica ligada à fome de sangue.",
+      "gameAssetHint": "sangue"
+    },
+    "Forja Ancestral": {
+      "gameAsset": "Stunlock_Icon_Structure_ForgeFloor02",
+      "descriptionPt": "Forja ancestral de tier alto."
+    },
+    "Forja de Fusão": {
+      "gameAsset": "Stunlock_Icon_Structure_ForgeFloor02",
+      "descriptionPt": "Forja de fusão lendária."
+    },
+    "Forma Humana": {
+      "descriptionPt": "Transformação vampírica — aparência humana."
+    },
+    "Forma de Aranha": {
+      "descriptionPt": "Recompensa desbloqueada: Forma de Aranha.",
+      "gameAssetHint": "Forma de Aranha"
+    },
+    "Forma de Lobo": {
+      "descriptionPt": "Recompensa desbloqueada: Forma de Lobo.",
+      "gameAssetHint": "Forma de Lobo"
+    },
+    "Forma de Morcego": {
+      "descriptionPt": "Recompensa desbloqueada: Forma de Morcego.",
+      "gameAssetHint": "Forma de Morcego"
+    },
+    "Forma de Rato": {
+      "descriptionPt": "Recompensa desbloqueada: Forma de Rato.",
+      "gameAssetHint": "Forma de Rato"
+    },
+    "Forma de Sapo": {
+      "descriptionPt": "Recompensa desbloqueada: Forma de Sapo.",
+      "gameAssetHint": "Forma de Sapo"
+    },
+    "Forma de Urso": {
+      "descriptionPt": "Recompensa desbloqueada: Forma de Urso.",
+      "gameAssetHint": "Forma de Urso"
+    },
+    "Forno Avançado": {
+      "gameAsset": "Stunlock_Icon_Structure_Furnace",
+      "descriptionPt": "Forno para lingotes avançados."
+    },
+    "Frasco de Resistência Sagrada": {
+      "descriptionPt": "Frasco contra dano sagrado.",
+      "gameAssetHint": "alquimia"
+    },
+    "Gemas Impecáveis": {
+      "descriptionPt": "Gemas de qualidade máxima.",
+      "gameAssetHint": "gemas"
+    },
+    "Golem de Cerco": {
+      "descriptionPt": "Golem invocável para cerco de castelos.",
+      "gameAssetHint": "gemas"
+    },
+    "Homogeneizador de Sangue": {
+      "gameAsset": "Stunlock_Icon_Structure_BloodPress",
+      "descriptionPt": "Processa sangue em recursos."
+    },
+    "Joias Maiores": {
+      "gameAsset": "Stunlock_Icon_Structure_Stash_Jewels01",
+      "descriptionPt": "Receitas de joias maiores."
+    },
+    "Liga de Rádio": {
+      "descriptionPt": "Liga usada em estruturas de Gloomrot.",
+      "gameAssetHint": "fabricador"
+    },
+    "Lingote de Ouro": {
+      "entity": "Gold Ingot",
+      "descriptionPt": "Lingote de ouro."
+    },
+    "Lingote de Prata Escura": {
+      "entity": "Dark Silver Ingot",
+      "descriptionPt": "Lingote de prata escura."
+    },
+    "Luvas de Drácula": {
+      "descriptionPt": "Peça do set Drácula (luvas).",
+      "gameAssetHint": "dracula"
+    },
+    "Lágrima de Ônix": {
+      "descriptionPt": "Lágrima de ônix — crafting lendário.",
+      "gameAssetHint": "gemas"
+    },
+    "Manto da Floresta": {
+      "descriptionPt": "Capa da floresta amaldiçoada.",
+      "gameAssetHint": "floresta"
+    },
+    "Merlot de Sangue": {
+      "descriptionPt": "Bebida / buff de Merlot de Sangue.",
+      "gameAssetHint": "sangue"
+    },
+    "Mesa de Alquimia": {
+      "gameAsset": "Stunlock_Icon_Structure_Floor_AlchemyLab01",
+      "descriptionPt": "Laboratório de alquimia."
+    },
+    "Mesa de Artesão": {
+      "gameAsset": "Stunlock_Icon_Structure_WorkshopSet01_Clean",
+      "descriptionPt": "Mesa de artesão para crafting."
+    },
+    "Mesa de Corte de Gemas": {
+      "gameAsset": "Stunlock_Icon_Structure_StoneCutting",
+      "descriptionPt": "Bancada de lapidação de gemas."
+    },
+    "Mesa de Joalheria": {
+      "gameAsset": "Stunlock_Icon_Structure_Floor_JewelCrafting02",
+      "descriptionPt": "Mesa de joalheria."
+    },
+    "Núcleo de Energia": {
+      "descriptionPt": "Núcleo para estruturas elétricas.",
+      "gameAssetHint": "fabricador"
+    },
+    "O Devorador": {
+      "gameAsset": "Stunlock_Icon_Structure_BloodFountain",
+      "descriptionPt": "Fonte de sangue — estrutura de coleta."
+    },
+    "Pedestal de Megara": {
+      "descriptionPt": "Pedestal decorativo de Megara.",
+      "gameAssetHint": "serpente"
+    },
+    "Pedra de Amolar": {
+      "gameAsset": "Stunlock_Icon_Structure_WorkshopSet01_Clean",
+      "descriptionPt": "Estação de afiação e oficina."
+    },
+    "Pedra do Flagelo": {
+      "descriptionPt": "Material profano para crafting.",
+      "gameAssetHint": "artesao"
+    },
+    "Peitoral de Drácula": {
+      "descriptionPt": "Peça do set Drácula (peitoral).",
+      "gameAssetHint": "dracula"
+    },
+    "Pergaminho": {
+      "descriptionPt": "Pergaminho para pesquisa e receitas.",
+      "gameAssetHint": "papel"
+    },
+    "Piso de Oficina": {
+      "gameAsset": "Stunlock_Icon_Structure_Floor_Forge01",
+      "descriptionPt": "Piso de forja para estação de trabalho."
+    },
+    "Pistolas": {
+      "entity": "Iron Pistols",
+      "descriptionPt": "Armas de fogo — pistolas."
+    },
+    "Poção de Resistência Sagrada": {
+      "descriptionPt": "Poção contra dano sagrado.",
+      "gameAssetHint": "alquimia"
+    },
+    "Poção de Resistência à Prata": {
+      "descriptionPt": "Reduz dano de prata.",
+      "gameAssetHint": "alquimia"
+    },
+    "Poção de Rosa de Sangue": {
+      "descriptionPt": "Receita de poção de cura com rosa de sangue.",
+      "gameAssetHint": "alquimia"
+    },
+    "Prensa de Papel": {
+      "gameAsset": "Stunlock_Icon_Structure_BloodPress",
+      "descriptionPt": "Prensa para criar pergaminhos e papel."
+    },
+    "Prensa de Sangue Avançada": {
+      "gameAsset": "Stunlock_Icon_Structure_BloodPress",
+      "descriptionPt": "Prensa de sangue de tier superior."
+    },
+    "Pó Espectral": {
+      "descriptionPt": "Pó para magias e alquimia profana.",
+      "gameAssetHint": "alquimia"
+    },
+    "Pó de Túmulo": {
+      "descriptionPt": "Ingrediente de alquimia obtido em cemitérios.",
+      "gameAssetHint": "tumulo"
+    },
+    "Seda": {
+      "descriptionPt": "Seda de aranha para crafting.",
+      "gameAssetHint": "tear"
+    },
+    "Slashers": {
+      "entity": "Iron Slashers",
+      "descriptionPt": "Arma Talhador (Slashers)."
+    },
+    "Slot de Passiva": {
+      "descriptionPt": "Slot extra para passiva vampírica."
+    },
+    "Tear": {
+      "gameAsset": "Stunlock_Icon_Structure_Loom",
+      "descriptionPt": "Tear — produção de tecido."
+    },
+    "Tear Avançado": {
+      "gameAsset": "Stunlock_Icon_Structure_Loom",
+      "descriptionPt": "Tear avançado."
+    },
+    "Tecido": {
+      "descriptionPt": "Tecido para armaduras e decoração.",
+      "gameAssetHint": "tear"
+    },
+    "Teletransportador": {
+      "gameAsset": "Stunlock_Icon_Structure_TeleporterRed",
+      "descriptionPt": "Teletransporte entre bases."
+    },
+    "Trama Sombria": {
+      "descriptionPt": "Material de armadura sombria.",
+      "gameAssetHint": "sombria"
+    },
+    "Triturador Avançado": {
+      "gameAsset": "Stunlock_Icon_Structure_Furnace",
+      "descriptionPt": "Triturador para recursos."
+    },
+    "Tábua Reforçada": {
+      "descriptionPt": "Tábua reforçada para construção.",
+      "gameAssetHint": "marcenaria"
+    },
+    "Túmulo": {
+      "gameAsset": "Stunlock_Icon_Structure_Coffin",
+      "descriptionPt": "Decoração e estrutura de túmulo."
+    },
+    "Vara de Pescar": {
+      "gameAsset": "Stunlock_Icon_Structure_Stash_Fish",
+      "descriptionPt": "Permite pescar em corpos d'água."
+    },
+    "Vidro": {
+      "entity": "Glass",
+      "descriptionPt": "Vidro para frascos e decoração."
+    },
+    "Véu do Fantasma": {
+      "entity": "Veil of Shadow",
+      "descriptionPt": "Feitiço Dash — Véu das Sombras."
+    }
+  }
+}

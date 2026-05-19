@@ -1,0 +1,65 @@
+{
+  "stylePrefix": "Dark fantasy vampire aesthetic inspired by gothic survival atmosphere. No logos, no readable text, no copyrighted game characters. Cinematic lighting, crimson rim light, deep black shadows, mist and ash, painterly digital art, high detail.",
+  "assets": [
+    {
+      "id": "hero-home",
+      "file": "hero-home.webp",
+      "aspectNote": "16:9 wide cinematic",
+      "prompt": "Panoramic view of cursed medieval landscape at night, ruined castle on distant hill, lone small vampire silhouette, heavy vignette darkening top-left and center for title overlay, atmospheric fog, blood moon, moody epic composition, empty space for text"
+    },
+    {
+      "id": "section-items",
+      "file": "sections/items.webp",
+      "aspectNote": "16:9",
+      "prompt": "Alchemist workshop still life, leather hides, metal ingots, glass vials, candles on gothic table, shallow depth of field"
+    },
+    {
+      "id": "section-jewels",
+      "file": "sections/jewels.webp",
+      "aspectNote": "16:9",
+      "prompt": "Five mystical soul crystals floating in darkness, prismatic refraction, teal purple crimson amber green accents, black velvet background, magical glow"
+    },
+    {
+      "id": "section-builds",
+      "file": "sections/builds.webp",
+      "aspectNote": "16:9",
+      "prompt": "Vampire warrior silhouette from behind, ghostly overlays of sword and spell energy, crimson and violet aura, dark castle hall"
+    },
+    {
+      "id": "section-map",
+      "file": "sections/map.webp",
+      "aspectNote": "16:9",
+      "prompt": "Antique parchment map of dark fantasy continent on wooden table, hand-drawn ink style, five regions suggested by subtle color washes, burned edges, compass rose, no modern labels"
+    },
+    {
+      "id": "section-lore",
+      "file": "sections/lore.webp",
+      "aspectNote": "16:9",
+      "prompt": "Ancient blood-stained grimoire open on stone altar, candlelight, iron chains, dramatic angle, history and mystery"
+    },
+    {
+      "id": "section-weapons-legendary",
+      "file": "sections/weapons-legendary.webp",
+      "aspectNote": "16:9",
+      "prompt": "Legendary vampire weapons on ritual stone stand, greatsword crossbow and reaper scythe, golden and blood highlights, museum dramatic lighting"
+    },
+    {
+      "id": "section-v-bloods",
+      "file": "sections/v-bloods.webp",
+      "aspectNote": "16:9",
+      "prompt": "Menacing vampire boss figure in armor amid red mist, throne of blood theme abstract, intimidating but not any specific known character"
+    },
+    {
+      "id": "section-spells",
+      "file": "sections/spells.webp",
+      "aspectNote": "16:9",
+      "prompt": "Vampire mage casting multiple elemental magics, blood chaos frost and lightning swirls, dark ritual circle"
+    },
+    {
+      "id": "section-weapons",
+      "file": "sections/weapons.webp",
+      "aspectNote": "16:9",
+      "prompt": "Array of medieval vampire weapons laid on dark cloth, swords axes crossbow, crimson accents"
+    }
+  ]
+}

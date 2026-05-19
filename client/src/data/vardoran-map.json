@@ -1,0 +1,605 @@
+{
+  "source": "https://vrising.fandom.com/wiki/Map:Vardoran",
+  "mapImage": "Vardoran (1 1 Update).jpg",
+  "imageUrl": "https://static.wikia.nocookie.net/vrising/images/d/d0/Vardoran_%281_1_Update%29.jpg/revision/latest?cb=20250501204444",
+  "bounds": {
+    "width": 10880,
+    "height": 10880
+  },
+  "origin": "bottom-left",
+  "markers": [
+    {
+      "id": "37",
+      "bossId": "voltatia-the-power-master",
+      "title": "Voltatia the Power Master",
+      "level": 79,
+      "x": 45.29,
+      "y": 88.01,
+      "fandomSlug": "Voltatia_the_Power_Master"
+    },
+    {
+      "id": "41",
+      "bossId": "adam-the-firstborn",
+      "title": "Adam the Firstborn",
+      "level": 88,
+      "x": 33.72,
+      "y": 90.58,
+      "fandomSlug": "Adam_the_Firstborn"
+    },
+    {
+      "id": "42",
+      "bossId": "solarus-the-immaculate",
+      "title": "Solarus the Immaculate",
+      "level": 86,
+      "x": 30.22,
+      "y": 55.29,
+      "fandomSlug": "Solarus_the_Immaculate"
+    },
+    {
+      "id": "43",
+      "bossId": "talzur-the-winged-horror",
+      "title": "Talzur the Winged Horror",
+      "level": 86,
+      "x": 72.32,
+      "y": 35.06,
+      "fandomSlug": "Talzur_the_Winged_Horror"
+    },
+    {
+      "id": "44",
+      "bossId": "dracula-the-immortal-king",
+      "title": "Dracula the Immortal King",
+      "level": 91,
+      "x": 92.32,
+      "y": 59.78,
+      "fandomSlug": "Dracula_the_Immortal_King"
+    },
+    {
+      "id": "45",
+      "bossId": "lord-styx-the-night-champion",
+      "title": "Lord Styx the Night Champion",
+      "level": 84,
+      "x": 49.08,
+      "y": 69.49,
+      "fandomSlug": "Lord_Styx_the_Night_Champion"
+    },
+    {
+      "id": "46",
+      "bossId": "azariel-the-sunbringer",
+      "title": "Azariel the Sunbringer",
+      "level": 79,
+      "x": 12.56,
+      "y": 55.26,
+      "fandomSlug": "Azariel_the_Sunbringer"
+    },
+    {
+      "id": "47",
+      "bossId": "henry-blackbrew-the-doctor",
+      "title": "Henry Blackbrew the Doctor",
+      "level": 74,
+      "x": 35.44,
+      "y": 80.44,
+      "fandomSlug": "Henry_Blackbrew_the_Doctor"
+    },
+    {
+      "id": "48",
+      "bossId": "sir-magnus-the-overseer",
+      "title": "Sir Magnus the Overseer",
+      "level": 66,
+      "x": 18.18,
+      "y": 59.49,
+      "fandomSlug": "Sir_Magnus_the_Overseer"
+    },
+    {
+      "id": "49",
+      "bossId": "gorecrusher-the-behemoth",
+      "title": "Gorecrusher the Behemoth",
+      "level": 84,
+      "x": 71.75,
+      "y": 75.66,
+      "fandomSlug": "Gorecrusher_the_Behemoth"
+    },
+    {
+      "id": "50",
+      "bossId": "terrorclaw-the-ogre",
+      "title": "Terrorclaw the Ogre",
+      "level": 76,
+      "x": 76.32,
+      "y": 39.34,
+      "fandomSlug": "Terrorclaw_the_Ogre"
+    },
+    {
+      "id": "51",
+      "bossId": "baron-du-bouchon-the-sommelier",
+      "title": "Baron du Bouchon the Sommelier",
+      "level": 70,
+      "x": 21.94,
+      "y": 53.55,
+      "fandomSlug": "Baron_du_Bouchon_the_Sommelier"
+    },
+    {
+      "id": "52",
+      "bossId": "willfred-the-werewolf-chief",
+      "title": "Willfred the Werewolf Chief",
+      "level": 64,
+      "x": 60.33,
+      "y": 70.97,
+      "fandomSlug": "Willfred_the_Werewolf_Chief"
+    },
+    {
+      "id": "53",
+      "bossId": "albert-the-duke-of-balaton",
+      "title": "Albert the Duke of Balaton",
+      "level": 64,
+      "x": 64.25,
+      "y": 87.46,
+      "fandomSlug": "Albert_the_Duke_of_Balaton"
+    },
+    {
+      "id": "54",
+      "bossId": "ungora-the-spider-queen",
+      "title": "Ungora the Spider Queen",
+      "level": 63,
+      "x": 59.87,
+      "y": 80.44,
+      "fandomSlug": "Ungora_the_Spider_Queen"
+    },
+    {
+      "id": "55",
+      "bossId": "angram-the-purifier",
+      "title": "Angram the Purifier",
+      "level": 61,
+      "x": 38.36,
+      "y": 77.65,
+      "fandomSlug": "Angram_the_Purifier"
+    },
+    {
+      "id": "56",
+      "bossId": "domina-the-blade-dancer",
+      "title": "Domina the Blade Dancer",
+      "level": 60,
+      "x": 38.71,
+      "y": 73.82,
+      "fandomSlug": "Domina_the_Blade_Dancer"
+    },
+    {
+      "id": "57",
+      "bossId": "ziva-the-engineer",
+      "title": "Ziva the Engineer",
+      "level": 60,
+      "x": 50.06,
+      "y": 83.01,
+      "fandomSlug": "Ziva_the_Engineer"
+    },
+    {
+      "id": "58",
+      "bossId": "matka-the-curse-weaver",
+      "title": "Matka the Curse Weaver",
+      "level": 76,
+      "x": 72.28,
+      "y": 82.02,
+      "fandomSlug": "Matka_the_Curse_Weaver"
+    },
+    {
+      "id": "59",
+      "bossId": "mairwyn-the-elementalist",
+      "title": "Mairwyn the Elementalist",
+      "level": 70,
+      "x": 29.33,
+      "y": 49.43,
+      "fandomSlug": "Mairwyn_the_Elementalist"
+    },
+    {
+      "id": "60",
+      "bossId": "morian-the-stormwing-matriarch",
+      "title": "Morian the Stormwing Matriarch",
+      "level": 70,
+      "x": 23.01,
+      "y": 48.82,
+      "fandomSlug": "Morian_the_Stormwing_Matriarch"
+    },
+    {
+      "id": "61",
+      "bossId": "cyril-the-cursed-smith",
+      "title": "Cyril the Cursed Smith",
+      "level": 65,
+      "x": 69.83,
+      "y": 82.28,
+      "fandomSlug": "Cyril_the_Cursed_Smith"
+    },
+    {
+      "id": "62",
+      "bossId": "foulrot-the-soultaker",
+      "title": "Foulrot the Soultaker",
+      "level": 63,
+      "x": 74.55,
+      "y": 76.43,
+      "fandomSlug": "Foulrot_the_Soultaker"
+    },
+    {
+      "id": "63",
+      "bossId": "errol-the-stonebreaker",
+      "title": "Errol the Stonebreaker",
+      "level": 20,
+      "x": 43.81,
+      "y": 30.4,
+      "fandomSlug": "Errol_the_Stonebreaker"
+    },
+    {
+      "id": "64",
+      "bossId": "rufus-the-foreman",
+      "title": "Rufus the Foreman",
+      "level": 20,
+      "x": 54.83,
+      "y": 28.2,
+      "fandomSlug": "Rufus_the_Foreman"
+    },
+    {
+      "id": "65",
+      "bossId": "grayson-the-armourer",
+      "title": "Grayson the Armourer",
+      "level": 27,
+      "x": 39.45,
+      "y": 32.79,
+      "fandomSlug": "Grayson_the_Armourer"
+    },
+    {
+      "id": "66",
+      "bossId": "goreswine-the-ravager",
+      "title": "Goreswine the Ravager",
+      "level": 27,
+      "x": 43.62,
+      "y": 21.99,
+      "fandomSlug": "Goreswine_the_Ravager"
+    },
+    {
+      "id": "67",
+      "bossId": "clive-the-firestarter",
+      "title": "Clive the Firestarter",
+      "level": 30,
+      "x": 24.89,
+      "y": 28.88,
+      "fandomSlug": "Clive_the_Firestarter"
+    },
+    {
+      "id": "68",
+      "bossId": "finn-the-fisherman",
+      "title": "Finn the Fisherman",
+      "level": 32,
+      "x": 67.57,
+      "y": 38.93,
+      "fandomSlug": "Finn_the_Fisherman"
+    },
+    {
+      "id": "69",
+      "bossId": "polora-the-feywalker",
+      "title": "Polora the Feywalker",
+      "level": 35,
+      "x": 28.69,
+      "y": 39.32,
+      "fandomSlug": "Polora_the_Feywalker"
+    },
+    {
+      "id": "70",
+      "bossId": "kodia-the-ferocious-bear",
+      "title": "Kodia the Ferocious Bear",
+      "level": 35,
+      "x": 71.14,
+      "y": 29.08,
+      "fandomSlug": "Kodia_the_Ferocious_Bear"
+    },
+    {
+      "id": "71",
+      "bossId": "nicholaus-the-fallen",
+      "title": "Nicholaus the Fallen",
+      "level": 35,
+      "x": 50.09,
+      "y": 35.32,
+      "fandomSlug": "Nicholaus_the_Fallen"
+    },
+    {
+      "id": "72",
+      "bossId": "quincey-the-bandit-king",
+      "title": "Quincey the Bandit King",
+      "level": 37,
+      "x": 48.99,
+      "y": 38.86,
+      "fandomSlug": "Quincey_the_Bandit_King"
+    },
+    {
+      "id": "73",
+      "bossId": "beatrice-the-tailor",
+      "title": "Beatrice the Tailor",
+      "level": 40,
+      "x": 59.97,
+      "y": 50.2,
+      "fandomSlug": "Beatrice_the_Tailor"
+    },
+    {
+      "id": "74",
+      "bossId": "kriig-the-undead-general",
+      "title": "Kriig the Undead General",
+      "level": 47,
+      "x": 49.76,
+      "y": 43.99,
+      "fandomSlug": "Kriig_the_Undead_General"
+    },
+    {
+      "id": "75",
+      "bossId": "leandra-the-shadow-priestess",
+      "title": "Leandra the Shadow Priestess",
+      "level": 47,
+      "x": 55.83,
+      "y": 66.4,
+      "fandomSlug": "Leandra_the_Shadow_Priestess"
+    },
+    {
+      "id": "76",
+      "bossId": "maja-the-dark-savant",
+      "title": "Maja the Dark Savant",
+      "level": 47,
+      "x": 66.22,
+      "y": 62.43,
+      "fandomSlug": "Maja_the_Dark_Savant"
+    },
+    {
+      "id": "77",
+      "bossId": "grethel-the-glassblower",
+      "title": "Grethel the Glassblower",
+      "level": 50,
+      "x": 37.88,
+      "y": 67.1,
+      "fandomSlug": "Grethel_the_Glassblower"
+    },
+    {
+      "id": "78",
+      "bossId": "terah-the-geomancer",
+      "title": "Terah the Geomancer",
+      "level": 53,
+      "x": 40.55,
+      "y": 61.17,
+      "fandomSlug": "Terah_the_Geomancer"
+    },
+    {
+      "id": "79",
+      "bossId": "raziel-the-shepherd",
+      "title": "Raziel the Shepherd",
+      "level": 57,
+      "x": 41.04,
+      "y": 55.65,
+      "fandomSlug": "Raziel_the_Shepherd"
+    },
+    {
+      "id": "80",
+      "bossId": "octavian-the-militia-captain",
+      "title": "Octavian the Militia Captain",
+      "level": 58,
+      "x": 54.67,
+      "y": 61.66,
+      "fandomSlug": "Octavian_the_Militia_Captain"
+    },
+    {
+      "id": "81",
+      "bossId": "alpha-the-white-wolf",
+      "title": "Alpha the White Wolf",
+      "level": 16,
+      "x": 54.34,
+      "y": 25.55,
+      "fandomSlug": "Alpha_the_White_Wolf"
+    },
+    {
+      "id": "82",
+      "bossId": "keely-the-frost-archer",
+      "title": "Keely the Frost Archer",
+      "level": 20,
+      "x": 60.81,
+      "y": 34.3,
+      "fandomSlug": "Keely_the_Frost_Archer"
+    },
+    {
+      "id": "83",
+      "bossId": "frostmaw-the-mountain-terror",
+      "title": "Frostmaw the Mountain Terror",
+      "level": 53,
+      "x": 70.09,
+      "y": 41.95,
+      "fandomSlug": "Frostmaw_the_Mountain_Terror"
+    },
+    {
+      "id": "84",
+      "bossId": "general-elena-the-hollow",
+      "title": "General Elena the Hollow",
+      "level": 53,
+      "x": 71.93,
+      "y": 55.9,
+      "fandomSlug": "General_Elena_the_Hollow"
+    },
+    {
+      "id": "85",
+      "bossId": "general-cassius-the-betrayer",
+      "title": "General Cassius the Betrayer",
+      "level": 57,
+      "x": 73.38,
+      "y": 61.88,
+      "fandomSlug": "General_Cassius_the_Betrayer"
+    },
+    {
+      "id": "86",
+      "bossId": "general-valencia-the-depraved",
+      "title": "General Valencia the Depraved",
+      "level": 84,
+      "x": 77.21,
+      "y": 67.46,
+      "fandomSlug": "General_Valencia_the_Depraved"
+    },
+    {
+      "id": "87",
+      "bossId": "ben-the-old-wanderer",
+      "title": "Ben the Old Wanderer",
+      "level": 63,
+      "x": 64.29,
+      "y": 77.55,
+      "fandomSlug": "Ben_the_Old_Wanderer"
+    },
+    {
+      "id": "88",
+      "bossId": "meredith-the-bright-archer",
+      "title": "Meredith the Bright Archer",
+      "level": 50,
+      "x": 49.73,
+      "y": 47.03,
+      "fandomSlug": "Meredith_the_Bright_Archer"
+    },
+    {
+      "id": "89",
+      "bossId": "christina-the-sun-priestess",
+      "title": "Christina the Sun Priestess",
+      "level": 44,
+      "x": 58.92,
+      "y": 51.73,
+      "fandomSlug": "Christina_the_Sun_Priestess"
+    },
+    {
+      "id": "90",
+      "bossId": "vincent-the-frostbringer",
+      "title": "Vincent the Frostbringer",
+      "level": 44,
+      "x": 51.36,
+      "y": 51.9,
+      "fandomSlug": "Vincent_the_Frostbringer"
+    },
+    {
+      "id": "93",
+      "bossId": "simon-belmont-the-vampire-hunter",
+      "title": "Simon Belmont the Vampire Hunter",
+      "level": 80,
+      "x": 57.39,
+      "y": 60.41,
+      "fandomSlug": "Simon_Belmont_the_Vampire_Hunter"
+    },
+    {
+      "id": "94",
+      "bossId": "nibbles-the-putrid-rat",
+      "title": "Nibbles the Putrid Rat",
+      "level": 30,
+      "x": 49.45,
+      "y": 18.74,
+      "fandomSlug": "Nibbles_the_Putrid_Rat"
+    },
+    {
+      "id": "95",
+      "bossId": "tristan-the-vampire-hunter",
+      "title": "Tristan the Vampire Hunter",
+      "level": 44,
+      "x": 58.51,
+      "y": 29.21,
+      "fandomSlug": "Tristan_the_Vampire_Hunter"
+    },
+    {
+      "id": "96",
+      "bossId": "jade-the-vampire-hunter",
+      "title": "Jade the Vampire Hunter",
+      "level": 57,
+      "x": 40.96,
+      "y": 49.52,
+      "fandomSlug": "Jade_the_Vampire_Hunter"
+    },
+    {
+      "id": "97",
+      "bossId": "bane-the-shadowblade",
+      "title": "Bane the Shadowblade",
+      "level": 50,
+      "x": 54.74,
+      "y": 56.32,
+      "fandomSlug": "Bane_the_Shadowblade"
+    },
+    {
+      "id": "98",
+      "bossId": "lidia-the-chaos-archer",
+      "title": "Lidia the Chaos Archer",
+      "level": 30,
+      "x": 39.46,
+      "y": 23.83,
+      "fandomSlug": "Lidia_the_Chaos_Archer"
+    },
+    {
+      "id": "101",
+      "bossId": "jakira-the-shadow-huntress",
+      "title": "Jakira the Shadow Huntress",
+      "level": 75,
+      "x": 23.99,
+      "y": 70.92,
+      "fandomSlug": "Jakira_the_Shadow_Huntress"
+    },
+    {
+      "id": "102",
+      "bossId": "stavros-the-carver",
+      "title": "Stavros the Carver",
+      "level": 75,
+      "x": 12.34,
+      "y": 76.1,
+      "fandomSlug": "Stavros_the_Carver"
+    },
+    {
+      "id": "103",
+      "bossId": "lucile-the-venom-alchemist",
+      "title": "Lucile the Venom Alchemist",
+      "level": 76,
+      "x": 16.34,
+      "y": 76.25,
+      "fandomSlug": "Lucile_the_Venom_Alchemist"
+    },
+    {
+      "id": "104",
+      "bossId": "dantos-the-forgebinder",
+      "title": "Dantos the Forgebinder",
+      "level": 82,
+      "x": 17.44,
+      "y": 87.08,
+      "fandomSlug": "Dantos_the_Forgebinder"
+    },
+    {
+      "id": "105",
+      "bossId": "megara-the-serpent-queen",
+      "title": "Megara the Serpent Queen",
+      "level": 88,
+      "x": 23.35,
+      "y": 88.48,
+      "fandomSlug": "Megara_the_Serpent_Queen"
+    },
+    {
+      "id": "106",
+      "bossId": "gaius-the-cursed-champion",
+      "title": "Gaius the Cursed Champion",
+      "level": 55,
+      "x": 61.74,
+      "y": 62.03,
+      "fandomSlug": "Gaius_the_Cursed_Champion"
+    },
+    {
+      "id": "107",
+      "bossId": "sir-erwin-the-gallant-cavalier",
+      "title": "Sir Erwin the Gallant Cavalier",
+      "level": 46,
+      "x": 35.01,
+      "y": 50.03,
+      "fandomSlug": "Sir_Erwin_the_Gallant_Cavalier"
+    },
+    {
+      "id": "112",
+      "bossId": "goreswine-the-ravager",
+      "title": "Goreswine the Ravager (Second Location)",
+      "x": 53.76,
+      "y": 22.52,
+      "fandomSlug": "Goreswine_the_Ravager"
+    },
+    {
+      "id": "113",
+      "bossId": "christina-the-sun-priestess",
+      "title": "Christina the Sun Priestess (Second Location)",
+      "x": 38.9,
+      "y": 51.87,
+      "fandomSlug": "Christina_the_Sun_Priestess"
+    }
+  ],
+  "fetchedAt": "2026-05-19T15:09:36.049Z"
+}

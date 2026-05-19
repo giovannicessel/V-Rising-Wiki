@@ -1,0 +1,35 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [],
+  "dev_command": "pnpm run dev",
+  "env_vars": {},
+  "experiments": null,
+  "git_remote": {
+    "repo_url": "s3://vida-prod-gitrepo/webdev-git/310519663512146002/nzeXawtotGZXTDDdMxhn39",
+    "access_key_id": "ASIAZV3A2ECZHIYOONCR",
+    "secret_access_key": "NHDeVn4KqrNkYXj7Bm26dtP36kAhCEo6+Y2p5vpn",
+    "session_token": "IQoJb3JpZ2luX2VjELL//////////wEaCXVzLWVhc3QtMSJHMEUCIQDwcJ2RTZUUfr7Vmy+VsgsaQNmk5gkRdkEjoBHlqlH5eQIgAJOQ9mQ60HvYE4I6ZQBuXxAd/MPhFWEVtJba5fXbKnEq9gMIexAEGgw2NjUzODYwOTg4NjYiDDjukaepRYqyagQ3/SrTA68uDLWGy4qqbuxSoXkIQQyx2rbBqKfG1pyIVH7aN2uH5e74+8eH81/M670syPCJsEdq4DBg6fiP1cS5LSjBrRyP5wpG1uP2tWtE90clulaJQLzBv6mF3MrOsmTqvseRnj55egiSUjxSMHzRb4SZ/U95/2jBQx24w+AKkg+CkNn8R3gtJEpm69vEa702V6H6Njakj8J2VOrKdcgvZgJfCKQASKoCN1hfv3DTQQiqHpLmxVBVo6oExPJyCeTimp4aiO+q2kA1V1mPtMrZ9bwBNMIgC6otXyqRK3Cgra1GTPMcVhpR/UL4kYYaGradhnZ0LyEQHkCDIq6OtsjUFhnLsw/8/i/toGIdp+HbJxPXdUC0IbW71EHINZbfjLH+wmzVHVgrS5EEuNivN2rLgktLkzCOqhwT8/0dUvhVFgGsYQXqsUZpR+WWYp8daenpGXPfmYrrIZZkOIsSPqLZCkYhiYMHD/LO1HzNUA+EAF9uZDMmzUe0gqrAtW2UUP6SqA+ONbVoWzdnvUKQ5qZ5M4PaPOfBgcrOmvJeCdAvf+GUML2g6e3yB15hEFwZBGSCIRTbdjlbo1NgyI60STS2CeT1lr/V2NTXW1tAwxm7379JoQU6bbAiMJS5ndAGOp0BRgoYG7JoseGG9B5zeMqjru5xtIrsVED8qergY1CzNIXREtn4lwYx1byn1zlgmv2KCWdho8f1pNTIe+EJaFlZE0Xgq7+ew723/vabzCi5Z8mPUrOBG8yTgFsuOjxLnwz/peIUlSCeqmLR3DKHV37lX0s/I9tOMEjwxmiUPF3F8INzdprLIk2ZQMwPD3/rmJf4/VgSIb9X6byk7NsvPg==",
+    "expiration": "2026-05-16T05:49:08.000Z"
+  },
+  "name": "v-rising-wiki",
+  "path": "/home/ubuntu/v-rising-wiki",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "nSmvwJtcK9HfJRpUzZr4xH",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "QoLHrUHgrdmMCqk7WHmQN7",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Giovanni Cessel",
+    "OWNER_OPEN_ID": "R3JUVRAR4qcoBCDwDLxioX",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "6b68b45a-2a61-445b-92e9-90711a124280",
+    "VITE_APP_ID": "nzeXawtotGZXTDDdMxhn39",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "V Rising Dark Wiki",
+    "VITE_FRONTEND_FORGE_API_KEY": "6R3yL3ZBBnroZWRBXf4uDf",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-static",
+  "test_command": "pnpm test"
+}

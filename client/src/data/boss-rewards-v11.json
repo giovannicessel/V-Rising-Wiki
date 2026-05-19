@@ -1,0 +1,389 @@
+{
+  "$schema": "Guia V Blood v1.1 — Invaders of Oakveil (curadoria PT)",
+  "version": "1.1",
+  "bosses": {
+    "alpha-the-white-wolf": {
+      "act": 1,
+      "locationPt": "Wolf Den",
+      "vampirePowersEn": ["Wolf Form"],
+      "mainRewardsPt": ["Forma de Lobo"]
+    },
+    "keely-the-frost-archer": {
+      "act": 1,
+      "locationPt": "Bandit Trapper Camp",
+      "spellPoint": { "school": "Frost", "tier": 1 },
+      "mainRewardsPt": ["Curtume", "Couro"]
+    },
+    "errol-the-stonebreaker": {
+      "act": 1,
+      "locationPt": "Bandit Copper Mine",
+      "spellPoint": { "school": "Chaos", "tier": 1 },
+      "mainRewardsPt": ["Armazenamento de Gemas"]
+    },
+    "rufus-the-foreman": {
+      "act": 1,
+      "locationPt": "Bandit Logging Camp",
+      "spellPoint": { "school": "Blood", "tier": 1 },
+      "mainRewardsPt": ["Bancada de Marcenaria", "Besta de Cobre"]
+    },
+    "grayson-the-armourer": {
+      "act": 1,
+      "locationPt": "Bandit Armory",
+      "spellPoint": { "school": "Illusion", "tier": 1 },
+      "mainRewardsPt": ["Piso de Oficina", "Pedra de Amolar"]
+    },
+    "goreswine-the-ravager": {
+      "act": 1,
+      "locationPt": "Cemitérios",
+      "mainRewardsPt": ["Túmulo", "Pó de Túmulo"]
+    },
+    "lidia-the-chaos-archer": {
+      "act": 1,
+      "locationPt": "Estradas de Farbane",
+      "spellPoint": { "school": "Chaos", "tier": 1 },
+      "mainRewardsPt": ["O Devorador", "Bolsa de Couro"]
+    },
+    "clive-the-firestarter": {
+      "act": 1,
+      "locationPt": "Bandit Sulphur Quarry",
+      "spellPoint": { "school": "Chaos", "tier": 1 },
+      "mainRewardsPt": ["Mesa de Alquimia"]
+    },
+    "nibbles-the-putrid-rat": {
+      "act": 1,
+      "locationPt": "Ninho de Vermes",
+      "vampirePowersEn": ["Rat Form"],
+      "mainRewardsPt": ["Forma de Rato"]
+    },
+    "finn-the-fisherman": {
+      "act": 1,
+      "locationPt": "Lago de Pesca",
+      "mainRewardsPt": ["Vara de Pescar"]
+    },
+    "polora-the-feywalker": {
+      "act": 1,
+      "locationPt": "Gleaming Meadows",
+      "spellPoint": { "school": "Illusion", "tier": 1 },
+      "mainRewardsPt": ["Estruturas de Jardim"]
+    },
+    "kodia-the-ferocious-bear": {
+      "act": 1,
+      "locationPt": "Bear Cave",
+      "vampirePowersEn": ["Bear Form"],
+      "mainRewardsPt": ["Forma de Urso"]
+    },
+    "nicholaus-the-fallen": {
+      "act": 1,
+      "locationPt": "Forgotten Cemetery",
+      "spellPoint": { "school": "Unholy", "tier": 3, "ultimate": true },
+      "mainRewardsPt": ["Prensa de Papel"]
+    },
+    "quincey-the-bandit-king": {
+      "act": 1,
+      "locationPt": "Bandit Stronghold",
+      "spellPoint": { "school": "Chaos", "tier": 3, "ultimate": true },
+      "mainRewardsPt": ["Ferraria", "Alfaiataria", "Ferro"]
+    },
+    "beatrice-the-tailor": {
+      "act": 2,
+      "locationPt": "Dawnbreak Village",
+      "veilSpellEn": "Veil of Blood",
+      "mainRewardsPt": ["Tear", "Tecido", "Fio de Algodão"]
+    },
+    "vincent-the-frostbringer": {
+      "act": 2,
+      "locationPt": "Dunley Farmlands",
+      "spellPoint": { "school": "Frost", "tier": 2 },
+      "veilSpellEn": "Veil of Frost",
+      "mainRewardsPt": ["Célula de Prisão", "Tábua Reforçada"]
+    },
+    "christina-the-sun-priestess": {
+      "act": 2,
+      "locationPt": "Dunley Farmlands",
+      "spellPoint": { "school": "Illusion", "tier": 2 },
+      "mainRewardsPt": ["Fio de Lã", "Bolsa de Fio de Prata"]
+    },
+    "tristan-the-vampire-hunter": {
+      "act": 2,
+      "locationPt": "Farbane / Dunley",
+      "spellPoint": { "school": "Blood", "tier": 3, "ultimate": true },
+      "mainRewardsPt": ["Fome de Sangue", "Essência de Sangue Maior"]
+    },
+    "sir-erwin-the-gallant-cavalier": {
+      "act": 2,
+      "locationPt": "Horse Racing Track",
+      "spellPoint": { "school": "Storm", "tier": 1 },
+      "mainRewardsPt": ["Estábulos"]
+    },
+    "kriig-the-undead-general": {
+      "act": 2,
+      "locationPt": "Haunted Iron Mine",
+      "spellPoint": { "school": "Unholy", "tier": 2 },
+      "mainRewardsPt": ["Foice (Ceifador)"]
+    },
+    "leandra-the-shadow-priestess": {
+      "act": 2,
+      "locationPt": "Church of the Damned",
+      "spellPoint": { "school": "Unholy", "tier": 1 },
+      "mainRewardsPt": ["Mesa de Artesão", "Pedra do Flagelo"]
+    },
+    "maja-the-dark-savant": {
+      "act": 2,
+      "locationPt": "The Forbidden Tower",
+      "spellPoint": { "school": "Illusion", "tier": 1 },
+      "mainRewardsPt": ["Pergaminho"]
+    },
+    "bane-the-shadowblade": {
+      "act": 2,
+      "locationPt": "Dunley Farmlands",
+      "spellPoint": { "school": "Unholy", "tier": 1 },
+      "vampirePowersEn": ["Human Form"],
+      "mainRewardsPt": ["Forma Humana", "Slashers"]
+    },
+    "grethel-the-glassblower": {
+      "act": 2,
+      "locationPt": "Quartz Quarry",
+      "spellPoint": { "school": "Storm", "tier": 1 },
+      "mainRewardsPt": ["Vidro", "Poção de Rosa de Sangue"]
+    },
+    "meredith-the-bright-archer": {
+      "act": 2,
+      "locationPt": "Haunted Iron Mine",
+      "spellPoint": { "school": "Storm", "tier": 1 },
+      "mainRewardsPt": ["Poção de Resistência Sagrada"]
+    },
+    "terah-the-geomancer": {
+      "act": 2,
+      "locationPt": "Bedrock Pass",
+      "spellPoint": { "school": "Illusion", "tier": 3, "ultimate": true },
+      "mainRewardsPt": ["Mesa de Corte de Gemas", "Golem de Cerco"]
+    },
+    "frostmaw-the-mountain-terror": {
+      "act": 2,
+      "locationPt": "Hallowed Mountains",
+      "spellPoint": { "school": "Frost", "tier": 3, "ultimate": true },
+      "mainRewardsPt": ["Couro Grosso"]
+    },
+    "general-elena-the-hollow": {
+      "act": 2,
+      "locationPt": "Ruins of Mortium",
+      "spellPoint": { "school": "Frost", "tier": 2 },
+      "mainRewardsPt": ["Altar do Despertar (Estágio)"]
+    },
+    "gaius-the-cursed-champion": {
+      "act": 2,
+      "locationPt": "The Colosseum",
+      "spellPoint": { "school": "Unholy", "tier": 1 },
+      "mainRewardsPt": ["Estação de Arena", "Espadas Gêmeas"]
+    },
+    "general-cassius-the-betrayer": {
+      "act": 2,
+      "locationPt": "Ruins of Mortium",
+      "spellPoint": { "school": "Unholy", "tier": 1 },
+      "mainRewardsPt": ["Círculo de Invocação (Estágio)"]
+    },
+    "jade-the-vampire-hunter": {
+      "act": 2,
+      "locationPt": "Dunley Farmlands",
+      "spellPoint": { "school": "Chaos", "tier": 2 },
+      "veilSpellEn": "Veil of Chaos",
+      "mainRewardsPt": ["Prensa de Sangue Avançada", "Pistolas"]
+    },
+    "raziel-the-shepherd": {
+      "act": 2,
+      "locationPt": "Dunley Monastery",
+      "spellPoint": { "school": "Blood", "tier": 2 },
+      "mainRewardsPt": ["Mesa de Joalheria"]
+    },
+    "octavian-the-militia-captain": {
+      "act": 2,
+      "locationPt": "Bastion of Dunley",
+      "spellPoint": { "school": "Storm", "tier": 3, "ultimate": true },
+      "mainRewardsPt": ["Forja Ancestral"]
+    },
+    "ziva-the-engineer": {
+      "act": 3,
+      "locationPt": "Gloomrot South",
+      "spellPoint": { "school": "Storm", "tier": 1 },
+      "mainRewardsPt": ["Fabricador", "Liga de Rádio"]
+    },
+    "domina-the-blade-dancer": {
+      "act": 3,
+      "locationPt": "Gloomrot South",
+      "spellPoint": { "school": "Storm", "tier": 2 },
+      "mainRewardsPt": ["Triturador Avançado", "Teletransportador"]
+    },
+    "angram-the-purifier": {
+      "act": 3,
+      "locationPt": "Gloomrot South",
+      "spellPoint": { "school": "Chaos", "tier": 3, "ultimate": true },
+      "mainRewardsPt": ["Conjunto Dawnthorn"]
+    },
+    "ungora-the-spider-queen": {
+      "act": 3,
+      "locationPt": "Spider Cave",
+      "spellPoint": { "school": "Unholy", "tier": 3, "ultimate": true },
+      "vampirePowersEn": ["Spider Form"],
+      "mainRewardsPt": ["Forma de Aranha", "Seda"]
+    },
+    "ben-the-old-wanderer": {
+      "act": 3,
+      "locationPt": "Cursed Forest",
+      "spellPoint": { "school": "Frost", "tier": 1 },
+      "mainRewardsPt": ["Couro Prístino", "Manto da Floresta"]
+    },
+    "foulrot-the-soultaker": {
+      "act": 3,
+      "locationPt": "Ancient Village",
+      "spellPoint": { "school": "Unholy", "tier": 2 },
+      "veilSpellEn": "Veil of Bones",
+      "mainRewardsPt": ["Pó Espectral", "Banshee"]
+    },
+    "albert-the-duke-of-balaton": {
+      "act": 3,
+      "locationPt": "Swamp of Greed",
+      "vampirePowersEn": ["Toad Form"],
+      "mainRewardsPt": ["Forma de Sapo", "Cunhagem"]
+    },
+    "willfred-the-village-elder": {
+      "act": 3,
+      "locationPt": "Gracefall Village",
+      "spellPoint": { "school": "Blood", "tier": 2 },
+      "mainRewardsPt": ["Poção de Resistência à Prata"]
+    },
+    "cyril-the-cursed-smith": {
+      "act": 3,
+      "locationPt": "Cursed Village",
+      "spellPoint": { "school": "Illusion", "tier": 3, "ultimate": true },
+      "veilSpellEn": "Veil of Illusion",
+      "mainRewardsPt": ["Forno Avançado", "Lingote de Prata Escura"]
+    },
+    "sir-magnus-the-overseer": {
+      "act": 4,
+      "locationPt": "Sacred Silver Mine",
+      "spellPoint": { "school": "Frost", "tier": 2 },
+      "mainRewardsPt": ["Véu do Fantasma"]
+    },
+    "baron-du-bouchon-the-sommelier": {
+      "act": 4,
+      "locationPt": "Brighthaven Vineyards",
+      "spellPoint": { "school": "Blood", "tier": 2 },
+      "mainRewardsPt": ["Merlot de Sangue", "Disfarce de Barril"]
+    },
+    "morian-the-stormwing-matriarch": {
+      "act": 4,
+      "locationPt": "Harpy Nest",
+      "spellPoint": { "school": "Chaos", "tier": 2 },
+      "mainRewardsPt": ["Gemas Impecáveis"]
+    },
+    "mairwyn-the-elementalist": {
+      "act": 4,
+      "locationPt": "Emberleaf Grove",
+      "spellPoint": { "school": "Storm", "tier": 2 },
+      "mainRewardsPt": ["Frasco de Resistência Sagrada", "Joias Maiores"]
+    },
+    "henry-blackbrew-the-doctor": {
+      "act": 4,
+      "locationPt": "Gloomrot North",
+      "spellPoint": { "school": "Storm", "tier": 3, "ultimate": true },
+      "mainRewardsPt": ["Ateneu", "Esquema"]
+    },
+    "jakira-the-shadow-huntress": {
+      "act": 4,
+      "locationPt": "Oakveil Woodlands",
+      "spellPoint": { "school": "Illusion", "tier": 2 },
+      "mainRewardsPt": ["Slot de Passiva", "Elixir do Salgueiro Torcido"]
+    },
+    "stavros-the-carver": {
+      "act": 4,
+      "locationPt": "Oakveil Woodlands",
+      "spellPoint": { "school": "Shadow", "tier": 2 },
+      "mainRewardsPt": ["Estação de Arena", "Espadas Gêmeas (Twinblades)"]
+    },
+    "lucile-the-venom-alchemist": {
+      "act": 4,
+      "locationPt": "Oakveil Woodlands",
+      "spellPoint": { "school": "Blood", "tier": 2 },
+      "mainRewardsPt": ["Homogeneizador de Sangue", "Enxame de Carniça"]
+    },
+    "matka-the-curse-weaver": {
+      "act": 4,
+      "locationPt": "Cursed Forest",
+      "spellPoint": { "school": "Illusion", "tier": 2 },
+      "mainRewardsPt": ["Tear Avançado", "Fio Fantasma"]
+    },
+    "terrorclaw-the-ogre": {
+      "act": 4,
+      "locationPt": "Hallowed Mountains",
+      "spellPoint": { "school": "Frost", "tier": 3, "ultimate": true },
+      "mainRewardsPt": ["Curtume Avançado"]
+    },
+    "azariel-the-sunbringer": {
+      "act": 4,
+      "locationPt": "Brighthaven Cathedral",
+      "spellPoint": { "school": "Chaos", "tier": 2 },
+      "mainRewardsPt": ["Lingote de Ouro"]
+    },
+    "voltatia-the-power-master": {
+      "act": 4,
+      "locationPt": "Gloomrot North",
+      "spellPoint": { "school": "Storm", "tier": 2 },
+      "veilSpellEn": "Veil of Storm",
+      "mainRewardsPt": ["Núcleo de Energia", "EMP"]
+    },
+    "simon-belmont-the-vampire-hunter": {
+      "act": 4,
+      "locationPt": "Vardoran (vários)",
+      "mainRewardsPt": ["Chicote Sanguíneo"]
+    },
+    "dantos-the-forgebinder": {
+      "act": 4,
+      "locationPt": "Oakveil Woodlands",
+      "spellPoint": { "school": "Frost", "tier": 2 },
+      "mainRewardsPt": ["Forja de Fusão"]
+    },
+    "lord-styx-the-night-champion": {
+      "act": 4,
+      "locationPt": "Gloomrot South",
+      "vampirePowersEn": ["Bat Form"],
+      "mainRewardsPt": ["Forma de Morcego", "Lágrima de Ônix"]
+    },
+    "gorecrusher-the-behemoth": {
+      "act": 4,
+      "locationPt": "Cursed Forest",
+      "spellPoint": { "school": "Illusion", "tier": 2 },
+      "mainRewardsPt": ["Couro de Morcego", "Bolsa de Couro de Morcego"]
+    },
+    "general-valencia-the-depraved": {
+      "act": 4,
+      "locationPt": "Ruins of Mortium",
+      "spellPoint": { "school": "Blood", "tier": 3, "ultimate": true },
+      "mainRewardsPt": ["Brasão", "Trama Sombria"]
+    },
+    "solarus-the-immaculate": {
+      "act": 4,
+      "locationPt": "Fortress of Light",
+      "mainRewardsPt": ["Estilhaço de Solarus", "Botas de Drácula"]
+    },
+    "talzur-the-winged-horror": {
+      "act": 4,
+      "locationPt": "Farbane Woods",
+      "mainRewardsPt": ["Estilhaço do Horror Alado", "Luvas de Drácula"]
+    },
+    "adam-the-firstborn": {
+      "act": 4,
+      "locationPt": "Gloomrot North",
+      "mainRewardsPt": ["Estilhaço do Monstro", "Calças de Drácula"]
+    },
+    "megara-the-serpent-queen": {
+      "act": 4,
+      "locationPt": "Oakveil Woodlands",
+      "mainRewardsPt": ["Estilhaço da Serpente", "Pedestal de Megara"]
+    },
+    "dracula-the-immortal-king": {
+      "act": 4,
+      "locationPt": "Ruins of Mortium",
+      "mainRewardsPt": ["Estilhaço de Drácula", "Peitoral de Drácula"]
+    }
+  }
+}

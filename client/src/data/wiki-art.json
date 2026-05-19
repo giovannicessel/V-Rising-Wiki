@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "generatedAt": "2026-05-19T00:00:00.000Z",
+  "source": "cursor-generate-image",
+  "note": "Google Gemini API exige billing para imagens no tier gratuito. Artes geradas via pipeline alternativo.",
+  "images": {
+    "hero-home": "/assets/wiki/hero-home.png",
+    "section-v-bloods": "/assets/wiki/sections/v-bloods.png",
+    "section-spells": "/assets/wiki/sections/spells.png",
+    "section-weapons": "/assets/wiki/sections/weapons.png",
+    "section-items": "/assets/wiki/sections/items.png",
+    "section-jewels": "/assets/wiki/sections/jewels.png",
+    "section-builds": "/assets/wiki/sections/builds.png",
+    "section-map": "/assets/wiki/sections/map.png",
+    "section-lore": "/assets/wiki/sections/lore.png",
+    "section-weapons-legendary": "/assets/wiki/sections/weapons-legendary.png"
+  }
+}
