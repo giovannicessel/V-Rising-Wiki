@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link } from 'wouter';
 import { ArrowLeft, ExternalLink, Skull, Zap } from 'lucide-react';
 import EntitySectionContent from '@/components/EntitySectionContent';
+import AssetImage from '@/components/AssetImage';
 import WikiProse from '@/components/WikiProse';
 import SpellChoiceList from '@/components/detail/SpellChoiceList';
 import type { WikiEntity } from '@/data/entity-types';
@@ -58,7 +59,7 @@ export default function SpellDetailView({ entity }: { entity: WikiEntity }) {
       >
         <div className="w-24 h-24 shrink-0 rounded-lg bg-[#0a0a0a]/80 flex items-center justify-center p-2 border border-[#333]">
           {entity.image ? (
-            <img src={entity.image} alt="" className="max-w-full max-h-full object-contain" />
+            <AssetImage src={entity.image} alt="" className="max-w-full max-h-full object-contain" />
           ) : (
             <span className="text-[#444] text-xs">—</span>
           )}

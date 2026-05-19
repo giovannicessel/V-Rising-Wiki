@@ -1,3 +1,4 @@
+import AssetImage from '@/components/AssetImage';
 import type { WikiEntity } from '@/data/entity-types';
 import { getBossPortraitBorder } from '@/lib/boss-portrait';
 
@@ -26,7 +27,7 @@ export default function BossPortrait({ entity, size = 'md', className = '' }: Bo
       }
     >
       {entity.image ? (
-        <img
+        <AssetImage
           src={entity.image}
           alt={entity.name}
           className={`${SIZES[size]} object-contain rounded-lg bg-[#0a0a0a]/80`}

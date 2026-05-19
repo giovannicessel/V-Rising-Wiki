@@ -9,6 +9,12 @@ export function appPath(path: string): string {
 export function assetUrl(path: string | undefined | null): string {
   if (!path) return '';
   if (/^https?:\/\//i.test(path)) return path;
+
+  const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+  if (base && (path === base || path.startsWith(`${base}/`))) {
+    return path;
+  }
+
   return appPath(path.startsWith('/') ? path : `/${path}`);
 }
 

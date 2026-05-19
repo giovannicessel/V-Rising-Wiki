@@ -6,6 +6,7 @@ import { entityDetailPath } from '@/lib/entity-paths';
 import { getSchoolTheme } from '@/lib/school-theme';
 import { tierCategoryLabelPt } from '@/lib/spell-school-progression';
 import { getSoulShardBossTheme } from '@/lib/soul-shard-bosses';
+import AssetImage from '@/components/AssetImage';
 import WikiProse from '@/components/WikiProse';
 import { findBossWorldLore } from '@/lib/lore';
 import SpellChoiceList from '@/components/detail/SpellChoiceList';
@@ -32,7 +33,7 @@ function UnlockCard({
         }`}
       >
         {entry.image ? (
-          <img src={entry.image} alt="" className="w-full h-full object-contain p-1" />
+          <AssetImage src={entry.image} alt="" className="w-full h-full object-contain p-1" />
         ) : (
           <Wand2 size={20} className="text-[#555]" />
         )}

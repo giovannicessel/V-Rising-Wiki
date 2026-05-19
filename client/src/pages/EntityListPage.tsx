@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react';
 import { Search } from 'lucide-react';
+import AssetImage from '@/components/AssetImage';
 import EntityCard from '@/components/EntityCard';
 import EntityFiltersBar from '@/components/EntityFiltersBar';
 import WikiPageShell from '@/components/WikiPageShell';
@@ -146,7 +147,7 @@ export default function EntityListPage({ type }: EntityListPageProps) {
                               className="flex items-center gap-3"
                             >
                               {w.image && (
-                                <img src={w.image} alt="" className="w-10 h-10 object-contain" />
+                                <AssetImage src={w.image} alt="" className="w-10 h-10 object-contain" />
                               )}
                               <span className="text-white font-medium">{w.name}</span>
                             </Link>

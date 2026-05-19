@@ -2,6 +2,8 @@ import { Link } from 'wouter';
 import { Gem, MapPin, Skull } from 'lucide-react';
 import type { WikiEntity } from '@/data/entity-types';
 import { REGION_PT } from '@/data/entity-translations';
+import AssetImage from '@/components/AssetImage';
+import { assetUrl } from '@/lib/app-path';
 import { entityDetailPath } from '@/lib/entity-paths';
 import type { SoulShardBossTheme } from '@/lib/soul-shard-bosses';
 
@@ -35,7 +37,10 @@ export default function PrismaticSoulShardHero({
         className="absolute inset-0 bg-cover bg-center opacity-35 mix-blend-luminosity"
         style={
           entity.image
-            ? { backgroundImage: `url(${entity.image})`, filter: 'contrast(1.15) saturate(0.7)' }
+            ? {
+                backgroundImage: `url(${assetUrl(entity.image)})`,
+                filter: 'contrast(1.15) saturate(0.7)',
+              }
             : undefined
         }
       />
@@ -54,7 +59,7 @@ export default function PrismaticSoulShardHero({
               className="absolute -inset-3 rounded-full opacity-60 blur-xl prismatic-hero__portrait-glow"
               style={{ background: `rgba(${theme.accentRgb}, 0.45)` }}
             />
-            <img
+            <AssetImage
               src={entity.image}
               alt={entity.name}
               className="relative w-32 h-32 md:w-44 md:h-44 object-contain"

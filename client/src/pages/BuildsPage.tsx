@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'wouter';
+import AssetImage from '@/components/AssetImage';
 import WikiPageShell from '@/components/WikiPageShell';
 import { getEntitiesByType } from '@/lib/entities';
 import { entityDetailPath } from '@/lib/entity-paths';
@@ -66,7 +67,7 @@ export default function BuildsPage() {
                 className="flex items-center gap-3 p-3 bg-[#0f0f0f] rounded border border-[#4a4a4a]/50 hover:border-[#c41e3a]/40"
               >
                 {weaponPick.image && (
-                  <img src={weaponPick.image} alt="" className="w-10 h-10 object-contain" />
+                  <AssetImage src={weaponPick.image} alt="" className="w-10 h-10 object-contain" />
                 )}
                 <span className="text-sm">{weaponPick.name}</span>
               </Link>

@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import { Link } from 'wouter';
 import { ExternalLink, Search } from 'lucide-react';
+import AssetImage from '@/components/AssetImage';
 import type { WikiEntry } from '@/data/wiki-types';
 import {
   WIKI_CATEGORY_LABELS,
@@ -98,7 +99,7 @@ export default function WikiEntryGrid({
             >
               <div className="relative w-full sm:w-36 h-36 shrink-0 bg-[#0f0f0f] overflow-hidden flex items-center justify-center">
                 {entry.image ? (
-                  <img
+                  <AssetImage
                     src={entry.image}
                     alt={entry.name}
                     className="w-full h-full object-contain p-2 transition-transform duration-500 group-hover:scale-105"

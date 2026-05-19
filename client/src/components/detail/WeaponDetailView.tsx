@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import { Link } from 'wouter';
 import { ArrowLeft, ExternalLink, Sparkles, Sword } from 'lucide-react';
+import AssetImage from '@/components/AssetImage';
 import EntitySectionContent from '@/components/EntitySectionContent';
 import WikiProse from '@/components/WikiProse';
 import type { WikiEntity } from '@/data/entity-types';
@@ -72,7 +73,7 @@ export default function WeaponDetailView({ entity }: { entity: WikiEntity }) {
           />
         )}
         {entity.image && (
-          <img
+          <AssetImage
             src={entity.image}
             alt={entity.name}
             className={`relative z-10 object-contain drop-shadow-lg ${
@@ -153,7 +154,7 @@ export default function WeaponDetailView({ entity }: { entity: WikiEntity }) {
                     className="flex gap-3 items-center rounded-lg border border-[#2a2a2a] bg-[#111] p-3"
                   >
                     {a.image && (
-                      <img src={a.image} alt="" className="w-12 h-12 object-contain" />
+                      <AssetImage src={a.image} alt="" className="w-12 h-12 object-contain" />
                     )}
                     <div>
                       <p className="text-white text-sm font-medium">

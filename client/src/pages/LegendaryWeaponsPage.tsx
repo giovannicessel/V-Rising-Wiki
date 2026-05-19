@@ -1,5 +1,6 @@
 import { Link } from 'wouter';
 import { Sparkles } from 'lucide-react';
+import AssetImage from '@/components/AssetImage';
 import WikiPageShell from '@/components/WikiPageShell';
 import { allEntities } from '@/lib/entities';
 import { entityDetailPath } from '@/lib/entity-paths';
@@ -36,7 +37,7 @@ export default function LegendaryWeaponsPage() {
               className="group rounded-xl border border-amber-500/25 bg-gradient-to-b from-[#1a1408] to-[#0f0f0f] p-5 hover:border-amber-400/50 transition-colors"
             >
               {w.image && (
-                <img
+                <AssetImage
                   src={w.image}
                   alt=""
                   className="w-20 h-20 object-contain mx-auto mb-4 group-hover:scale-105 transition-transform"

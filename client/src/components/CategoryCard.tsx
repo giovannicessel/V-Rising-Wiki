@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'wouter';
+import AssetImage from '@/components/AssetImage';
 import { ChevronRight } from 'lucide-react';
 
 interface CategoryCardProps {
@@ -21,7 +22,7 @@ function CardInner({
   return (
     <>
       <div className="absolute inset-0 opacity-20 group-hover/card:opacity-40 transition-opacity duration-300">
-        <img src={image} alt={title} className="w-full h-full object-cover" />
+        <AssetImage src={image} alt={title} className="w-full h-full object-cover" />
       </div>
       <div
         className="absolute inset-0 opacity-0 group-hover/card:opacity-100 transition-opacity duration-300 pointer-events-none"

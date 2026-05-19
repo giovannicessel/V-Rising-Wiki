@@ -2,6 +2,7 @@ import { Link } from 'wouter';
 import { Wand2 } from 'lucide-react';
 import type { BossUnlockEntry } from '@/data/entity-types';
 import { entityDetailPath } from '@/lib/entity-paths';
+import AssetImage from '@/components/AssetImage';
 import { getSchoolTheme } from '@/lib/school-theme';
 
 export default function SpellChoiceList({
@@ -38,7 +39,7 @@ export default function SpellChoiceList({
               }`}
             >
               {entry.image ? (
-                <img src={entry.image} alt="" className="w-full h-full object-contain p-0.5" />
+                <AssetImage src={entry.image} alt="" className="w-full h-full object-contain p-0.5" />
               ) : (
                 <Wand2 size={16} className="text-[#555]" />
               )}

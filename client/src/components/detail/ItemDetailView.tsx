@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'wouter';
 import { ArrowLeft, ExternalLink } from 'lucide-react';
+import AssetImage from '@/components/AssetImage';
 import WikiProse from '@/components/WikiProse';
 import type { WikiEntity } from '@/data/entity-types';
 import { entityListPath } from '@/lib/entity-paths';
@@ -24,7 +25,7 @@ export default function ItemDetailView({ entity }: { entity: WikiEntity }) {
       <header className="flex gap-6 mb-8 pb-6 border-b border-[#252525]">
         <div className="w-20 h-20 shrink-0 rounded-lg bg-[#111] border border-[#2a2a2a] flex items-center justify-center p-2">
           {entity.image && (
-            <img src={entity.image} alt="" className="max-w-full max-h-full object-contain" />
+            <AssetImage src={entity.image} alt="" className="max-w-full max-h-full object-contain" />
           )}
         </div>
         <div>

@@ -1,6 +1,7 @@
 import { Link } from 'wouter';
 import { ExternalLink, Package } from 'lucide-react';
 import type { BossUnlockEntry } from '@/data/entity-types';
+import AssetImage from '@/components/AssetImage';
 import {
   Dialog,
   DialogContent,
@@ -35,7 +36,7 @@ export default function RewardItemDialog({
           <DialogHeader className="text-left gap-4">
             <div className="mx-auto sm:mx-0 w-28 h-28 rounded-xl bg-[#0a0a0a] border border-[#333] flex items-center justify-center p-3">
               {entry.image ? (
-                <img
+                <AssetImage
                   src={entry.image}
                   alt=""
                   className="max-w-full max-h-full object-contain"

@@ -1,6 +1,7 @@
 import { useMemo, useRef, useState } from 'react';
 import { Link } from 'wouter';
 import { Crown, MapPin, ZoomIn, ZoomOut } from 'lucide-react';
+import AssetImage from '@/components/AssetImage';
 import {
   MAP_IMAGE_SRC,
   getMapMarkers,
@@ -92,7 +93,7 @@ export default function VardoranMap({ highlightBossId, className = '' }: Vardora
       {selected && (
         <div className="rounded-xl border border-[#333] bg-[#111]/90 p-4 flex flex-col sm:flex-row gap-4 items-start">
           {selectedBoss?.image && (
-            <img
+            <AssetImage
               src={selectedBoss.image}
               alt=""
               className="w-16 h-16 object-contain shrink-0"

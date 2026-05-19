@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import { Link } from 'wouter';
 import { Search } from 'lucide-react';
+import AssetImage from '@/components/AssetImage';
 import WikiPageShell from '@/components/WikiPageShell';
 import { ENTITY_TYPE_LABELS } from '@/data/entity-types';
 import { globalSearch } from '@/lib/entities';
@@ -82,7 +83,7 @@ export default function GlobalSearchPage() {
                       className="rounded-lg border border-[#252525] px-4 py-3 flex gap-3 items-center"
                     >
                       {e.image && (
-                        <img src={e.image} alt="" className="w-10 h-10 object-contain" />
+                        <AssetImage src={e.image} alt="" className="w-10 h-10 object-contain" />
                       )}
                       <div>
                         <span className="text-[10px] uppercase text-[#555]">

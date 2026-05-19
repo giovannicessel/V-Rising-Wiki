@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Package } from 'lucide-react';
+import AssetImage from '@/components/AssetImage';
 import type { BossUnlockEntry } from '@/data/entity-types';
 import RewardItemDialog from '@/components/detail/RewardItemDialog';
 
@@ -7,7 +8,7 @@ function MainRewardThumb({ entry }: { entry: BossUnlockEntry }) {
   return (
     <div className="w-11 h-11 shrink-0 rounded-lg bg-[#0a0a0a] border border-[#333] flex items-center justify-center overflow-hidden">
       {entry.image ? (
-        <img src={entry.image} alt="" className="w-full h-full object-contain p-0.5" />
+        <AssetImage src={entry.image} alt="" className="w-full h-full object-contain p-0.5" />
       ) : (
         <Package size={18} className="text-[#555]" />
       )}

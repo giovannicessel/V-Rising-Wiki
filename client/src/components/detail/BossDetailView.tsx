@@ -8,6 +8,7 @@ import BossRewardsPanel from '@/components/detail/BossRewardsPanel';
 import BossMiniMap from '@/components/map/BossMiniMap';
 import type { WikiEntity } from '@/data/entity-types';
 import { REGION_PT } from '@/data/entity-translations';
+import { assetUrl } from '@/lib/app-path';
 import { entityListPath } from '@/lib/entity-paths';
 import { getMarkersForBoss } from '@/lib/vardoran-map';
 import { getSoulShardBossTheme } from '@/lib/soul-shard-bosses';
@@ -36,7 +37,7 @@ function StandardBossHero({ entity }: { entity: WikiEntity }) {
         className="absolute inset-0 bg-cover bg-center opacity-40"
         style={
           entity.image
-            ? { backgroundImage: `url(${entity.image})`, filter: 'contrast(1.1)' }
+            ? { backgroundImage: `url(${assetUrl(entity.image)})`, filter: 'contrast(1.1)' }
             : undefined
         }
       />

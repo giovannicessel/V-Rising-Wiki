@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link, useRoute } from 'wouter';
 import { ArrowLeft, ExternalLink } from 'lucide-react';
+import AssetImage from '@/components/AssetImage';
 import EntitySectionContent from '@/components/EntitySectionContent';
 import WikiProse from '@/components/WikiProse';
 import type { EntityType } from '@/data/entity-types';
@@ -28,7 +29,7 @@ export default function EntityDetailPageDefault({ type }: { type: EntityType }) 
       </Link>
       <header className="flex gap-6 mb-8">
         {entity.image && (
-          <img src={entity.image} alt="" className="w-24 h-24 object-contain" />
+          <AssetImage src={entity.image} alt="" className="w-24 h-24 object-contain" />
         )}
         <h1 className="font-gothic text-3xl font-bold">{entity.name}</h1>
       </header>
