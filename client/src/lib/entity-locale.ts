@@ -10,6 +10,7 @@ import {
   REGION_PT,
   SCHOOL_PT,
   WEAPON_TYPE_PT,
+  translateEntityName,
   translateSectionTitle,
 } from '@/data/entity-translations';
 import type { Locale } from '@/i18n';
@@ -19,8 +20,10 @@ import {
 } from '@/lib/spell-school-progression';
 
 export function entityDisplayName(entity: WikiEntity, locale: Locale): string {
-  if (locale === 'en') return entity.nameEn?.trim() || entity.name;
-  return entity.name;
+  const en = entity.nameEn?.trim() || entity.name;
+  if (locale === 'en') return en;
+  if (entity.name && /[áéíóúãõç]/i.test(entity.name)) return entity.name;
+  return translateEntityName(en) || entity.name;
 }
 
 export function unlockEntryName(entry: BossUnlockEntry, locale: Locale): string {

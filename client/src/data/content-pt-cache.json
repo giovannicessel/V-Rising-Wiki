@@ -2,9 +2,10 @@
   "version": 1,
   "entries": {
     "adam-the-firstborn::description": {
-      "sourceHash": "9a274f6469ddc424",
-      "text": "A culminação da genialidade do Doutor Henry Blackbrew, The Monster (O Monstro) seria o próximo passo da evolução humana, a máquina de guerra definitiva. É tão poderoso quanto Blackbrew poderia ter desejado, mas provou ser impossível de controlar. Os Trancendum fizeram tudo o que puderam para conter The Monster, e tiveram sucesso em fazê-lo... por enquanto.",
-      "translatedAt": "2026-05-20T15:13:34.801Z"
+      "sourceHash": "077fe99e272e2160",
+      "text": "A culminação da genialidade do Doutor Henry Blackbrew, The Monster (O Monstro) seria o próximo passo da evolução humana,",
+      "translatedAt": "2026-05-20T19:14:41.796Z",
+      "source": "md"
     },
     "adam-the-firstborn::meta.lore": {
       "sourceHash": "5804ae6e098bfa81",
@@ -87,9 +88,10 @@
       "translatedAt": "2026-05-19T23:25:28.206Z"
     },
     "albert-the-duke-of-balaton::description": {
-      "sourceHash": "a0d5a81317299a9f",
-      "text": "### BLOCO 2\nO patriarca de uma família que outrora possuía terras quando esses pântanos eram adequadamente habitados. Com o tempo, a terra amaldiçoada os distorceu, deixando este sapo horrível e distorcido que apenas se lembra de sua luxúria por ouro e joias. Ele guarda ciosamente seu tesouro de moeda esquecida e sem valor.",
-      "translatedAt": "2026-05-19T23:25:28.206Z"
+      "sourceHash": "cfad4e18d5c30a80",
+      "text": "O patriarca de uma família que outrora possuía terras quando esses pântanos eram devidamente habitados. Com o",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
     },
     "albert-the-duke-of-balaton::meta.lore": {
       "sourceHash": "a0d5a81317299a9f",
@@ -102,9 +104,10 @@
       "translatedAt": "2026-05-19T23:25:35.962Z"
     },
     "alpha-the-white-wolf::description": {
-      "sourceHash": "86c52ddcefb42c32",
-      "text": "A trilha deste cheiro carrega a assinatura inconfundível de Dracula, o Rei Imortal. Quando Dracula caiu, ele amaldiçoou o mundo de Vardoran com uma chuva de sangue, um flagelo no qual muitos pereceram. Alguns que sobreviveram foram, sem saber, distorcidos pela chuva, suas linhagens para sempre fortalecidas por sua malícia. Este poderoso predador está infundido com esse legado.",
-      "translatedAt": "2026-05-19T23:25:43.574Z"
+      "sourceHash": "24cc4ade5d78d7bf",
+      "text": "A trilha desse aroma carrega a assinatura inconfundível de Dracula, o Rei Imortal. Quando Dracula caiu, ele amaldiçoou Angram, o Purificador Um servo dedicado do Trancendum, Angram era um exterminador que possuía uma crueldade natural e resiliência incomparáveis Azariel, o Portador do Sol Um verdadeiro político, Azariel ascendeu até o topo das fileiras da Igreja da Luminância com uma graça social fria e Bane, a Lâmina Sombria Era um espadachim formidável e um lendário ladrão de tumbas, Bane foi capturado pelo Culto dos Condenados durante uma de suas Barão du Bouchon, o Sommelier Antigamente um espadachim mercenário viajante, o bom barão conquistou seu título de Grande Sommelier após vencer um con Beatrice, a Costureira A costureira mais talentosa de todo Vardoran. Embora o legado do sangue de Dracula corra por suas veias, ela provou Ben, o Velho Errante Este velho sobrevivente buscou explorar a Floresta Amaldiçoada, apesar de conhecer seus perigos. À medida que a maldição começou a turvar sua Christina, a Sacerdotisa do Sol Quando a Igreja da Luminescência descobriu pela primeira vez as habilidades concedidas pela chuva de sangue, tomaram isso como uma bênção de t Clive, o Incendiário Um gênio incomparável nas artes explosivas. Infelizmente para Grayson, esse psicopata caótico é longe demais para ser ge Cyril, o Ferreiro Amaldiçoado Amaldiçoado com vida eterna e servidão ao Culto dos Condenados, Cyril tem pouco desejo de cumprir seus deveres. Contudo Dantos, o Ligador de Forjas Dantos é um mestre das armas, fascinado tanto pela sua construção quanto aplicação. Um verdadeiro obsessivo, seu limite Domina, a Dançarina da Lâmina Originalmente uma engenheira responsável pelos avanços em armas elétricas práticas, os impressionantes avanços de Domina foram",
+      "translatedAt": "2026-05-20T19:09:39.890Z",
+      "source": "md"
     },
     "alpha-the-white-wolf::meta.lore": {
       "sourceHash": "86c52ddcefb42c32",
@@ -127,9 +130,10 @@
       "translatedAt": "2026-05-19T23:26:02.140Z"
     },
     "angram-the-purifier::description": {
-      "sourceHash": "315121fb8712b794",
-      "text": "Um servo dedicado do Trancendum, Angram era um exterminador que possuía uma crueldade natural e resiliência incomparáveis a qualquer um de seus pares. Como qualquer bom soldado, ele deu a vida por sua causa... ou tentou, de qualquer forma. Doctor Henry Blackbrew não podia deixar tal recurso ser desperdiçado e o trouxe de volta à vida com uma cirurgia brutal que poucos outros seres poderiam sobreviver. Angram vive agora, ao mero custo de cada último pedaço de sua humanidade.",
-      "translatedAt": "2026-05-19T23:26:02.140Z"
+      "sourceHash": "0d724534650b91bf",
+      "text": "Um servo dedicado do Trancendum, Angram era um exterminador que possuía uma crueldade natural e resiliência incomparáveis",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
     },
     "angram-the-purifier::sections.0.body": {
       "sourceHash": "8fb9f8bff97573bf",
@@ -162,14 +166,16 @@
       "translatedAt": "2026-05-20T15:14:16.573Z"
     },
     "azariel-the-sunbringer::description": {
-      "sourceHash": "27de03b7d02ad0d7",
-      "text": "Um verdadeiro político, Azariel abriu caminho até o topo das fileiras da Church of Luminance com uma graça social fria e calculada. Poucos podem igualar seu poder e dedicação à Light, a não ser o próprio Solarus the Immaculate, e ninguém dentro da igreja ousaria contradizer sua palavra.",
-      "translatedAt": "2026-05-20T15:14:25.202Z"
+      "sourceHash": "28668b094b403639",
+      "text": "Um verdadeiro político, Azariel ascendeu até o topo das fileiras da Igreja da Luminância com uma graça social fria e",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
     },
     "bane-the-shadowblade::description": {
-      "sourceHash": "4b5d4ce235804d03",
-      "text": "Era um espadachim formidável e um lendário ladrão de tumbas, Bane foi capturado pela Cult of the Damned durante um de seus muitos assaltos. Vendo o benefício de seu talento para infiltração, em vez de matá-lo, eles o corromperam, transformando-o em um servo da não-vida. Diz-se que suas habilidades clandestinas foram cruciais na captura e corrupção da Iron Mine sobre a Militia.",
-      "translatedAt": "2026-05-20T15:15:11.717Z"
+      "sourceHash": "24f6b6a918e6377c",
+      "text": "Era um espadachim formidável e um lendário ladrão de tumbas, Bane foi capturado pelo Culto dos Condenados durante uma de suas",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
     },
     "baron-du-bouchon-the-sommelier::description": {
       "sourceHash": "4b64d0025a54350a",
@@ -180,7 +186,691 @@
       "sourceHash": "677b66a6af164a43",
       "text": "Baron pode ser encontrado nos [https://vrising.fandom.com/wiki/Map:Vardoran?marker=51 Brighthaven Vineyards] em Silverlight Hills.",
       "translatedAt": "2026-05-20T15:16:34.077Z"
+    },
+    "dracula-the-immortal-king::description": {
+      "sourceHash": "4ba7ab96f64a6fea",
+      "text": "Quando Drácula caiu séculos atrás, parecia que a Igreja da Luminescência havia realizado o impossível. A morte do Imortal",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "keely-the-frost-archer::description": {
+      "sourceHash": "d0f2c5e7751b7816",
+      "text": "Uma tenente de bandidos de coração gelado, ela supervisiona o abrigo de animais e o curtume em Farbane. Já foi membro d",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "solarus-the-immaculate::description": {
+      "sourceHash": "bfaba81b57f0a149",
+      "text": "Um lendário paladino da Luz e o membro vivo mais antigo da Igreja da Luminescência. Ele testemunhou em primeira mão a decaída de...",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "tristan-the-vampire-hunter::description": {
+      "sourceHash": "f6016142012cabe2",
+      "text": "Um assassino de sangue frio, e herdeiro de uma longa linhagem de caçadores de vampiros. Poucos estão tão preparados para enfrentar a maré crescente de v",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "vincent-the-frostbringer::description": {
+      "sourceHash": "9ae34d6d84b50aae",
+      "text": "Um campeão resoluto da lei e da ordem em Dunley, sua missão é proteger o povo comum com seus presentes congelantes. S",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "blood-rage::description": {
+      "sourceHash": "25524221dc490f7d",
+      "text": "Cura aliados próximos em 65% do seu poder mágico e aplica uma pressa efêmera que aumenta a velocidade de movimento em 10% e o ataque Fonte de Sangue · SANGUE Invoca um pilar de sangue que cura aliados em 50% do seu poder mágico. O pilar explode após 1,1s causando e infligindo Enxame de Carniça · SANGUE Invoca 4 morcegos sanguíneos em linha que atacam em direção ao local alvo. Cada morcego perfura inimigos causando 30% de dano mágico Laço Sanguíneo · SANGUE Lança um projétil que causa 80% de dano mágico, drena 30% de vida e inflige . Cura 120% do dano em aliado atingido e 30% em si mesmo Raio Carmesim · SANGUE Canalize um feixe de energia que causa 275% de dano mágico e inflige aos inimigos atingidos enquanto cura aliados por 200% do seu Golpe de Coração",
+      "translatedAt": "2026-05-20T19:09:39.892Z",
+      "source": "md"
+    },
+    "blood-fountain::description": {
+      "sourceHash": "eba9df9924f480b2",
+      "text": "Invoca um pilar de sangue que cura aliados em 50% do seu poder mágico. O pilar explode após 1,1s causando e infligindo Enxame de Carniça · SANGUE Invoca 4 morcegos sanguíneos em linha que atacam em direção ao local alvo. Cada morcego perfura inimigos causando 30% de dano mágico Laço Sanguíneo · SANGUE Lança um projétil que causa 80% de dano mágico, drena 30% de vida e inflige . Cura 120% do dano em aliado atingido e 30% em si mesmo Raio Carmesim · SANGUE Canalize um feixe de energia que causa 275% de dano mágico e inflige aos inimigos atingidos enquanto cura aliados por 200% do seu Golpe de Coração · SANGUE Avance em investida e golpeie inimigos em linha reta. Causa 150% de dano mágico e cura a si mesmo por 150% do seu poder mágico ao longo de 3,5s **Ri",
+      "translatedAt": "2026-05-20T19:09:39.892Z",
+      "source": "md"
+    },
+    "carrion-swarm::description": {
+      "sourceHash": "f27dc953d26f98f9",
+      "text": "Invoca 4 morcegos sanguíneos em linha que atacam em direção ao local alvo. Cada morcego perfura inimigos causando 30% de dano mágico Laço Sanguíneo · SANGUE Lança um projétil que causa 80% de dano mágico, drena 30% de vida e inflige . Cura 120% do dano em aliado atingido e 30% em si mesmo Raio Carmesim · SANGUE Canalize um feixe de energia que causa 275% de dano mágico e inflige aos inimigos atingidos enquanto cura aliados por 200% do seu Golpe de Coração · SANGUE Avance em investida e golpeie inimigos em linha reta. Causa 150% de dano mágico e cura a si mesmo por 150% do seu poder mágico ao longo de 3,5s Rito de Sangue · SANGUE Bloqueie ataques corpo a corpo e projéteis por 1,5s. Bloquear um ataque desencadeia uma nova de sangue que afasta inimigos",
+      "translatedAt": "2026-05-20T19:09:39.892Z",
+      "source": "md"
+    },
+    "frost-bat::description": {
+      "sourceHash": "4d26312f1b5c2e6d",
+      "text": "Após a atualização Gloomrot, Feitiços de Magia do Gelo aplicam Frio, que quando aplicado em inimigos, reduz sua velocidade de movimento em 15%",
+      "translatedAt": "2026-05-20T19:14:41.801Z",
+      "source": "md"
+    },
+    "ice-nova::description": {
+      "sourceHash": "e07059c9cbf489ef",
+      "text": "Conjura uma nova de gelo na localização alvo causando 150% de dano mágico. A nova irradia para fora infligindo . Acertar um",
+      "translatedAt": "2026-05-20T19:14:41.801Z",
+      "source": "md"
+    },
+    "veil-of-frost::description": {
+      "sourceHash": "bb6b1a12561ee29b",
+      "text": "Faça uma investida na direção pressionada e evada inimigos próximos por 2,2s. Seu próximo ataque primário cura você em 5% do seu máximo",
+      "translatedAt": "2026-05-20T19:14:41.801Z",
+      "source": "md"
+    },
+    "veil-of-bones::description": {
+      "sourceHash": "fb531e73650423a1",
+      "text": "Avance rapidamente na direção escolhida e evada inimigos próximos por 2,2 segundos. Seu próximo ataque primário cura 5% da sua vida máxima.",
+      "translatedAt": "2026-05-20T19:14:41.802Z",
+      "source": "md"
+    },
+    "veil-of-illusion::description": {
+      "sourceHash": "92bb8684526bc238",
+      "text": "Avança em disparada na direção indicada e ilude inimigos próximos por 2,2s. Seu próximo ataque primário cura você em 5% do seu máximo de vida... Sombra Véu das Sombras · SOMBRA Avança em disparada na direção indicada e ilude inimigos próximos por 2,2s. Seu próximo ataque primário cura você em 5% do seu máximo de vida... ---",
+      "translatedAt": "2026-05-20T19:09:39.892Z",
+      "source": "md"
+    },
+    "veil-of-shadow::description": {
+      "sourceHash": "c56059ec0474d647",
+      "text": "Avança em disparada na direção indicada e ilude inimigos próximos por 2,2s. Seu próximo ataque primário cura você em 5% do seu máximo de vida... ---",
+      "translatedAt": "2026-05-20T19:09:39.892Z",
+      "source": "md"
+    },
+    "copper-ingot::description": {
+      "sourceHash": "807fd408a94d105f",
+      "text": "Componente metálico usado para forjar armas e armaduras. Produzido em uma Fornalha.",
+      "translatedAt": "2026-05-20T19:14:41.802Z",
+      "source": "md"
+    },
+    "iron-ingot::description": {
+      "sourceHash": "807fd408a94d105f",
+      "text": "Componente metálico usado para forjar armas e armaduras. Produzido em uma Fornalha.",
+      "translatedAt": "2026-05-20T19:14:41.802Z",
+      "source": "md"
+    },
+    "apocalypse::description": {
+      "sourceHash": "d15e87f2a36b07f3",
+      "text": "Um Espadão refeito a partir dos restos de uma arma encantada lendária, seu nome gravado na história de Vardoran.",
+      "translatedAt": "2026-05-20T19:14:41.807Z",
+      "source": "md"
+    },
+    "oaksong::description": {
+      "sourceHash": "55f000c8c5cfda5d",
+      "text": "Um Arco Longo refeito a partir dos restos de uma arma encantada lendária, seu nome gravado na história de Vardoran.",
+      "translatedAt": "2026-05-20T19:14:41.807Z",
+      "source": "md"
+    },
+    "talons-of-the-lich-beast::description": {
+      "sourceHash": "66df46f051c2ce01",
+      "text": "Garras refeitas a partir dos restos de uma arma encantada lendária, seu nome gravado na história de uma terra distante.",
+      "translatedAt": "2026-05-20T19:14:41.807Z",
+      "source": "md"
+    },
+    "the-endbringers::description": {
+      "sourceHash": "d1ee351debe7181d",
+      "text": "Pistolas refeitas a partir dos restos de uma arma encantada lendária, seu nome gravado na história de Vardoran.",
+      "translatedAt": "2026-05-20T19:14:41.807Z",
+      "source": "md"
+    },
+    "the-fate-dancers::description": {
+      "sourceHash": "5cbc8bfc6e3ac44c",
+      "text": "Uma twinblade reforjada a partir dos restos de uma arma encantada lendária, seu nome gravado na história de Vardoran.",
+      "translatedAt": "2026-05-20T19:14:41.807Z",
+      "source": "md"
+    },
+    "beatrice-the-tailor::description": {
+      "sourceHash": "575dd008fb3f620e",
+      "text": "A costureira mais talentosa de todo Vardoran. Embora o legado do sangue de Dracula corra por suas veias, ela provou",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "christina-the-sun-priestess::description": {
+      "sourceHash": "73efc431131411a1",
+      "text": "Quando a Igreja da Luminescência descobriu pela primeira vez as habilidades concedidas pela chuva de sangue, tomaram isso como uma bênção de t",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "clive-the-firestarter::description": {
+      "sourceHash": "b65a51c66d3fe89a",
+      "text": "Um gênio incomparável nas artes explosivas. Infelizmente para Grayson, esse psicopata caótico é longe demais para ser ge",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "cyril-the-cursed-smith::description": {
+      "sourceHash": "ca850c486ed02cae",
+      "text": "Amaldiçoado com vida eterna e servidão ao Culto dos Condenados, Cyril tem pouco desejo de cumprir seus deveres. Contudo",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "dantos-the-forgebinder::description": {
+      "sourceHash": "afda86ef3c74d99b",
+      "text": "Dantos é um mestre das armas, fascinado tanto pela sua construção quanto aplicação. Um verdadeiro obsessivo, seu limite",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "domina-the-blade-dancer::description": {
+      "sourceHash": "d6dded77997ba09a",
+      "text": "Originalmente uma engenheira responsável pelos avanços em armas elétricas práticas, os impressionantes avanços de Domina foram",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "errol-the-stonebreaker::description": {
+      "sourceHash": "d345f5caed621573",
+      "text": "Um brutal capataz de mineração, tão adepto em esmagar pedras quanto em esmagar ossos. Nem mesmo seu incrível olhar para recuperar",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "finn-the-fisherman::description": {
+      "sourceHash": "2b9d6925e95419e1",
+      "text": "Finn é um pescador lendário que vem das encostas rochosas das Colinas Luz-Prata. Foi pego pescando na Igreja da Lumi",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "frostmaw-the-mountain-terror::description": {
+      "sourceHash": "3533239252422fa7",
+      "text": "Um horror indescritível que espreita nos corredores nevados das Montanhas Sagradas. Alguns dizem que ele costumava ser um simples lenhador",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "gaius-the-cursed-champion::description": {
+      "sourceHash": "73f8a47954b211ee",
+      "text": "Gaius foi um capitão habilidoso da milícia e um famoso gladiador. Irritado pela popularidade de Gaius competindo com a sua própria, assim como",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "general-cassius-the-betrayer::description": {
+      "sourceHash": "d9876840d8653a07",
+      "text": "Antes um oficial altamente habilidoso e respeitado nas fileiras da Igreja da Luminescência, Cassius serviu como um poderoso pa",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "general-elena-the-hollow::description": {
+      "sourceHash": "8283c040771fbc76",
+      "text": "Elena já foi uma talentosa tecelã, esposa, mãe e amiga. Agora, não é nada disso. Quando as forças de Drácula d",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "general-valencia-the-depraved::description": {
+      "sourceHash": "1938f0a07718cd5d",
+      "text": "Valencia foi uma baronesa humana, parte de uma família nobre próspera de antes da grande guerra. Sempre faminta por poder,",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "gorecrusher-the-behemoth::description": {
+      "sourceHash": "38835ba01089eaed",
+      "text": "Antes um guerreiro leal na Legião de Noctum. Seu fanatismo era tamanho que, após a morte de Drácula pelas mãos de",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "goreswine-the-ravager::description": {
+      "sourceHash": "7766b80814a78bc2",
+      "text": "Um cultista louco, tão perdido que mal consegue ser entendido. O Ser Malévolo que servem os incita a profanar tudo o que",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "grayson-the-armourer::description": {
+      "sourceHash": "f3599fa3f92626a6",
+      "text": "O braço trabalhador e mestre logístico das forças de bandidos, Grayson é a espinha dorsal da operação. Como quartel-m",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "grethel-the-glassblower::description": {
+      "sourceHash": "5bb24e162a050595",
+      "text": "Uma verdadeira artista, com profundo amor pelo processo de criação. Ela se vê como vê seu vidro. É",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "henry-blackbrew-the-doctor::description": {
+      "sourceHash": "7b0c504c6a20c9f0",
+      "text": "O doutor Henry Blackbrew foi uma vez a última esperança da humanidade contra as forças de Drácula, antes da chegada da Igreja da Luminância,",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "jade-the-vampire-hunter::description": {
+      "sourceHash": "d2f24651b3a4b11b",
+      "text": "Caçadora de uma casa nobre em Brighthaven, famosa pelo desenvolvimento de armas da nova era que rivalizam com até os",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "jakira-the-shadow-huntress::description": {
+      "sourceHash": "7f53e51c782fca09",
+      "text": "Jakira nem sempre foi membro das Lâminas de Veneno. Como muitos, inicialmente resistiu ao ataque, enfrentando os",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "kodia-the-ferocious-bear::description": {
+      "sourceHash": "7051b1467b4e25b5",
+      "text": "Diz-se que esta ursa mãe é ancestral. Rumores afirmam que carrega uma cicatriz de cada Rei Bandido que já existiu,",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "kriig-the-undead-general::description": {
+      "sourceHash": "51281e5ba1c1363a",
+      "text": "Uma mente estratégica verdadeiramente impressionante em vida, Kriig teve um fim precoce por sua confiança errada em aliados. Mesmo assim,",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "leandra-the-shadow-priestess::description": {
+      "sourceHash": "c49810cff0f8523d",
+      "text": "Existem poucas criaturas na face de Vardoran tão antigas quanto Leandra. Misteriosa e envolta em magia das sombras e u",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "lidia-the-chaos-archer::description": {
+      "sourceHash": "9efb4c0bd149988c",
+      "text": "Uma arqueira habilidosa, porém indisciplinada, ela deixa suas flechas voarem e confia que o destino sabe onde levá-las, e isso funciona.",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "lord-styx-the-night-champion::description": {
+      "sourceHash": "3e03e5a5d383fcf3",
+      "text": "Um vampiro lendário da era de Drácula que foi despertado pelo chamado do Rei Imortal. Conhecido por sua ferocidade",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "lucile-the-venom-alchemist::description": {
+      "sourceHash": "30fe0379f85dcf6e",
+      "text": "Uma alquimista energética e maníaca com uma constituição notoriamente resistente. Lucile é obcecada por criar o Veneno perfeito",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "mairwyn-the-elementalist::description": {
+      "sourceHash": "654f8e84ee12bf96",
+      "text": "Uma conjuradora perigosa, em sintonia com as qualidades mais efêmeras da natureza. Mairwyn fala com os ventos, que sussurram",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "maja-the-dark-savant::description": {
+      "sourceHash": "b201d20419d58b6a",
+      "text": "Uma estudiosa brilhante e obsessiva que reside em uma antiga biblioteca familiar, descobrindo seus segredos perdidos em busca de",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "matka-the-curse-weaver::description": {
+      "sourceHash": "84ff501af9ee82c6",
+      "text": "Dizem que Matka é a mais antiga das bruxas, mas a verdade é que ninguém sabe como ou quando essas criaturas eternas nasceram",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "meredith-the-bright-archer::description": {
+      "sourceHash": "d95f610c84019db3",
+      "text": "Meredith é uma verdadeira crente na Igreja da Luminescência. Ela acredita que seu poder é um dom da Luz para manejar contra",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "morian-the-stormwing-matriarch::description": {
+      "sourceHash": "f5324ce7576d36f6",
+      "text": "A mais perigosa de sua espécie, e ferozmente protetora de sua tribo. Dizem que as harpias são atraídas apenas pelos",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "nibbles-the-putrid-rat::description": {
+      "sourceHash": "d25af891752b7e30",
+      "text": "Os fazendeiros tentam ser diligentes em manter seus problemas com pragas sob controle, pois a lenda diz que qualquer lugar muito infestado pode",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "nicholaus-the-fallen::description": {
+      "sourceHash": "2cd29d967ce32a72",
+      "text": "Um necromante expulso da alta sociedade em Silverlight por sua indulgência nas artes sombrias. Agora vive entre os mortos-vivos",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "octavian-the-militia-captain::description": {
+      "sourceHash": "ab19b17c3ab541c9",
+      "text": "Um velho soldado e veterano de muitas batalhas, Octavian é talvez o homem mais confiável em todo Dunley. O sargento da milícia...",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "polora-the-feywalker::description": {
+      "sourceHash": "c832b3b6815eb6a7",
+      "text": "Um poderoso psicopompo que acessa fontes espirituais misteriosas. Polora é uma das poucas ligações mortais conhecidas com o mundo das fadas...",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "quincey-the-bandit-king::description": {
+      "sourceHash": "066145ffe3f57aa1",
+      "text": "O 'Rei' dos bandidos, outrora celebrado como herói do povo comum de Dunley. Sua falta de reverência adequada pelo...",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "raziel-the-shepherd::description": {
+      "sourceHash": "a2491f978dbbb98d",
+      "text": "A cabeça e o coração do Monastério de Dunley e um verdadeiro crente na Luz, Raziel é conhecido por seus sermões persuasivos...",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "rufus-the-foreman::description": {
+      "sourceHash": "9d67c76d347c4280",
+      "text": "Um tenente das forças bandidas encarregado de vigiar o acampamento madeireiro. Só porque ele é um habilidoso marceneiro, não significa que ele...",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "simon-belmont-the-vampire-hunter::description": {
+      "sourceHash": "644265c8dbcd2268",
+      "text": "Este misterioso caçador de vampiros chegou de terras desconhecidas em uma missão fervorosa para eliminar tudo que possa ser...",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "sir-erwin-the-gallant-cavalier::description": {
+      "sourceHash": "4624dae058db0338",
+      "text": "Sir Erwin é um cavaleiro especializado, conhecido tanto por sua habilidade a cavalo quanto pela companhia insuportável em eventos formais. Sendo ge...",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "sir-magnus-the-overseer::description": {
+      "sourceHash": "e7b8b09c5d25a34a",
+      "text": "Um servo fanático da Igreja da Luminescência, sua fé cega na Luz o torna o candidato perfeito para supervisor...",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "stavros-the-carver::description": {
+      "sourceHash": "5c02d70a310a4051",
+      "text": "Ninguém espera que um simples artesão seja tão feroz em batalha, mas nenhum representa a sede incessante das Lâminas Venenosas por...",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "talzur-the-winged-horror::description": {
+      "sourceHash": "63f398cbdd74d850",
+      "text": "Uma criatura que já foi um dos animais de estimação favoritos de Drácula. O monstro lamentou a morte de seu mestre em uma vingança manchada de sangue...",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "terah-the-geomancer::description": {
+      "sourceHash": "4da5b33e6b695e2c",
+      "text": "O resultado de uma longa linhagem de falantes da terra, Terah reside na solidão das montanhas entre veios cintilantes de gemas...",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "terrorclaw-the-ogre::description": {
+      "sourceHash": "09d5d3290949435b",
+      "text": "Uma criatura cuja história já se perdeu nas eras, embora não sem semelhança com algumas poucas criaturas lendárias",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "ungora-the-spider-queen::description": {
+      "sourceHash": "76cf4cd35cbbb044",
+      "text": "Uma aranha colossal de idade e descendência lendárias. A Rainha Aranha habita as profundezas retorcidas e entretecidas de teias da Floresta Amaldiçoada",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "voltatia-the-power-master::description": {
+      "sourceHash": "1460871e72bb74f2",
+      "text": "A fiel Mão Direita do Doutor Henry Blackbrew, Voltatia é responsável pela manutenção e proteção de todo o enter",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "willfred-the-village-elder::description": {
+      "sourceHash": "3ea4042ae923f16e",
+      "text": "Um chefe honrado e profundamente respeitado de uma pequena e reclusa vila de excluídos. Apesar da iminente ameaça do Culto",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "ziva-the-engineer::description": {
+      "sourceHash": "cd9bdb006ac9985a",
+      "text": "A amada chefe de engenharia de armas na Fábrica de Máquinas, Ziva é a personificação da destruição perfeitamente deleitosa.",
+      "translatedAt": "2026-05-20T19:14:41.797Z",
+      "source": "md"
+    },
+    "blood-rite::description": {
+      "sourceHash": "d56204a709237f8c",
+      "text": "Bloqueie ataques corpo a corpo e projéteis por 1,5s. Bloquear um ataque desencadeia uma nova de sangue que afasta inimigos e causa",
+      "translatedAt": "2026-05-20T19:14:41.801Z",
+      "source": "md"
+    },
+    "blood-storm::description": {
+      "sourceHash": "3e7c540f56bcc539",
+      "text": "Torne-se invulnerável e canalize uma Tempestade de Sangue por 3s, lançando até 25 virotes de sangue teleguiados contra inimigos próximos. Cada virote",
+      "translatedAt": "2026-05-20T19:14:41.801Z",
+      "source": "md"
+    },
+    "shadowbolt::description": {
+      "sourceHash": "23fbea03b8e491bc",
+      "text": "Lance um projétil que causa 200% de dano mágico e inflige .",
+      "translatedAt": "2026-05-20T19:14:41.801Z",
+      "source": "md"
+    },
+    "veil-of-blood::description": {
+      "sourceHash": "7c62178f95395828",
+      "text": "Avance na direção selecionada e desvie de inimigos próximos por 2,2s. Seu próximo ataque primário cura você em 5% do seu máximo de",
+      "translatedAt": "2026-05-20T19:14:41.801Z",
+      "source": "md"
+    },
+    "heart-strike::description": {
+      "sourceHash": "4f57614d157d2050",
+      "text": "Avance em investida e golpeie inimigos em linha reta. Causa 150% de dano mágico e cura a si mesmo por 150% do seu poder mágico ao longo de 3,5s",
+      "translatedAt": "2026-05-20T19:14:41.801Z",
+      "source": "md"
+    },
+    "crimson-aegis::description": {
+      "sourceHash": "48810d0ab919eb50",
+      "text": "Aplique um escudo em um aliado alvo ou em si mesmo que protege o alvo, absorvendo dano equivalente a 200% do seu poder mágico por 3s. Afasta inimigos próximos com um impacto",
+      "translatedAt": "2026-05-20T19:14:41.801Z",
+      "source": "md"
+    },
+    "aftershock::description": {
+      "sourceHash": "63c1332ed1c6b852",
+      "text": "Golpeie o chão, causando uma onda de choque que explode, causando 140% de dano mágico em linha e infligindo .",
+      "translatedAt": "2026-05-20T19:14:41.801Z",
+      "source": "md"
+    },
+    "chaos-volley::description": {
+      "sourceHash": "3ec17b658bb33261",
+      "text": "Lance 2 Viroses Caóticas em sequência que causam 125% de dano mágico e infligem .",
+      "translatedAt": "2026-05-20T19:14:41.801Z",
+      "source": "md"
+    },
+    "power-surge::description": {
+      "sourceHash": "fdb178acda3f5fda",
+      "text": "Impulsione um aliado alvo ou a si mesmo aplicando uma pressa efêmera que aumenta a velocidade de movimentação em 15%, a velocidade de ataque em 20% e o dano físico em",
+      "translatedAt": "2026-05-20T19:14:41.801Z",
+      "source": "md"
+    },
+    "chaos-barrier::description": {
+      "sourceHash": "317939d2081a5492",
+      "text": "Bloqueie ataques corpo a corpo e projéteis à sua frente por 2s. Bloquear um ataque carrega a barreira até 5 vezes. Libere toda a carga para",
+      "translatedAt": "2026-05-20T19:14:41.801Z",
+      "source": "md"
+    },
+    "rain-of-chaos::description": {
+      "sourceHash": "9947caebe89d0152",
+      "text": "Abra uma tempestade de 8 meteoros caóticos em uma área ao longo de 3,2s, causando até 415% de dano mágico e infligindo .",
+      "translatedAt": "2026-05-20T19:14:41.801Z",
+      "source": "md"
+    },
+    "chaos-barrage::description": {
+      "sourceHash": "071bb6b41f0cc83b",
+      "text": "Lance 4 projéteis Caóticos que causam 200% de dano mágico em acerto direto, 100% de dano mágico a inimigos em área e infligem",
+      "translatedAt": "2026-05-20T19:14:41.801Z",
+      "source": "md"
+    },
+    "merciless-charge::description": {
+      "sourceHash": "49bf272fdd39eac5",
+      "text": "Após a atualização Gloomrot, os Feitiços de Magia do Caos agora aplicam . Além disso, o dano mágico em área aumentou de 100% para 120%. Mais incr",
+      "translatedAt": "2026-05-20T19:14:41.801Z",
+      "source": "md"
+    },
+    "veil-of-chaos::description": {
+      "sourceHash": "2ebc73539920bd7d",
+      "text": "A explosão arremessa inimigos comuns para trás, mas não vampiros inimigos. Após a atualização Gloomrot, Feitiços de Magia do Caos aplicam",
+      "translatedAt": "2026-05-20T19:14:41.801Z",
+      "source": "md"
+    },
+    "voidquake-vortex::description": {
+      "sourceHash": "6fb27a94ca1ee9c9",
+      "text": "Desapareça e reapareça na localização alvo em uma explosão violenta, causando 400% de dano mágico, infligindo , e puxando inim",
+      "translatedAt": "2026-05-20T19:14:41.801Z",
+      "source": "md"
+    },
+    "cold-snap::description": {
+      "sourceHash": "7a1e07018cd367cf",
+      "text": "Bloqueia ataques corpo a corpo e projéteis por 1,5s. Bloquear um ataque desencadeia uma nova de gelo que causa 50% de dano mágico e infl",
+      "translatedAt": "2026-05-20T19:14:41.801Z",
+      "source": "md"
+    },
+    "void::description": {
+      "sourceHash": "ca1acb43fd5ba69f",
+      "text": "Convoque uma orbe que explode na localização alvo, causando 80% de dano mágico, infligindo e puxando inimigos para o centro",
+      "translatedAt": "2026-05-20T19:14:41.801Z",
+      "source": "md"
+    },
+    "arctic-storm::description": {
+      "sourceHash": "21d1b3e5b6365647",
+      "text": "Canaliza uma onda de gelo durante 1,2s causando 180% de dano mágico e infligindo . Conjura um cone de frio ao final da e",
+      "translatedAt": "2026-05-20T19:14:41.801Z",
+      "source": "md"
+    },
+    "crystal-lance::description": {
+      "sourceHash": "f9ff8f7d1da0a2d4",
+      "text": "Lança um projétil causando 170% de dano mágico e infligindo o efeito por 4s.",
+      "translatedAt": "2026-05-20T19:14:41.801Z",
+      "source": "md"
+    },
+    "frost-barrier::description": {
+      "sourceHash": "d88223ceea40ab1a",
+      "text": "Bloqueia ataques corpo a corpo e projéteis à sua frente por 2s. Conjura até 8 estacas de gelo causando 50% de dano mágico e in",
+      "translatedAt": "2026-05-20T19:14:41.801Z",
+      "source": "md"
+    },
+    "arctic-leap::description": {
+      "sourceHash": "69d2115580d2093c",
+      "text": "Salte no ar e ataque a localização alvo, causando 250% de dano mágico. Uma nova de gelo irrompe do impacto",
+      "translatedAt": "2026-05-20T19:14:41.801Z",
+      "source": "md"
+    },
+    "ice-block::description": {
+      "sourceHash": "cdd3399188c96b01",
+      "text": "Transforme um aliado alvo ou a si mesmo em gelo sólido por até 5s e convoque um vórtice de gelo. O bloco de gelo protege o alvo com 500% do",
+      "translatedAt": "2026-05-20T19:14:41.801Z",
+      "source": "md"
+    },
+    "frost-vortex::description": {
+      "sourceHash": "35e5d40ffb859dba",
+      "text": "Conjura uma tempestade de gelo que causa 100% de dano mágico e puxa inimigos em direção ao centro. A tempestade dura 6s, causando",
+      "translatedAt": "2026-05-20T19:14:41.801Z",
+      "source": "md"
+    },
+    "ball-lightning::description": {
+      "sourceHash": "e19d4a1581be9aaa",
+      "text": "Lança uma Bola de Raios que permanece no lugar, eletrificando periodicamente um inimigo próximo e infligindo . Causa até 180% de dano mágico",
+      "translatedAt": "2026-05-20T19:14:41.801Z",
+      "source": "md"
+    },
+    "cyclone::description": {
+      "sourceHash": "adb79a3a02f61562",
+      "text": "Invocar um ciclone que perfura inimigos, causando 120% de dano mágico e infligindo . O ciclone retorna após atingir o máximo...",
+      "translatedAt": "2026-05-20T19:14:41.801Z",
+      "source": "md"
+    },
+    "discharge::description": {
+      "sourceHash": "98d56250a969cd73",
+      "text": "Bloqueie ataques corpo a corpo e projéteis por até 1,5s. Bloquear um ataque puxa o alvo em sua direção e concede um . Inimig...",
+      "translatedAt": "2026-05-20T19:14:41.801Z",
+      "source": "md"
+    },
+    "lightning-curtain::description": {
+      "sourceHash": "0dcba337713d5821",
+      "text": "Invoque uma cortina de relâmpagos que bloqueia projéteis por até 2,5s. Inflige e causa periodicamente 30% de dano mágico...",
+      "translatedAt": "2026-05-20T19:14:41.801Z",
+      "source": "md"
+    },
+    "lightning-tendrils::description": {
+      "sourceHash": "093c766512516bc3",
+      "text": "Lance 6 raios numa sequência que causam 40% de dano mágico cada e infligem .",
+      "translatedAt": "2026-05-20T19:14:41.801Z",
+      "source": "md"
+    },
+    "polarity-shift::description": {
+      "sourceHash": "01ad46179fbd8fc4",
+      "text": "Lance um projétil que causa 90% de dano mágico e inflige . Você e o outro alvo trocam de posição ao impactar. Se o...",
+      "translatedAt": "2026-05-20T19:14:41.801Z",
+      "source": "md"
+    },
+    "lightning-typhoon::description": {
+      "sourceHash": "2c8e1fb012205f2a",
+      "text": "Gire sobre si mesmo ganhando 125% de rapidez que decai e choque os inimigos próximos, causando 800% de dano mágico e infligindo ao longo de 4s. Ocas...",
+      "translatedAt": "2026-05-20T19:14:41.801Z",
+      "source": "md"
+    },
+    "raging-tempest::description": {
+      "sourceHash": "dc8dccedaac8c881",
+      "text": "Avance em corrida e quique entre inimigos próximos, atingindo-os com um total de 525% de dano mágico dividido entre alvos dentro...",
+      "translatedAt": "2026-05-20T19:14:41.801Z",
+      "source": "md"
+    },
+    "eye-of-the-storm::description": {
+      "sourceHash": "56b24bbe30146511",
+      "text": "Afaste inimigos próximos com um empurrão e conjure uma tempestade trovejante ao seu redor. Raios caem na área próxima, causando dano...",
+      "translatedAt": "2026-05-20T19:14:41.801Z",
+      "source": "md"
+    },
+    "veil-of-storm::description": {
+      "sourceHash": "52fd3013ccdabe2d",
+      "text": "Avance na direção da entrada e esquive de inimigos próximos por 2,2s. Ganhe 20% de aumento na velocidade de ataque por 4s. Seu próximo ataque primário...",
+      "translatedAt": "2026-05-20T19:14:41.802Z",
+      "source": "md"
+    },
+    "bone-explosion::description": {
+      "sourceHash": "b6ff8787f06a4116",
+      "text": "Erga um monte de ossos do chão que explode na localização alvo causando 150% de dano mágico em área e infligindo .",
+      "translatedAt": "2026-05-20T19:14:41.802Z",
+      "source": "md"
+    },
+    "corrupted-skull::description": {
+      "sourceHash": "a5c35d3a899184ae",
+      "text": "Lance um projétil que causa 80% de dano mágico, invoca um esqueleto e inflige . O ataque causa 40% de dano bônus a...",
+      "translatedAt": "2026-05-20T19:14:41.802Z",
+      "source": "md"
+    },
+    "ward-of-the-damned::description": {
+      "sourceHash": "57034f86d8efa88e",
+      "text": "Após a atualização Gloomrot, Magias Profanas aplicam , e a barreira não aumenta mais a velocidade de movimento nativamente...",
+      "translatedAt": "2026-05-20T19:14:41.802Z",
+      "source": "md"
+    },
+    "death-knight::description": {
+      "sourceHash": "ec08892e051e52ad",
+      "text": "Invoque um Cavaleiro da Morte na localização alvo que ataca inimigos próximos. Cada golpe causa 50% de dano mágico em área e inflige...",
+      "translatedAt": "2026-05-20T19:14:41.802Z",
+      "source": "md"
+    },
+    "soulburn::description": {
+      "sourceHash": "b8739b7bd6c07e41",
+      "text": "Drene a vida de até 3 inimigos próximos, causando 60% de dano mágico, drenando 100% da saúde, interrompendo ataques e infl...",
+      "translatedAt": "2026-05-20T19:14:41.802Z",
+      "source": "md"
+    },
+    "unholy-chains::description": {
+      "sourceHash": "b02da3f8ffaf6e0f",
+      "text": "Lance uma corrente que acorrenta o alvo atingido, reduzindo a velocidade de movimento em 10%-40% com base na distância do alvo. Canalize ...",
+      "translatedAt": "2026-05-20T19:14:41.802Z",
+      "source": "md"
+    },
+    "army-of-the-dead::description": {
+      "sourceHash": "0b3e2487857c308b",
+      "text": "Inflija dano em inimigos próximos e convoque um exército de 6 guerreiros esqueleto e 2 magos esqueleto ao seu redor. Os esqueletos duram por...",
+      "translatedAt": "2026-05-20T19:14:41.802Z",
+      "source": "md"
+    },
+    "volatile-arachnid::description": {
+      "sourceHash": "26d0a5ae4cf05233",
+      "text": "Invoque uma aranha gigante que persegue seu inimigo e explode quando aproxima, causando 250% de dano mágico, infligindo e esp...",
+      "translatedAt": "2026-05-20T19:14:41.802Z",
+      "source": "md"
+    },
+    "purgatory::description": {
+      "sourceHash": "1264992a6dd3da7d",
+      "text": "Após a atualização Gloomrot, Purgatório foi removido do jogo. Foi substituído pela magia da Escola do Sangue.",
+      "translatedAt": "2026-05-20T19:14:41.802Z",
+      "source": "md"
+    },
+    "summon-fallen-angel::description": {
+      "sourceHash": "06b27ea928719086",
+      "text": "Convoca um anjo caído para lutar por você por 15 segundos. Os ataques realizados pelo anjo caído infligem .",
+      "translatedAt": "2026-05-20T19:14:41.802Z",
+      "source": "md"
+    },
+    "unstable-mosquito::description": {
+      "sourceHash": "f8fac9c0adbb5e7a",
+      "text": "Após a atualização Gloomrot, a habilidade foi movida da Ilusão para a Escola Profana e renomeada. Diferente de , o mosquito invocado...",
+      "translatedAt": "2026-05-20T19:14:41.802Z",
+      "source": "md"
     }
   },
-  "updatedAt": "2026-05-20T15:16:34.077Z"
+  "updatedAt": "2026-05-20T19:14:41.807Z"
 }

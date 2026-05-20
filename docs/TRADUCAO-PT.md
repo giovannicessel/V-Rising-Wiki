@@ -1,6 +1,19 @@
 # Tradução do conteúdo para português
 
-## Pré-requisitos
+## Importar do markdown (recomendado — sem API)
+
+1. Export PT em `docs/TRADUCAO-PT-BR.md` (o script também busca em `Downloads/*Tradu*Completa*.md`).
+2. Execute:
+
+```bash
+npm run import:md
+```
+
+Atualiza `entities.json`, `weapons-catalog.json`, `jewelry-catalog.json` e o cache PT.
+
+**Cobertura típica após import:** ~60 chefes, ~48 feitiços, catálogo de armas e jewelry; guias de luta longos e modificadores de joias de feitiço podem permanecer em inglês (não vêm no export da UI).
+
+## Pré-requisitos (API Gemini — opcional)
 
 1. Chave em `.env`: `GOOGLE_API_KEY=` (crie em https://aistudio.google.com/apikey)
 2. **Nunca** commite `.env` nem cole a chave em arquivos públicos.

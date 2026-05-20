@@ -31,6 +31,7 @@
     "translate:json:apply": "node scripts/translate-json-pt.mjs --apply",
     "translate:all": "node scripts/translate-all-pt.mjs",
     "translate:all:apply": "node scripts/translate-all-pt.mjs --apply",
+    "import:md": "node scripts/import-md-translations.mjs",
     "wiki:update": "npm run sync:entities && npm run enrich:videos && npm run build:entities && npm run build:catalog",
     "wiki:full": "npm run wiki:update && npm run fetch:jewels && npm run fetch:weapons-catalog && npm run translate:all:apply"
   },

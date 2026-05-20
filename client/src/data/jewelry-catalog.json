@@ -20,7 +20,10 @@
       "stats": "",
       "source": "",
       "materials": "",
-      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/c/cb/Jewelry_BloodBoneRing.png/revision/latest?cb=20240516224430"
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/c/cb/Jewelry_BloodBoneRing.png/revision/latest?cb=20240516224430",
+      "statsPt": "—",
+      "sourcePt": "—",
+      "materialsPt": "—"
     },
     {
       "name": "Gravedigger Ring",
@@ -29,7 +32,10 @@
       "stats": "",
       "source": "",
       "materials": "",
-      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/e/e2/Jewelry_GravediggerRing.png/revision/latest?cb=20230521032802"
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/e/e2/Jewelry_GravediggerRing.png/revision/latest?cb=20230521032802",
+      "statsPt": "—",
+      "sourcePt": "—",
+      "materialsPt": "—"
     },
     {
       "name": "Ring of the Warrior",
@@ -38,7 +44,10 @@
       "stats": "+9% Weapon Skill Power",
       "source": "Shady Book Dealer",
       "materials": "",
-      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/4/40/Jewelry_RingoftheWarrior.png/revision/latest?cb=20250430180426"
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/4/40/Jewelry_RingoftheWarrior.png/revision/latest?cb=20250430180426",
+      "statsPt": "+9% Poder de Habilidade com Arma",
+      "sourcePt": "Vendedor de Livros Sombrio",
+      "materialsPt": "—"
     },
     {
       "name": "Ring of the Warlock",
@@ -47,7 +56,10 @@
       "stats": "+8% Spell Critical Chance",
       "source": "Shady Book Dealer",
       "materials": "",
-      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/7/72/Jewelry_RingoftheWarlock.png/revision/latest?cb=20230521032933"
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/7/72/Jewelry_RingoftheWarlock.png/revision/latest?cb=20230521032933",
+      "statsPt": "+8% Chance de Acerto Crítico de Feitiço",
+      "sourcePt": "Vendedor de Livros Sombrio",
+      "materialsPt": "—"
     },
     {
       "name": "Ring of the Sorcerer",
@@ -56,7 +68,10 @@
       "stats": "+4% Spell Life Leech",
       "source": "Shady Book Dealer",
       "materials": "",
-      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/a/a0/Jewelry_RingoftheSorcerer.png/revision/latest?cb=20250430180430"
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/a/a0/Jewelry_RingoftheSorcerer.png/revision/latest?cb=20250430180430",
+      "statsPt": "+4% Roubo de Vida por Feitiço",
+      "sourcePt": "Vendedor de Livros Sombrio",
+      "materialsPt": "—"
     },
     {
       "name": "Ring of the Dawnrunner",
@@ -65,7 +80,10 @@
       "stats": "+4% Bonus Movement Speed",
       "source": "Shady Book Dealer",
       "materials": "",
-      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/e/e4/Jewelry_RingoftheDawnrunner.png/revision/latest?cb=20230521032953"
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/e/e4/Jewelry_RingoftheDawnrunner.png/revision/latest?cb=20230521032953",
+      "statsPt": "+4% Bônus de Velocidade de Movimento",
+      "sourcePt": "Vendedor de Livros Sombrio",
+      "materialsPt": "—"
     },
     {
       "name": "Ring of the Spellweaver",
@@ -74,7 +92,10 @@
       "stats": "+6% Spell Cooldown Rate",
       "source": "Shady Book Dealer",
       "materials": "",
-      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/4/46/Jewelry_RingoftheSpellweaver.png/revision/latest?cb=20230521033042"
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/4/46/Jewelry_RingoftheSpellweaver.png/revision/latest?cb=20230521033042",
+      "statsPt": "+6% Velocidade de Recarga de Feitiço",
+      "sourcePt": "Vendedor de Livros Sombrio",
+      "materialsPt": "—"
     },
     {
       "name": "Ring of the Duskwatcher",
@@ -83,7 +104,10 @@
       "stats": "+7% Weapon Attack Speed",
       "source": "Shady Book Dealer",
       "materials": "",
-      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/2/25/Jewelry_RingoftheDuskwatcher.png/revision/latest?cb=20230521190812"
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/2/25/Jewelry_RingoftheDuskwatcher.png/revision/latest?cb=20230521190812",
+      "statsPt": "+7% Velocidade de Ataque com Arma",
+      "sourcePt": "Vendedor de Livros Sombrio",
+      "materialsPt": "—"
     },
     {
       "name": "Scourgestone Pendant",
@@ -92,7 +116,10 @@
       "stats": "",
       "source": "",
       "materials": "",
-      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/c/cc/Jewelry_ScourgestonePendant.png/revision/latest?cb=20230521033125"
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/c/cc/Jewelry_ScourgestonePendant.png/revision/latest?cb=20230521033125",
+      "statsPt": "—",
+      "sourcePt": "—",
+      "materialsPt": "—"
     },
     {
       "name": "Pendant of the Warrior",
@@ -101,7 +128,10 @@
       "stats": "+9% Weapon Skill Power\n10% chance on primary hit to inflict . Can only trigger once every 4s.",
       "source": "Raziel the Shepherd (16.6%)\nRural Book Vendor",
       "materials": "",
-      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/e/ee/Jewelry_PendantoftheWarrior.png/revision/latest?cb=20230521033217"
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/e/ee/Jewelry_PendantoftheWarrior.png/revision/latest?cb=20230521033217",
+      "statsPt": "+9% Poder de Habilidade com Arma 10% de chance no ataque principal de causar . Só pode ativar uma vez a cada 4s.",
+      "sourcePt": "Raziel, o Pastor (16,6%) Vendedor Rural de Livros",
+      "materialsPt": "—"
     },
     {
       "name": "Pendant of the Warlock",
@@ -110,7 +140,10 @@
       "stats": "+8% Spell Critical Chance\n10% chance on primary hit to inflict . Can only trigger once every 4s.",
       "source": "Raziel the Shepherd (16.6%)\nRural Book Vendor",
       "materials": "",
-      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/3/31/Jewelry_PendantoftheWarlock.png/revision/latest?cb=20230521033230"
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/3/31/Jewelry_PendantoftheWarlock.png/revision/latest?cb=20230521033230",
+      "statsPt": "+8% Chance de Acerto Crítico de Feitiço 10% de chance no ataque principal de causar . Só pode ativar uma vez a cada 4s.",
+      "sourcePt": "Raziel, o Pastor (16,6%) Vendedor Rural de Livros",
+      "materialsPt": "—"
     },
     {
       "name": "Pendant of the Sorcerer",
@@ -119,7 +152,10 @@
       "stats": "+4% Spell Life Leech\n10% chance on primary hit to inflict . Can only trigger once every 4s.",
       "source": "Raziel the Shepherd (16.6%)\nRural Book Vendor",
       "materials": "",
-      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/8/8f/Jewelry_PendantoftheSorcerer.png/revision/latest?cb=20230521033240"
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/8/8f/Jewelry_PendantoftheSorcerer.png/revision/latest?cb=20230521033240",
+      "statsPt": "+4% Roubo de Vida por Feitiço 10% de chance no ataque principal de causar . Só pode ativar uma vez a cada 4s.",
+      "sourcePt": "Raziel, o Pastor (16,6%) Vendedor Rural de Livros",
+      "materialsPt": "—"
     },
     {
       "name": "Pendant of the Dawnrunner",
@@ -128,7 +164,10 @@
       "stats": "+4% Bonus Movement Speed\n10% chance on primary hit to inflict . Can only trigger once every 4s.",
       "source": "Raziel the Shepherd (16.6%)\nRural Book Vendor",
       "materials": "",
-      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/9/99/Jewelry_PendantoftheDawnrunner.png/revision/latest?cb=20230521033253"
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/9/99/Jewelry_PendantoftheDawnrunner.png/revision/latest?cb=20230521033253",
+      "statsPt": "+4% Bônus de Velocidade de Movimento 10% de chance no ataque principal de causar . Só pode ativar uma vez a cada 4s.",
+      "sourcePt": "Raziel, o Pastor (16,6%) Vendedor Rural de Livros",
+      "materialsPt": "—"
     },
     {
       "name": "Pendant of the Spellweaver",
@@ -137,7 +176,10 @@
       "stats": "+6% Spell Cooldown Rate\n10% chance on primary hit to inflict . Can only trigger once every 4s.",
       "source": "Raziel the Shepherd (16.6%)\nRural Book Vendor",
       "materials": "",
-      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/2/25/Jewelry_PendantoftheSpellweaver.png/revision/latest?cb=20230521033327"
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/2/25/Jewelry_PendantoftheSpellweaver.png/revision/latest?cb=20230521033327",
+      "statsPt": "+6% Velocidade de Recarga de Feitiço 10% de chance no ataque principal de causar . Só pode ativar uma vez a cada 4s.",
+      "sourcePt": "Raziel, o Pastor (16,6%) Vendedor Rural de Livros",
+      "materialsPt": "—"
     },
     {
       "name": "Pendant of the Duskwatcher",
@@ -146,7 +188,10 @@
       "stats": "+7% Weapon Attack Speed\n10% chance on primary hit to inflict . Can only trigger once every 4s.",
       "source": "Raziel the Shepherd (16.6%)\nRural Book Vendor",
       "materials": "",
-      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/9/91/Jewelry_PendantoftheDuskwatcher.png/revision/latest?cb=20230521033338"
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/9/91/Jewelry_PendantoftheDuskwatcher.png/revision/latest?cb=20230521033338",
+      "statsPt": "+7% Velocidade de Ataque com Arma 10% de chance no ataque principal de causar . Só pode ativar uma vez a cada 4s.",
+      "sourcePt": "Raziel, o Pastor (16,6%) Vendedor Rural de Livros",
+      "materialsPt": "—"
     },
     {
       "name": "Blood Merlot Amulet",
@@ -155,7 +200,10 @@
       "stats": "+15% Reduced Blood Drain Rate",
       "source": "",
       "materials": "",
-      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/2/29/Jewelry_BloodMerlotAmulet.png/revision/latest?cb=20230521033418"
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/2/29/Jewelry_BloodMerlotAmulet.png/revision/latest?cb=20230521033418",
+      "statsPt": "+15% Redução na Taxa de Drenagem de Sangue",
+      "sourcePt": "—",
+      "materialsPt": "—"
     },
     {
       "name": "Amulet of the Crimson Commander",
@@ -164,7 +212,10 @@
       "stats": "+15% Reduced Blood Drain Rate\n+9% Weapon Skill Power\n10% chance on primary hit to gain . Can only trigger once every 10s.",
       "source": "",
       "materials": "",
-      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/4/41/Jewelry_AmuletoftheCrimsonCommander.png/revision/latest?cb=20230522193738"
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/4/41/Jewelry_AmuletoftheCrimsonCommander.png/revision/latest?cb=20230522193738",
+      "statsPt": "+15% Redução na Taxa de Drenagem de Sangue +9% Poder de Habilidade com Arma 10% de chance no ataque principal de ganhar . Só pode ativar uma vez a cada 10s.",
+      "sourcePt": "—",
+      "materialsPt": "—"
     },
     {
       "name": "Amulet of the Arch-Warlock",
@@ -173,7 +224,10 @@
       "stats": "+15% Reduced Blood Drain Rate\n+8% Spell Critical Chance\n10% chance on primary hit to gain . Can only trigger once every 10s.",
       "source": "",
       "materials": "",
-      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/e/e7/Jewelry_AmuletoftheArch-Warlock.png/revision/latest?cb=20230521033622"
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/e/e7/Jewelry_AmuletoftheArch-Warlock.png/revision/latest?cb=20230521033622",
+      "statsPt": "+15% Redução na Taxa de Drenagem de Sangue +8% Chance de Acerto Crítico de Feitiço 10% de chance no ataque principal de ganhar . Só pode ativar uma vez a cada 10s.",
+      "sourcePt": "—",
+      "materialsPt": "—"
     },
     {
       "name": "Amulet of the Wicked Prophet",
@@ -182,7 +236,10 @@
       "stats": "+15% Reduced Blood Drain Rate\n+4% Spell Life Leech\n10% chance on primary hit to gain . Can only trigger once every 10s.",
       "source": "",
       "materials": "",
-      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/f/fe/Jewelry_AmuletoftheWickedProphet.png/revision/latest?cb=20230522193620"
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/f/fe/Jewelry_AmuletoftheWickedProphet.png/revision/latest?cb=20230522193620",
+      "statsPt": "+15% Taxa de Drenagem de Sangue Reduzida +4% Roubo de Vida por Feitiço 10% de chance no ataque principal de ganhar . Só pode ser ativado uma vez a cada 10s.",
+      "sourcePt": "—",
+      "materialsPt": "—"
     },
     {
       "name": "Amulet of the Unyielding Charger",
@@ -191,7 +248,10 @@
       "stats": "+15% Reduced Blood Drain Rate\n+4% Bonus Movement Speed\n10% chance on primary hit to spawn a . Can only trigger once every 10s.",
       "source": "",
       "materials": "",
-      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/2/23/Jewelry_AmuletoftheUnyieldingCharger.png/revision/latest?cb=20230521034027"
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/2/23/Jewelry_AmuletoftheUnyieldingCharger.png/revision/latest?cb=20230521034027",
+      "statsPt": "+15% Taxa de Drenagem de Sangue Reduzida +4% Velocidade de Movimento Bônus 10% de chance no ataque principal de invocar um . Só pode ser ativado uma vez a cada 10s.",
+      "sourcePt": "—",
+      "materialsPt": "—"
     },
     {
       "name": "Amulet of the Master Spellweaver",
@@ -200,7 +260,10 @@
       "stats": "+15% Reduced Blood Drain Rate\n+6% Spell Cooldown Rate\n10% chance on primary hit to gain . Can only trigger once every 10s.",
       "source": "",
       "materials": "",
-      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/7/7e/Jewelry_AmuletoftheMasterSpellweaver.png/revision/latest?cb=20230521034054"
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/7/7e/Jewelry_AmuletoftheMasterSpellweaver.png/revision/latest?cb=20230521034054",
+      "statsPt": "+15% Taxa de Drenagem de Sangue Reduzida +6% Taxa de Recarga de Feitiço 10% de chance no ataque principal de ganhar . Só pode ser ativado uma vez a cada 10s.",
+      "sourcePt": "—",
+      "materialsPt": "—"
     },
     {
       "name": "Amulet of the Blademaster",
@@ -209,7 +272,10 @@
       "stats": "+15% Reduced Blood Drain Rate\n+7% Weapon Attack Speed\n10% chance on primary hit to gain . Can only trigger once every 10s.",
       "source": "",
       "materials": "",
-      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/4/4f/Jewelry_AmuletoftheBlademaster.png/revision/latest?cb=20230521034117"
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/4/4f/Jewelry_AmuletoftheBlademaster.png/revision/latest?cb=20230521034117",
+      "statsPt": "+15% Taxa de Drenagem de Sangue Reduzida +7% Velocidade de Ataque com Arma 10% de chance no ataque principal de ganhar . Só pode ser ativado uma vez a cada 10s.",
+      "sourcePt": "—",
+      "materialsPt": "—"
     },
     {
       "name": "Blood Key",
@@ -218,7 +284,10 @@
       "stats": "+75 Sun Resistance Rating",
       "source": "",
       "materials": "",
-      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/1/13/Jewelry_BloodKey.png/revision/latest?cb=20230521030703"
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/1/13/Jewelry_BloodKey.png/revision/latest?cb=20230521030703",
+      "statsPt": "+75 de Resistência ao Sol",
+      "sourcePt": "—",
+      "materialsPt": "—"
     }
   ]
 }

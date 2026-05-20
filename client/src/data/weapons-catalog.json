@@ -13,21 +13,24 @@
           "description": "Perform a combo of melee attacks dealing 45%&nbsp;/ 45% / 55% physical damage.",
           "comboDps": "68.72%",
           "unlockWeapon": "Bone Axes",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/1/1f/Ability_Axes_Primary.png/revision/latest?cb=20240508192714"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/1/1f/Ability_Axes_Primary.png/revision/latest?cb=20240508192714",
+          "descriptionPt": "Dano físico de 45% / 45% / 55%."
         },
         {
           "slot": "q",
           "name": "Frenzy",
           "description": "Dash forward and strike the first enemy dealing 100% physical damage. Enter a state of frenzy that increases your movement speed by 25% and increases attack speed by 50% for 1.5s on a successful hit.",
           "unlockWeapon": "Copper Axes",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/1/11/Ability_Frenzy.png/revision/latest?cb=20240508194136"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/1/11/Ability_Frenzy.png/revision/latest?cb=20240508194136",
+          "descriptionPt": "Avanço + 100% de dano. Acerto: +25% velocidade de movimento e +50% de ataque por 1,5s."
         },
         {
           "slot": "e",
           "name": "X-Strike",
           "description": "Throw two axes in the shape of an X. Each hit deals 80% physical damage and slows the enemy for 1.5s. Hitting the enemy where both axes intersect inflicts a 1s incapacitate.",
           "unlockWeapon": "Iron Axes",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/a/a0/Ability_X-Strike.webp/revision/latest?cb=20220609155012"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/a/a0/Ability_X-Strike.webp/revision/latest?cb=20220609155012",
+          "descriptionPt": "2 machados (80% cada), lentidão 1,5s. Na interseção: incapacita 1s."
         }
       ],
       "variants": [
@@ -121,7 +124,8 @@
           "image": "https://static.wikia.nocookie.net/vrising/images/5/55/Weapon_TheRedTwins.png/revision/latest?cb=20250504012822",
           "isLegendary": true
         }
-      ]
+      ],
+      "passivePt": "Perfeitos para derrubar árvores e crânios. O Frenesi deixa você imparável."
     },
     {
       "typeEn": "Claws",
@@ -134,21 +138,24 @@
           "name": "Primary",
           "description": "Perform a combo of melee attacks dealing 40% / 40% / 50% physical damage. The third attack inflicts Puncture stacking up to 3 times.\nTrigger a rupture dealing 75% damage to the target and 50% damage to nearby enemies upon reaching maximum stacks.",
           "unlockWeapon": "Iron Claws",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/8/8a/Ability_ClawsPrimary.png/revision/latest?cb=20250428215712"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/8/8a/Ability_ClawsPrimary.png/revision/latest?cb=20250428215712",
+          "descriptionPt": "Execute uma sequência de ataques corpo a corpo causando 40% / 40% / 50% de dano físico. O terceiro ataque aplica Perfuração, acumulando até 3 vezes. Ao atingir o máximo de acúmulos, dispara uma ruptura que causa 75% de dano ao alvo e 50% de dano aos inimigos próximos. Garras de Ferro"
         },
         {
           "slot": "e",
           "name": "Lunge",
           "description": "Vault towards the cursor and cleave enemies dealing 90% physical damage and inflicting Puncture. May be recast once after hitting an enemy.",
           "unlockWeapon": "Iron Claws",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/f/fc/Ability_Lunge.png/revision/latest?cb=20250428215547"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/f/fc/Ability_Lunge.png/revision/latest?cb=20250428215547",
+          "descriptionPt": "### Investida (Lunge) Salte em direção ao cursor e corte os inimigos, causando 90% de dano físico e aplicando Perfuração. Pode ser usado novamente uma vez após acertar um inimigo. Garras de Ferro"
         },
         {
           "slot": "e",
           "name": "Skewering Leap",
           "description": "Leap to target location, dealing 100% physical damage, inflicting Puncture and a 1.2s incapacitate.\nYou bounce off enemies toward your aim direction. Missing an enemy will cause you to stick to the ground for a short duration. (0.45s)",
           "unlockWeapon": "Iron Claws",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/a/a4/Ability_SkeweringLeap.png/revision/latest?cb=20250428215554"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/a/a4/Ability_SkeweringLeap.png/revision/latest?cb=20250428215554",
+          "descriptionPt": "### Salto Transpassador (Skewering Leap) Salte para o local alvo, causando 100% de dano físico, aplicando Perfuração e incapacitação por 1,2s. Você quica nos inimigos em direção à sua mira. Errar o inimigo faz você prender-se ao chão por um curto período (0,45s). Garras de Ferro"
         }
       ],
       "variants": [
@@ -202,7 +209,8 @@
           "image": "https://static.wikia.nocookie.net/vrising/images/2/29/Weapon_TalonsoftheLichBeast.png/revision/latest?cb=20250428200144",
           "isLegendary": false
         }
-      ]
+      ],
+      "passivePt": "Uma arma feroz que causa dano físico."
     },
     {
       "typeEn": "Crossbow",
@@ -216,21 +224,24 @@
           "description": "Fire a projectile that deals 100% physical damage on hit. Consumes Marked dealing 25% bonus damage and increasing your attack speed by 7% for 10s, this effect stacks up to 3 times.",
           "comboDps": "64.52%",
           "unlockWeapon": "Bone Crossbow",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/e/e5/Ability_Crossbow_Primary.png/revision/latest?cb=20240508192715"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/e/e5/Ability_Crossbow_Primary.png/revision/latest?cb=20240508192715",
+          "descriptionPt": "Uma arma de longo alcance Armas"
         },
         {
           "slot": "e",
           "name": "Rain of Bolts",
           "description": "Fire a salvo of 5 bolts into the air that rains down on your enemies dealing 40% physical damage each in an area, inflicts Marked and inflicts a 1.5s fading snare.",
           "unlockWeapon": "Copper Crossbow",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/e/e1/Ability_Rain_Of_Bolts.png/revision/latest?cb=20230524175513"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/e/e1/Ability_Rain_Of_Bolts.png/revision/latest?cb=20230524175513",
+          "descriptionPt": "Dispare um projétil que causa 100% de dano físico ao acertar. Consome Marca, causando 25% de dano bônus e aumentando sua velocidade de ataque em 7% por 10 segundos. Esse efeito pode ser acumulado até 3 vezes. 64,52% · **"
         },
         {
           "slot": "e",
           "name": "Snapshot",
           "description": "Fire a quick bolt that deals 75% physical damage, interrupts attacks, inflicts Marked and inflicts a 1.5s fading snare. The bolt splits into two upon hit.",
           "unlockWeapon": "Iron Crossbow",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/1/1d/Ability_Snapshot.png/revision/latest?cb=20240508194157"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/1/1d/Ability_Snapshot.png/revision/latest?cb=20240508194157",
+          "descriptionPt": "Dispare uma saraivada de 5 viros para o céu que chovem sobre seus inimigos, causando 40% de dano físico cada em uma área, aplica Marca e causa uma redução de movimentação que desaparece em 1,5s. Besta de Cobre"
         }
       ],
       "variants": [
@@ -314,7 +325,8 @@
           "image": "https://static.wikia.nocookie.net/vrising/images/3/39/Weapon_TheSirensWail.png/revision/latest?cb=20250504013334",
           "isLegendary": true
         }
-      ]
+      ],
+      "passivePt": "Uma arma de longo alcance Armas"
     },
     {
       "typeEn": "Daggers",
@@ -328,21 +340,24 @@
           "description": "Throw up to 4 daggers, each dealing 40% physical damage. Hitting an enemy or a solid object causes the dagger to stick to the ground.\nGain one dagger stack every 1.1s.",
           "comboDps": "69.57%",
           "unlockWeapon": "Iron Daggers",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/d/de/Ability_ThrowDagger.png/revision/latest?cb=20250428215311"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/d/de/Ability_ThrowDagger.png/revision/latest?cb=20250428215311",
+          "descriptionPt": "Arremesse até 4 adagas, cada uma causando 40% de dano físico. Acertar um inimigo ou objeto sólido faz a adaga cravar no chão. Ganha uma carga de adaga a cada 1,1s. 69,57% · **"
         },
         {
           "slot": "e",
           "name": "Rain of Daggers",
           "description": "Leap into the air and throw 4 daggers in front of you, each dagger dealing 40% physical damage and inflicting a 2s fading snare. Daggers remain on the ground for 8s.",
           "unlockWeapon": "Iron Daggers",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/b/bc/Ability_RainofDaggers.png/revision/latest?cb=20250428215319"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/b/bc/Ability_RainofDaggers.png/revision/latest?cb=20250428215319",
+          "descriptionPt": "Salte pelo ar e arremesse 4 adagas à sua frente, cada uma causando 40% de dano físico e aplicando redução de movimentação que desaparece em 2s. As adagas permanecem cravadas no chão por 8s. Adagas de Ferro"
         },
         {
           "slot": "e",
           "name": "Release Daggers",
           "description": "Inflict a 1.5s fading snare and release all nearby daggers that are stuck in the ground. Released daggers return to you, piercing enemies and dealing 40% physical damage. Each dagger that returns grant one dagger stack and reduces the cooldown of Rain of Daggers by 0.2s.",
           "unlockWeapon": "Iron Daggers",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/b/b1/Ability_ReleaseDaggers.png/revision/latest?cb=20250428215326"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/b/b1/Ability_ReleaseDaggers.png/revision/latest?cb=20250428215326",
+          "descriptionPt": "Inflige uma redução de movimentação que desaparece em 1,5s e libera todas as adagas próximas cravadas no chão. As adagas liberadas retornam até você, perfurando inimigos e causando 40% de dano físico. Cada adaga que retorna concede uma carga de adaga e reduz o tempo de recarga da Chuva de Adagas em 0,2s."
         }
       ],
       "variants": [
@@ -396,7 +411,8 @@
           "image": "https://static.wikia.nocookie.net/vrising/images/7/77/Weapon_TheWraithblades.png/revision/latest?cb=20250428195311",
           "isLegendary": true
         }
-      ]
+      ],
+      "passivePt": "Uma arma de arremesso que causa dano físico."
     },
     {
       "typeEn": "Greatsword",
@@ -410,21 +426,24 @@
           "description": "Perform a Combo of melee attacks dealing 70% / 70% / 80% physical damage.",
           "comboDps": "73.33%",
           "unlockWeapon": "Iron Greatsword",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/8/8f/Ability_Greatsword_Primary.png/revision/latest?cb=20240508192725"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/8/8f/Ability_Greatsword_Primary.png/revision/latest?cb=20240508192725",
+          "descriptionPt": "Dano físico de 70% / 70% / 80%."
         },
         {
           "slot": "e",
           "name": "Great Cleaver",
           "description": "Charge forward and swing your greatsword upward dealing 125% physical damage in an area and launching enemies into the air for 0.65s.",
           "unlockWeapon": "Iron Greatsword",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/f/ff/Ability_Great_Cleaver.png/revision/latest?cb=20230524180209"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/f/ff/Ability_Great_Cleaver.png/revision/latest?cb=20230524180209",
+          "descriptionPt": "125% de dano, lança inimigos (0,65s)."
         },
         {
           "slot": "e",
           "name": "Death from Above",
           "description": "Leap into the air and descend upon your enemy dealing 125% physical damage in an area.\nNote: Turns immaterial during leap",
           "unlockWeapon": "Iron Greatsword",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/f/f3/Ability_DeathfromAbove.png/revision/latest?cb=20230524180211"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/f/f3/Ability_DeathfromAbove.png/revision/latest?cb=20230524180211",
+          "descriptionPt": "Salto + 125% de dano físico."
         }
       ],
       "variants": [
@@ -478,7 +497,8 @@
           "image": "https://static.wikia.nocookie.net/vrising/images/8/8c/Weapon_Apocalypse.png/revision/latest?cb=20250504013114",
           "isLegendary": true
         }
-      ]
+      ],
+      "passivePt": "Dano massivo e golpes devastadores para quem resolve na força bruta."
     },
     {
       "typeEn": "Longbow",
@@ -492,21 +512,24 @@
           "description": "Hold to charge a projectile that deals 60% - 120% physical damage on hit and grants Focus. Focus stacks up to 3 times and increases the effectiveness of your other Longbow skills.\n\nFully charged shots pierces up to 2 enemies, subsequent hits deal 50% damage of the previous hit.",
           "comboDps": "48%",
           "unlockWeapon": "Copper Longbow",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/7/72/Ability_Longbow_Primary.png/revision/latest?cb=20240508192730"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/7/72/Ability_Longbow_Primary.png/revision/latest?cb=20240508192730",
+          "descriptionPt": "60%–120% (carregado). Foco (até 3×). Tiro cheio perfura 2 inimigos."
         },
         {
           "slot": "q",
           "name": "Multishot",
           "description": "Fire 5 piercing arrows in a cone dealing 100% physical damage and knocking enemies back. Consumes Focus launching one additional arrow per stack, each dealing 20% bonus damage.",
           "unlockWeapon": "Copper Longbow",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/6/62/Ability_Longbow_Multishot.png/revision/latest?cb=20240508192729"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/6/62/Ability_Longbow_Multishot.png/revision/latest?cb=20240508192729",
+          "descriptionPt": "5 flechas (100% cada), empurra. Foco gera flechas extras."
         },
         {
           "slot": "e",
           "name": "Guided Arrow",
           "description": "Fire an arrow dealing 120% physical damage and inflicting a 2s fading snare. The arrow turns to hit the same target again after impact dealing 50% damage. Consumes Focus increasing the number of times the arrow turns by one per stack.",
           "unlockWeapon": "Attribute",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/e/e3/Ability_Longbow_GuidedArrow.png/revision/latest?cb=20240508192728"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/e/e3/Ability_Longbow_GuidedArrow.png/revision/latest?cb=20240508192728",
+          "descriptionPt": "120% de dano, lentidão 2s. Vira no mesmo alvo (50%). Foco = mais viradas."
         }
       ],
       "variants": [
@@ -580,7 +603,8 @@
           "image": "https://static.wikia.nocookie.net/vrising/images/c/c2/Weapon_Oaksong.png/revision/latest?cb=20250504013402",
           "isLegendary": true
         }
-      ]
+      ],
+      "passivePt": "Carregue tiros para perfurar múltiplos inimigos e guie suas flechas."
     },
     {
       "typeEn": "Mace",
@@ -594,21 +618,24 @@
           "description": "Perform a Combo of melee attacks dealing 50%&nbsp;/ 50% / 60% physical damage.",
           "comboDps": "68.06%",
           "unlockWeapon": "Bone Mace",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/3/36/Ability_Mace_Primary.png/revision/latest?cb=20240508192734"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/3/36/Ability_Mace_Primary.png/revision/latest?cb=20240508192734",
+          "descriptionPt": "Dano físico de 50% / 50% / 60%."
         },
         {
           "slot": "q",
           "name": "Crushing Blow",
           "description": "Vault towards the cursor and slam your mace into the ground dealing 150% physical damage and inflicting a 2s fading snare.",
           "unlockWeapon": "Copper Mace",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/f/f1/Ability_Crushing_Blow.webp/revision/latest?cb=20220609155126"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/f/f1/Ability_Crushing_Blow.webp/revision/latest?cb=20220609155126",
+          "descriptionPt": "Salto + 150% de dano; lentidão decrescente por 2s."
         },
         {
           "slot": "e",
           "name": "Smack",
           "description": "Smack enemies in front of you dealing 70% physical damage, knocking them back and incapacitating them for 1s.",
           "unlockWeapon": "Iron Mace",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/2/2d/Ability_Smack.png/revision/latest?cb=20240508194155"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/2/2d/Ability_Smack.png/revision/latest?cb=20240508194155",
+          "descriptionPt": "70% de dano, empurra e incapacita por 1s."
         }
       ],
       "variants": [
@@ -702,7 +729,8 @@
           "image": "https://static.wikia.nocookie.net/vrising/images/c/cb/Weapon_HandofWinter.png/revision/latest?cb=20250504012933",
           "isLegendary": false
         }
-      ]
+      ],
+      "passivePt": "Esmague minerais e ossos com força bruta. Lentidão garantida."
     },
     {
       "typeEn": "Pistols",
@@ -716,21 +744,24 @@
           "description": "Fire a salvo of projectiles dealing 65% / 50% / 50% physical damage.",
           "comboDps": "76.7%",
           "unlockWeapon": "Iron Pistols",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/3/3a/Ability_Pistols_Primary.png/revision/latest?cb=20240508192739"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/3/3a/Ability_Pistols_Primary.png/revision/latest?cb=20240508192739",
+          "descriptionPt": "65% / 50% / 50% de dano físico."
         },
         {
           "slot": "e",
           "name": "Fan The Hammer",
           "description": "Fire 10 bullets in a cone over 1.3s, each bullet deals 25% physical damage and knocks the target back. You can move while channeling at 35% movement speed.",
           "unlockWeapon": "Iron Pistols",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/8/89/Ability_Fan_The_Hammer.png/revision/latest?cb=20230524180045"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/8/89/Ability_Fan_The_Hammer.png/revision/latest?cb=20230524180045",
+          "descriptionPt": "10 tiros (25% cada), empurra. Pode se mover ao canalizar."
         },
         {
           "slot": "e",
           "name": "Explosive Bullet",
           "description": "Perform a dodge roll followed by firing an explosive bullet dealing 25% physical damage. The bullet explodes after 3s dealing 115% physical damage in an area and knocking nearby enemies back.",
           "unlockWeapon": "Iron Pistols",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/3/38/Ability_Explosive_Bullet.png/revision/latest?cb=20230524180044"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/3/38/Ability_Explosive_Bullet.png/revision/latest?cb=20230524180044",
+          "descriptionPt": "Rolagem evasiva + tiro (25%). Explode após 3s: 115% em área."
         }
       ],
       "variants": [
@@ -784,7 +815,8 @@
           "image": "https://static.wikia.nocookie.net/vrising/images/d/d4/Weapon_TheEndbringers.png/revision/latest?cb=20250504013441",
           "isLegendary": true
         }
-      ]
+      ],
+      "passivePt": "Mobilidade e explosões — role, atire e veja tudo voar."
     },
     {
       "typeEn": "Reaper",
@@ -798,21 +830,24 @@
           "description": "Perform a Combo of melee attacks dealing 50%&nbsp;/ 50% / 55% physical damage.",
           "comboDps": "73.81%",
           "unlockWeapon": "Iron Reaper",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/7/79/Ability_Reaper_Primary.png/revision/latest?cb=20240508192745"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/7/79/Ability_Reaper_Primary.png/revision/latest?cb=20240508192745",
+          "descriptionPt": "Uma arma de duas mãos Weapons"
         },
         {
           "slot": "e",
           "name": "Tendon Swing",
           "description": "Swing your reaper dealing 130% physical damage to nearby enemies, knocking them back and inflicting a 2s fading snare.",
           "unlockWeapon": "Iron Reaper",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/7/7d/Ability_Tendon_Swing.webp/revision/latest?cb=20220609155014"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/7/7d/Ability_Tendon_Swing.webp/revision/latest?cb=20220609155014",
+          "descriptionPt": "Execute uma sequência de ataques corpo a corpo causando 50% / 50% / 55% de dano físico. 73,81% · **"
         },
         {
           "slot": "q",
           "name": "Howling Reaper",
           "description": "Throw a howling reaper that spins in place dealing 180% physical damage over 2.2 s. The initial hit deals 50% physical damage and slows enemies for 1.5 s.\nNote: 9 hits total",
           "unlockWeapon": "Iron Reaper",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/2/2b/Ability_Howling_Reaper.webp/revision/latest?cb=20220609155122"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/2/2b/Ability_Howling_Reaper.webp/revision/latest?cb=20220609155122",
+          "descriptionPt": "Deslize sua ceifadora causando 130% de dano físico em inimigos próximos, empurrando-os para trás e aplicando uma armadilha desvanecente (snare) por 2 segundos. Iron Reaper"
         }
       ],
       "variants": [
@@ -824,7 +859,8 @@
           "physicalPower": 13.8,
           "bonus": "+25% Physical Damage to Undead",
           "image": "https://static.wikia.nocookie.net/vrising/images/3/37/Weapon_IronReaper.png/revision/latest?cb=20220528171338",
-          "isLegendary": false
+          "isLegendary": false,
+          "bonusPt": "+25% de Dano Físico contra Mortos-Vivos"
         },
         {
           "entityId": "merciless-iron-reaper",
@@ -834,7 +870,8 @@
           "physicalPower": 17.3,
           "bonus": "+25% Physical Damage to Undead",
           "image": "https://static.wikia.nocookie.net/vrising/images/6/62/Weapon_MercilessIronReaper.png/revision/latest?cb=20220528171515",
-          "isLegendary": false
+          "isLegendary": false,
+          "bonusPt": "+25% de Dano Físico contra Mortos-Vivos"
         },
         {
           "entityId": "dark-silver-reaper",
@@ -844,7 +881,8 @@
           "physicalPower": 24.3,
           "bonus": "+25% Physical Damage to Undead",
           "image": "https://static.wikia.nocookie.net/vrising/images/e/e0/Weapon_DarkSilverReaper.png/revision/latest?cb=20220528171226",
-          "isLegendary": false
+          "isLegendary": false,
+          "bonusPt": "+25% de Dano Físico contra Mortos-Vivos"
         },
         {
           "entityId": "sanguine-reaper",
@@ -854,7 +892,8 @@
           "physicalPower": 29.3,
           "bonus": "+25% Physical Damage to Undead",
           "image": "https://static.wikia.nocookie.net/vrising/images/e/ed/Weapon_SanguineReaper.png/revision/latest?cb=20220528171804",
-          "isLegendary": false
+          "isLegendary": false,
+          "bonusPt": "+25% de Dano Físico contra Mortos-Vivos"
         },
         {
           "entityId": "mortira-s-lament",
@@ -864,7 +903,8 @@
           "physicalPower": 33.7,
           "bonus": "+25% Physical Damage to Undead",
           "image": "https://static.wikia.nocookie.net/vrising/images/d/d2/Weapon_MortirasLament.png/revision/latest?cb=20250504013044",
-          "isLegendary": false
+          "isLegendary": false,
+          "bonusPt": "+25% de Dano Físico contra Mortos-Vivos"
         },
         {
           "entityId": "the-general-s-soul-reaper",
@@ -874,9 +914,11 @@
           "physicalPower": 18.5,
           "bonus": "+25% Damage to Undead\n+6 Spell Power\n+5 Spell Critical Chance",
           "image": "https://static.wikia.nocookie.net/vrising/images/1/14/Weapon_TheGeneral%27sSoulReaper.png/revision/latest?cb=20220528171804",
-          "isLegendary": true
+          "isLegendary": true,
+          "bonusPt": "+25% de Dano contra Mortos-Vivos, +6 Poder Mágico, +5% Chance de Acerto Crítico Mágico"
         }
-      ]
+      ],
+      "passivePt": "Uma arma de duas mãos Weapons"
     },
     {
       "typeEn": "Slashers",
@@ -890,21 +932,24 @@
           "description": "Perform a combo of melee attacks dealing 28%&nbsp;/ 28% / 35% physical damage.",
           "comboDps": "54.55%",
           "unlockWeapon": "Iron Slashers",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/3/33/Ability_Slashers_Primary.png/revision/latest?cb=20240508192750"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/3/33/Ability_Slashers_Primary.png/revision/latest?cb=20240508192750",
+          "descriptionPt": "Dano físico de 28% / 28% / 35%."
         },
         {
           "slot": "e",
           "name": "Elusive Strike",
           "description": "Dash back and forth slashing at your enemies dealing 70% physical damage and inflicting a 1.5s fading snare on each hit.",
           "unlockWeapon": "Iron Slashers",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/5/50/Ability_Elusive_Strike.webp/revision/latest?cb=20220609155125"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/5/50/Ability_Elusive_Strike.webp/revision/latest?cb=20220609155125",
+          "descriptionPt": "Avanço ida e volta, 70% de dano e lentidão 1,5s."
         },
         {
           "slot": "e",
           "name": "Camouflage",
           "description": "Enter a state of invisibility, increasing movement speed by 25% for 2.5s. Your next primary attack deals 80% physical damage and incapacitates the enemy for 2s. Using any skill breaks camouflage.",
           "unlockWeapon": "Iron Slashers",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/3/31/Ability_Camouflage.webp/revision/latest?cb=20220609155128"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/3/31/Ability_Camouflage.webp/revision/latest?cb=20220609155128",
+          "descriptionPt": "Furtivo 2,5s (+25% movimento). Próximo primário: 80% de dano e incapacita 2s."
         }
       ],
       "variants": [
@@ -968,7 +1013,8 @@
           "image": "https://static.wikia.nocookie.net/vrising/images/a/a8/Weapon_WingsoftheFallen.png/revision/latest?cb=20250504013238",
           "isLegendary": false
         }
-      ]
+      ],
+      "passivePt": "Para vampiros furtivos — entre nas sombras e ataque quando menos esperarem."
     },
     {
       "typeEn": "Spear",
@@ -982,21 +1028,24 @@
           "description": "Perform a Combo of melee attacks dealing 40%&nbsp;/ 40% / 50% physical damage.",
           "comboDps": "75.58%",
           "unlockWeapon": "Bone Spear",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/3/37/Ability_Spear_Primary.png/revision/latest?cb=20240508192754"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/3/37/Ability_Spear_Primary.png/revision/latest?cb=20240508192754",
+          "descriptionPt": "Dano físico de 40% / 40% / 50%."
         },
         {
           "slot": "q",
           "name": "A Thousand Spears",
           "description": "Perform a multi-stab attack, dealing 140% physical damage and interrupting enemy actions over 1.15s.\n(8 stabs total)\n\nRecast during the effect to perform a thrust attack dealing 50% physical damage and knocking enemies back.",
           "unlockWeapon": "Copper Spear",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/5/54/Ability_A_Thousand_Spears.webp/revision/latest?cb=20220627134030"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/5/54/Ability_A_Thousand_Spears.webp/revision/latest?cb=20220627134030",
+          "descriptionPt": "8 estocadas (140% total), interrompe. Recaste: investida 50% e empurra."
         },
         {
           "slot": "e",
           "name": "Harpoon",
           "description": "Throw a spear that deals 110% physical damage, pulls the enemy towards you and inflict a 1.5s fading snare.",
           "unlockWeapon": "Iron Spear",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/f/f5/Ability_Harpoon.png/revision/latest?cb=20240508194141"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/f/f5/Ability_Harpoon.png/revision/latest?cb=20240508194141",
+          "descriptionPt": "110% de dano, puxa o alvo; lentidão decrescente 1,5s."
         }
       ],
       "variants": [
@@ -1090,7 +1139,8 @@
           "image": "https://static.wikia.nocookie.net/vrising/images/6/60/Weapon_TheThousandStorms.png/revision/latest?cb=20250504013010",
           "isLegendary": true
         }
-      ]
+      ],
+      "passivePt": "Mantenha inimigos à distância e perfure com precisão letal."
     },
     {
       "typeEn": "Sword",
@@ -1104,21 +1154,24 @@
           "description": "Perform a combo of melee attacks dealing 35%&nbsp;/ 35% / 40% physical damage.",
           "comboDps": "64.71%",
           "unlockWeapon": "Bone Sword",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/2/25/Ability_Sword_Primary.png/revision/latest?cb=20240508192755"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/2/25/Ability_Sword_Primary.png/revision/latest?cb=20240508192755",
+          "descriptionPt": "Uma arma versátil Weapons"
         },
         {
           "slot": "q",
           "name": "Whirlwind",
           "description": "Spin around and slice nearby enemies dealing 175% physical damage over 1.1s.\nNotes: movement speed is increased during the spin.",
           "unlockWeapon": "Copper Sword",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/f/f0/Ability_Whirlwind.png/revision/latest?cb=20240508194205"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/f/f0/Ability_Whirlwind.png/revision/latest?cb=20240508194205",
+          "descriptionPt": "Primary Execute uma sequência de ataques corpo a corpo que causam 35% / 35% / 40% de dano físico."
         },
         {
           "slot": "e",
           "name": "Shockwave",
           "description": "Send forth a shockwave dealing 100% physical damage and launching the enemy hit into the air for 1.6s.\nRecast the ability to teleport to the target striking it three times, each strike dealing 20% physical damage.",
           "unlockWeapon": "Iron Sword",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/0/03/Ability_Shockwave.png/revision/latest?cb=20240508194151"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/0/03/Ability_Shockwave.png/revision/latest?cb=20240508194151",
+          "descriptionPt": "Whirlwind (Redemoinho) Gire em torno de si cortando inimigos próximos, causando 175% de dano físico ao longo de 1,1s. Nota: a velocidade de movimento aumenta durante a rotação."
         }
       ],
       "variants": [
@@ -1130,7 +1183,8 @@
           "physicalPower": 5.2,
           "bonus": "+25% Physical Damage to Vegetation",
           "image": "/assets/game/Stunlock_Icon_BoneSword01.webp",
-          "isLegendary": false
+          "isLegendary": false,
+          "bonusPt": "+25% de Dano Físico em Vegetação"
         },
         {
           "entityId": "reinforced-bone-sword",
@@ -1140,7 +1194,8 @@
           "physicalPower": 6.8,
           "bonus": "+25% Physical Damage to Vegetation",
           "image": "https://static.wikia.nocookie.net/vrising/images/5/51/Weapon_ReinforcedBoneSword.png/revision/latest?cb=20240521234445",
-          "isLegendary": false
+          "isLegendary": false,
+          "bonusPt": "+25% de Dano Físico em Vegetação"
         },
         {
           "entityId": "copper-sword",
@@ -1150,7 +1205,8 @@
           "physicalPower": 8.9,
           "bonus": "+25% Physical Damage to Vegetation",
           "image": "https://static.wikia.nocookie.net/vrising/images/f/fa/Weapon_CopperSword.png/revision/latest?cb=20220528171226",
-          "isLegendary": false
+          "isLegendary": false,
+          "bonusPt": "+25% de Dano Físico em Vegetação"
         },
         {
           "entityId": "merciless-copper-sword",
@@ -1160,7 +1216,8 @@
           "physicalPower": 10.9,
           "bonus": "+25% Physical Damage to Vegetation",
           "image": "https://static.wikia.nocookie.net/vrising/images/3/3c/Weapon_MercilessCopperSword.png/revision/latest?cb=20220528171515",
-          "isLegendary": false
+          "isLegendary": false,
+          "bonusPt": "+25% de Dano Físico em Vegetação"
         },
         {
           "entityId": "iron-sword",
@@ -1170,7 +1227,8 @@
           "physicalPower": 13.8,
           "bonus": "+25% Physical Damage to Vegetation",
           "image": "/assets/game/Stunlock_Icon_IronSword01.webp",
-          "isLegendary": false
+          "isLegendary": false,
+          "bonusPt": "+25% de Dano Físico em Vegetação"
         },
         {
           "entityId": "merciless-iron-sword",
@@ -1180,7 +1238,8 @@
           "physicalPower": 17.3,
           "bonus": "+25% Physical Damage to Vegetation",
           "image": "https://static.wikia.nocookie.net/vrising/images/0/04/Weapon_MercilessIronSword.png/revision/latest?cb=20220528171635",
-          "isLegendary": false
+          "isLegendary": false,
+          "bonusPt": "+25% de Dano Físico em Vegetação"
         },
         {
           "entityId": "dark-silver-sword",
@@ -1190,7 +1249,8 @@
           "physicalPower": 24.3,
           "bonus": "+25% Physical Damage to Vegetation",
           "image": "https://static.wikia.nocookie.net/vrising/images/b/b8/Weapon_DarkSilverSword.png/revision/latest?cb=20220528171226",
-          "isLegendary": false
+          "isLegendary": false,
+          "bonusPt": "+25% de Dano Físico em Vegetação"
         },
         {
           "entityId": "sanguine-sword",
@@ -1200,7 +1260,8 @@
           "physicalPower": 29.3,
           "bonus": "+25% Physical Damage to Vegetation",
           "image": "https://static.wikia.nocookie.net/vrising/images/e/ec/Weapon_SanguineSword.png/revision/latest?cb=20220528171804",
-          "isLegendary": false
+          "isLegendary": false,
+          "bonusPt": "+25% de Dano Físico em Vegetação"
         },
         {
           "entityId": "the-gravecaller",
@@ -1210,9 +1271,11 @@
           "physicalPower": 33.7,
           "bonus": "+25% Physical Damage to Vegetation",
           "image": "https://static.wikia.nocookie.net/vrising/images/f/f9/Weapon_TheGravecaller.png/revision/latest?cb=20250504012746",
-          "isLegendary": true
+          "isLegendary": true,
+          "bonusPt": "+25% de Dano Físico em Vegetação"
         }
-      ]
+      ],
+      "passivePt": "Uma arma versátil Weapons"
     },
     {
       "typeEn": "Whip",
@@ -1225,21 +1288,24 @@
           "name": "Primary",
           "description": "Perform a combo of melee attacks dealing 35% / 35% / 40% physical damage to enemeis in a line. Deals 65% / 65% / 70% physical damage in a small radius at the tip of the whip.",
           "unlockWeapon": "Iron Whip",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/1/19/Ability_Whip_Primary.png/revision/latest?cb=20240508192802"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/1/19/Ability_Whip_Primary.png/revision/latest?cb=20240508192802",
+          "descriptionPt": "Uma arma com ataque perfurante que causa dano físico adicional em área a médio alcance."
         },
         {
           "slot": "e",
           "name": "Aerial Whip Twirl",
           "description": "Leap towards the cursor and swing your whip around you dealing 100% physical damage, knocking enemies back and inflicting a 1.5 s fading snare.",
           "unlockWeapon": "Iron Whip",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/5/59/Ability_AerialWhipTwirl.png/revision/latest?cb=20240508194127"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/5/59/Ability_AerialWhipTwirl.png/revision/latest?cb=20240508194127",
+          "descriptionPt": "Primary Execute uma sequência de ataques corpo a corpo que causam 35% / 35% / 40% de dano físico a inimigos em linha. Causa 65% / 65% / 70% de dano físico em um pequeno raio na ponta do chicote."
         },
         {
           "slot": "e",
           "name": "Entangling Whip",
           "description": "Strike in a line dealing 100% physical damage and inflicting a 2s entangle.",
           "unlockWeapon": "Iron Whip",
-          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/f/fa/Ability_EntanglingWhip.png/revision/latest?cb=20240508194134"
+          "iconUrl": "https://static.wikia.nocookie.net/vrising/images/f/fa/Ability_EntanglingWhip.png/revision/latest?cb=20240508194134",
+          "descriptionPt": "Aerial Whip Twirl (Redemoinho Aéreo do Chicote) Salte em direção ao cursor e gire seu chicote ao redor, causando 100% de dano físico, empurrando os inimigos para trás e aplicando um efeito de desaceleração (snare) que diminui gradualmente por 1,5 s."
         }
       ],
       "variants": [
@@ -1293,7 +1359,8 @@
           "image": "https://static.wikia.nocookie.net/vrising/images/1/19/Weapon_LegendaryAncestralWhip.png/revision/latest?cb=20240511164952",
           "isLegendary": true
         }
-      ]
+      ],
+      "passivePt": "Uma arma com ataque perfurante que causa dano físico adicional em área a médio alcance."
     }
   ]
 }
