@@ -9,6 +9,8 @@ import {
   type MapMarker,
 } from '@/lib/vardoran-map';
 import { entityDetailPath } from '@/lib/entity-paths';
+import { useTranslation } from '@/contexts/LocaleContext';
+import { entityDisplayName, regionLabel } from '@/lib/entity-locale';
 
 interface VardoranMapProps {
   highlightBossId?: string;
@@ -16,6 +18,7 @@ interface VardoranMapProps {
 }
 
 export default function VardoranMap({ highlightBossId, className = '' }: VardoranMapProps) {
+  const { t, locale } = useTranslation();
   const markers = useMemo(() => getMapMarkers(), []);
   const [selected, setSelected] = useState<MapMarker | null>(null);
   const [scale, setScale] = useState(1);
@@ -32,14 +35,14 @@ export default function VardoranMap({ highlightBossId, className = '' }: Vardora
       <div className="flex flex-wrap items-center justify-between gap-3">
         <p className="text-sm text-[#888] flex items-center gap-2">
           <MapPin size={14} className="text-[#c41e3a]" />
-          {markers.length} V Bloods · clique no pin para detalhes
+          {t('map.pins', { count: markers.length })}
         </p>
         <div className="flex gap-1">
           <button
             type="button"
             onClick={() => zoom(-0.2)}
             className="p-2 rounded border border-[#333] text-[#aaa] hover:text-white hover:border-[#c41e3a]/50"
-            aria-label="Diminuir zoom"
+            aria-label={t('map.zoomOut')}
           >
             <ZoomOut size={16} />
           </button>
@@ -47,7 +50,7 @@ export default function VardoranMap({ highlightBossId, className = '' }: Vardora
             type="button"
             onClick={() => zoom(0.2)}
             className="p-2 rounded border border-[#333] text-[#aaa] hover:text-white hover:border-[#c41e3a]/50"
-            aria-label="Aumentar zoom"
+            aria-label={t('map.zoomIn')}
           >
             <ZoomIn size={16} />
           </button>
@@ -64,7 +67,7 @@ export default function VardoranMap({ highlightBossId, className = '' }: Vardora
         >
           <img
             src={MAP_IMAGE_SRC}
-            alt="Mapa de Vardoran"
+            alt={t('map.title')}
             className="w-full h-auto block select-none"
             draggable={false}
           />
@@ -102,16 +105,22 @@ export default function VardoranMap({ highlightBossId, className = '' }: Vardora
           <div className="flex-1 min-w-0">
             <p className="text-[10px] uppercase tracking-widest text-[#c41e3a] mb-1 flex items-center gap-1">
               <Crown size={12} />
-              V Blood
+              {t('map.vblood')}
               {selected.level != null && (
-                <span className="text-[#666] ml-2">Nível {selected.level}</span>
+                <span className="text-[#666] ml-2">
+                  {t('map.level', { level: selected.level })}
+                </span>
               )}
             </p>
             <h3 className="font-gothic text-xl text-white font-bold truncate">
-              {selectedBoss?.name ?? selected.title}
+              {selectedBoss
+                ? entityDisplayName(selectedBoss, locale)
+                : selected.title}
             </h3>
             {selectedBoss?.region && (
-              <p className="text-sm text-[#888] mt-1">{selectedBoss.region}</p>
+              <p className="text-sm text-[#888] mt-1">
+                {regionLabel(selectedBoss.region, locale)}
+              </p>
             )}
             <div className="flex flex-wrap gap-3 mt-3">
               {selectedBoss && (
@@ -119,7 +128,7 @@ export default function VardoranMap({ highlightBossId, className = '' }: Vardora
                   href={entityDetailPath('boss', selectedBoss.slug)}
                   className="text-sm px-4 py-2 rounded bg-[#c41e3a] hover:bg-[#a01729] text-white"
                 >
-                  Ver chefe
+                  {t('map.viewBoss')}
                 </Link>
               )}
               <button
@@ -127,7 +136,7 @@ export default function VardoranMap({ highlightBossId, className = '' }: Vardora
                 onClick={() => setSelected(null)}
                 className="text-sm px-3 py-2 text-[#888] hover:text-white"
               >
-                Fechar
+                {t('map.close')}
               </button>
             </div>
           </div>

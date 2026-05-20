@@ -32,7 +32,8 @@ export function sanitizeWikiText(raw: string): string {
   let t = raw
     .replace(/<br\s*\/?>/gi, '\n')
     .replace(/<[^>]+>/g, '')
-    .replace(/''+/g, '');
+    .replace(/''+/g, '')
+    .replace(/\d+px\s*/gi, '');
 
   t = stripWikiTables(t);
   t = stripWikiTemplates(t);

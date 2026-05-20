@@ -1,10 +1,17 @@
 import { Link } from 'wouter';
 import { Gem, Package, Sparkles, Wand2, Zap } from 'lucide-react';
 import type { BossUnlockEntry, WikiEntity } from '@/data/entity-types';
-import { translateSchool } from '@/data/entity-translations';
+import { useTranslation } from '@/contexts/LocaleContext';
+import FandomNotice from '@/components/FandomNotice';
+import {
+  schoolLabel,
+  shouldShowFandomNotice,
+  spellPointLabel,
+  unlockEntryName,
+} from '@/lib/entity-locale';
 import { entityDetailPath } from '@/lib/entity-paths';
 import { getSchoolTheme } from '@/lib/school-theme';
-import { tierCategoryLabelPt } from '@/lib/spell-school-progression';
+import { tierCategoryLabel } from '@/lib/entity-locale';
 import { getSoulShardBossTheme } from '@/lib/soul-shard-bosses';
 import AssetImage from '@/components/AssetImage';
 import WikiProse from '@/components/WikiProse';
@@ -15,9 +22,11 @@ import MainRewardList from '@/components/detail/MainRewardList';
 function UnlockCard({
   entry,
   school,
+  locale,
 }: {
   entry: BossUnlockEntry;
   school?: string;
+  locale: 'pt' | 'en';
 }) {
   const theme = school ? getSchoolTheme(school) : null;
   const href =
@@ -39,10 +48,12 @@ function UnlockCard({
         )}
       </div>
       <div className="min-w-0">
-        <p className="text-sm text-white font-medium leading-snug">{entry.name}</p>
+        <p className="text-sm text-white font-medium leading-snug">
+          {unlockEntryName(entry, locale)}
+        </p>
         {entry.school && (
           <p className="text-[10px] uppercase tracking-wider mt-0.5" style={{ color: theme?.accent }}>
-            {translateSchool(entry.school)}
+            {schoolLabel(entry.school, locale)}
           </p>
         )}
       </div>
@@ -83,6 +94,7 @@ function filterMainRewards(
 }
 
 export default function BossRewardsPanel({ entity }: { entity: WikiEntity }) {
+  const { t, locale } = useTranslation();
   const rewards = entity.meta?.rewards;
   const soulShard = getSoulShardBossTheme(entity.id);
   const worldLore = findBossWorldLore(entity);
@@ -95,7 +107,7 @@ export default function BossRewardsPanel({ entity }: { entity: WikiEntity }) {
 
   if (!rewards && !entity.meta?.loot && !soulShard && !worldLore) {
     return (
-      <p className="text-[#666] text-sm">Recompensas ainda não catalogadas para este chefe.</p>
+      <p className="text-[#666] text-sm">{t('rewards.empty')}</p>
     );
   }
 
@@ -110,9 +122,7 @@ export default function BossRewardsPanel({ entity }: { entity: WikiEntity }) {
     <div className="space-y-8">
       {rewards?.source === 'v1.1' && (
         <p className="text-xs text-[#666] border-l-2 border-[#c41e3a]/50 pl-3">
-          Na <strong className="text-[#999]">v1.1</strong>, chefes concedem{' '}
-          <strong className="text-[#aaa]">pontos de feitiço</strong> (você escolhe 1 habilidade
-          entre as opções do tier). Veils (Dash) são o único feitiço desbloqueado diretamente.
+          {t('rewards.v11Notice')}
         </p>
       )}
 
@@ -126,28 +136,31 @@ export default function BossRewardsPanel({ entity }: { entity: WikiEntity }) {
         >
           <h2 className="font-gothic text-lg text-white mb-1 flex items-center gap-2">
             <Zap size={18} style={{ color: schoolTheme.accent }} />
-            Ponto de feitiço
+            {t('rewards.spellPoint')}
           </h2>
-          <p className="text-lg font-semibold text-white mb-1">{spellPoint.labelPt}</p>
+          <p className="text-lg font-semibold text-white mb-1">
+            {spellPointLabel(spellPoint, locale)}
+          </p>
           <p className="text-sm text-[#888] mb-4">
-            {tierCategoryLabelPt(spellPoint.category)} · escola{' '}
+            {tierCategoryLabel(spellPoint.category, locale)} ·{' '}
             <span style={{ color: schoolTheme.accent }}>
-              {translateSchool(spellPoint.school)}
+              {schoolLabel(spellPoint.school, locale)}
             </span>
           </p>
           {spellPoint.choices.length > 0 ? (
             <>
               <p className="text-xs uppercase tracking-wider text-[#666] mb-2">
-                Escolha 1 ao gastar o ponto:
+                {t('rewards.chooseOne')}
               </p>
               <SpellChoiceList
                 choices={spellPoint.choices}
                 school={spellPoint.school}
+                locale={locale}
               />
             </>
           ) : (
             <p className="text-sm text-[#666] italic">
-              Catálogo desta escola em atualização na wiki.
+              {t('rewards.catalogUpdating')}
             </p>
           )}
         </section>
@@ -157,12 +170,14 @@ export default function BossRewardsPanel({ entity }: { entity: WikiEntity }) {
         <section>
           <h2 className="font-gothic text-lg text-white mb-1 flex items-center gap-2">
             <Wand2 size={18} className="text-[#c41e3a]" />
-            Dash (Veil)
+            {t('rewards.dash')}
           </h2>
-          <p className="text-sm text-[#888] mb-3">
-            Desbloqueio direto — não usa ponto de feitiço.
-          </p>
-          <UnlockCard entry={dash} school={dash.school ?? rewards?.primarySchool} />
+          <p className="text-sm text-[#888] mb-3">{t('rewards.dashNote')}</p>
+          <UnlockCard
+            entry={dash}
+            school={dash.school ?? rewards?.primarySchool}
+            locale={locale}
+          />
         </section>
       )}
 
@@ -170,7 +185,7 @@ export default function BossRewardsPanel({ entity }: { entity: WikiEntity }) {
         <section className="rounded-xl border border-amber-500/30 bg-[#15120a]/60 p-5">
           <h2 className="font-gothic text-lg text-amber-200/90 mb-3 flex items-center gap-2">
             <Gem size={18} />
-            Soul Shard
+            {t('rewards.soulShard')}
           </h2>
           <Link
             href={entityDetailPath('jewel', soulShard.jewelSlug)}
@@ -187,11 +202,15 @@ export default function BossRewardsPanel({ entity }: { entity: WikiEntity }) {
         <section>
           <h2 className="font-gothic text-lg text-white mb-3 flex items-center gap-2">
             <Sparkles size={18} className="text-violet-400" />
-            Poderes vampíricos
+            {t('rewards.vampirePowers')}
           </h2>
           <div className="grid sm:grid-cols-2 gap-2">
             {rewards.vampirePowers.map((entry) => (
-              <UnlockCard key={entry.nameEn ?? entry.name} entry={entry} />
+              <UnlockCard
+                key={entry.nameEn ?? entry.name}
+                entry={entry}
+                locale={locale}
+              />
             ))}
           </div>
         </section>
@@ -201,15 +220,16 @@ export default function BossRewardsPanel({ entity }: { entity: WikiEntity }) {
         <section>
           <h2 className="font-gothic text-lg text-white mb-3 flex items-center gap-2">
             <Package size={18} className="text-[#888]" />
-            Estruturas, receitas e itens
+            {t('rewards.main')}
           </h2>
-          <MainRewardList rewards={mainRewards} />
+          <MainRewardList rewards={mainRewards} locale={locale} />
         </section>
       )}
 
       {entity.meta?.loot && (
         <section>
-          <h2 className="font-gothic text-lg text-[#c41e3a] mb-3">Loot adicional (wiki)</h2>
+          <h2 className="font-gothic text-lg text-[#c41e3a] mb-3">{t('rewards.extraLoot')}</h2>
+          {shouldShowFandomNotice(locale, entity.meta.loot) && <FandomNotice />}
           <WikiProse text={entity.meta.loot} />
         </section>
       )}

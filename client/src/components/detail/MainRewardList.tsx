@@ -3,6 +3,8 @@ import { Package } from 'lucide-react';
 import AssetImage from '@/components/AssetImage';
 import type { BossUnlockEntry } from '@/data/entity-types';
 import RewardItemDialog from '@/components/detail/RewardItemDialog';
+import { unlockEntryName } from '@/lib/entity-locale';
+import type { Locale } from '@/i18n';
 
 function MainRewardThumb({ entry }: { entry: BossUnlockEntry }) {
   return (
@@ -16,7 +18,13 @@ function MainRewardThumb({ entry }: { entry: BossUnlockEntry }) {
   );
 }
 
-export default function MainRewardList({ rewards }: { rewards: BossUnlockEntry[] }) {
+export default function MainRewardList({
+  rewards,
+  locale,
+}: {
+  rewards: BossUnlockEntry[];
+  locale: Locale;
+}) {
   const [selected, setSelected] = useState<BossUnlockEntry | null>(null);
   const [dialogOpen, setDialogOpen] = useState(false);
 
@@ -37,7 +45,7 @@ export default function MainRewardList({ rewards }: { rewards: BossUnlockEntry[]
             >
               <MainRewardThumb entry={entry} />
               <span className="text-sm text-white font-medium leading-snug min-w-0">
-                {entry.name}
+                {unlockEntryName(entry, locale)}
               </span>
             </button>
           </li>

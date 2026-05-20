@@ -15,6 +15,7 @@ import {
 } from '../shared/wiki-sanitize.mjs';
 import { resolveMainRewardPt } from '../shared/resolve-reward-item.mjs';
 import { lookupUnlockAssetImage } from '../shared/unlock-asset-resolve.mjs';
+import { parseCraftTable } from '../shared/parse-wiki-craft.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const RAW = path.join(__dirname, '../client/src/data/entities.raw.json');
@@ -628,13 +629,45 @@ function extractMeta(entity, rawSections, entitiesByName, manifestByName) {
     };
   }
 
-  if (entity.type === 'item') {
+  if (entity.type === 'item' || entity.type === 'weapon') {
+    const craftBody =
+      findSection(sections, /^crafting$/i)?.body ||
+      findSection(sections, /^recipes?$/i)?.body ||
+      '';
+    const craftRecipe = parseCraftTable(craftBody);
+    const craftsFromSections = mergeSectionBodies(sections, /recipes?|crafting/i);
+    const crafts =
+      craftRecipe?.summary ||
+      craftsFromSections ||
+      sanitizeWikiText(infobox.recipe || infobox.crafting || '') ||
+      undefined;
+
     return {
-      crafts: mergeSectionBodies(sections, /recipes?|crafting/i) || undefined,
+      craftRecipe: craftRecipe || undefined,
+      crafts: crafts || undefined,
       drops: mergeSectionBodies(sections, /drop|source|obtain/i) || undefined,
       requirements:
-        sanitizeWikiText(findSection(sections, /unlock|requirement/i)?.body || '') ||
-        undefined,
+        sanitizeWikiText(
+          findSection(sections, /unlock|requirement/i)?.body ||
+            infobox.requirements ||
+            infobox.unlock ||
+            ''
+        ) || undefined,
+    };
+  }
+
+  if (entity.type === 'jewel') {
+    const craftRecipe = parseCraftTable(
+      findSection(sections, /^crafting$/i)?.body || ''
+    );
+    return {
+      craftRecipe: craftRecipe || undefined,
+      requirements:
+        sanitizeWikiText(
+          findSection(sections, /soul shard mechanics/i)?.body ||
+            findSection(sections, /mechanics|usage/i)?.body ||
+            ''
+        ).slice(0, 4000) || undefined,
     };
   }
 

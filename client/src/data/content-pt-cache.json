@@ -1,0 +1,186 @@
+{
+  "version": 1,
+  "entries": {
+    "adam-the-firstborn::description": {
+      "sourceHash": "9a274f6469ddc424",
+      "text": "A culminação da genialidade do Doutor Henry Blackbrew, The Monster (O Monstro) seria o próximo passo da evolução humana, a máquina de guerra definitiva. É tão poderoso quanto Blackbrew poderia ter desejado, mas provou ser impossível de controlar. Os Trancendum fizeram tudo o que puderam para conter The Monster, e tiveram sucesso em fazê-lo... por enquanto.",
+      "translatedAt": "2026-05-20T15:13:34.801Z"
+    },
+    "adam-the-firstborn::meta.lore": {
+      "sourceHash": "5804ae6e098bfa81",
+      "text": "A culminação da genialidade do Doutor Henry Blackbrew, The Monster seria o próximo passo da evolução humana, a máquina de guerra definitiva. É tão poderoso quanto Blackbrew poderia ter desejado, mas provou ser impossível de controlar. Os Trancendum fizeram tudo o que puderam para conter The Monster, e tiveram sucesso em fazê-lo... por enquanto.",
+      "translatedAt": "2026-05-20T15:13:46.786Z"
+    },
+    "adam-the-firstborn::meta.fightGuide__0": {
+      "sourceHash": "1eabe7b9c706e11d",
+      "text": "Adam é um chefe incrivelmente rápido e agressivo, quase sempre estando ao alcance corpo a corpo do jogador. Isso, combinado com perigos do cenário, ataques que cobrem quase toda a arena e uma segunda fase, torna Adam uma luta incrivelmente difícil, especialmente se enfrentado sozinho. Seus ataques são os seguintes:\nLightning Towers (Torres de Raio) - A arena onde Adam é enfrentado possui oito Lightning Towers, duas em cada parede. Torres opostas umas às outras criam um fluxo contínuo de raio que causa dano e retarda o jogador enquanto ele permanecer dentro dele. Um par de torres pode ser desativado ao causar dano suficiente a uma das torres. Adam iniciará a luta ativando todas as torres. Ocasionalmente, Adam reativará um par de torres. Ele pode fazer isso em ambas as fases.\n\nUpgraded , e um upgrade do  é o melhor equipamento para a luta. Para armas, bestas são muito difíceis de usar durante a luta devido a Adam dar pouco tempo ao jogador para atirar por estar tão perto o tempo todo. No entanto, o jogador pode querer trazer uma besta como arma secundária para lidar com as Lightning Towers de mais longe. Pistolas não enfrentam tanto esse problema devido ao seu disparo mais rápido e menor alcance. Na verdade, pistolas, assim como espadas grandes, podem ser ótimas escolhas para lidar com um dos ataques mais problemáticos de Adam. Qualquer arma que o jogador acabe usando, deve ser sanguínea ou ancestral.\nHabilidades de alto impacto com bom alcance podem ser usadas para destruir as Lightning Towers e liberar espaço para o jogador. Contra-ataques e bloqueios têm menos ataques para se defender devido à altíssima contagem de dano em área de Adam. Dito isso, essas habilidades defensivas ainda são úteis para lidar com os ataques corpo a corpo de Adam e ainda devem ser consideradas.\nPara ultimates, a mistura de defesa e ataque de  funciona muito bem contra Adam, que geralmente permanecerá voluntariamente dentro da área de efeito da ultimate, embora o jogador deva ter cuidado onde ele investe quando a habilidade termina.",
+      "translatedAt": "2026-05-19T23:22:31.098Z"
+    },
+    "adam-the-firstborn::meta.fightGuide__1": {
+      "sourceHash": "9800e15ee0d63f36",
+      "text": "Dicas Gerais: As Lightning Towers efetivamente dividem a arena em uma grade 3x3 irregular. Dependendo da área em que você se encontrar, ficará muito mais difícil desviar de Adam se você não desativar as torres para abrir espaço ou se você não investir sobre os feixes de raio para chegar a uma parte mais espaçosa. É aconselhável gastar o início da luta para desativar a maioria, se não todas, as torres. Depois disso, a luta se torna mais gerenciável. No entanto, o jogador deve se certificar de manter as torres desativadas. Caso contrário, o jogador se encontrará em situações onde será incrivelmente difícil desviar dos ataques de Adam ou até mesmo impossível sair de uma situação difícil sem sofrer dano. Por fim, os ataques de Adam que deslocam ou arremessam o jogador podem ser muito perigosos enquanto ainda houver Lightning Towers ativas, pois Adam pode forçá-lo para cima dos feixes, muitas vezes atordoando-o sobre eles.",
+      "translatedAt": "2026-05-19T23:22:31.098Z"
+    },
+    "adam-the-firstborn::meta.phases.0.body": {
+      "sourceHash": "d779f77db49a5c7f",
+      "text": "*   **Dash** - Se o jogador estiver muito longe de Adam, The Monster fará um dash em sua direção. Este dash não tem outros efeitos além de mover Adam em direção ao jogador.\n*   **Slash Combo** - Adam fará um slash à sua frente com seu braço-lâmina, uma vez para a esquerda e depois uma vez para a direita. Cada slash libera um projétil de onda de rocha na direção do slash, causando dano ao jogador. Após os slashes, Adam golpeará o chão à sua frente, causando dano em linha. Três ondas de rocha serão lançadas da ponta da lâmina de Adam em um cone depois que ele golpear.\n*   **Agarre** - Adam dará um passo à frente na tentativa de agarrar o jogador. Se ele conseguir, arremessará o jogador pela arena, causando dano e atordoando-o ao cair.\n*   **Pisotão** - Adam pisoteará o chão, causando dano ao seu redor e liberando ondas de rocha em um padrão fixo ao seu redor.\n*   **Olho da Tempestade** - Adam parará para conjurar uma tempestade, empurrando os jogadores próximos para trás assim que terminar. Durante a tempestade, raios atingirão a arena, causando dano aos jogadores. Adam continuará a atacar normalmente enquanto a tempestade estiver ativa.\n*   **Escudo** - A partir de aproximadamente 80% de vida, Adam rapidamente se protegerá com um escudo e empurrará o jogador para uma curta distância. Enquanto protegido, Adam não pode sofrer dano, mover-se ou atacar. Acertar Adam enquanto o escudo persiste fará com que projéteis de raio sejam lançados ao redor de The Monster em padrões aparentemente aleatórios.\n*   **Espetada** - A partir de aproximadamente 50% de vida, Adam fará um dash rápido na frente do jogador e tentará espetá-lo. Se for bem-sucedido, ele pegará o jogador e causará dano. Em seguida, ele o arremessará no chão ao seu lado, causando dano novamente e infligindo um breve atordoamento.\n*   **Sem Escapatória** - A partir de aproximadamente 50% de vida, Adam avançará rapidamente por trás do jogador e então golpeará o chão, afetando a área em um cone à sua frente. Se o jogador estiver nessa área, ele sofrerá dano, será arremessado para longe de Adam e ficará incapacitado.\n*   **Campo de Raios** - A partir de aproximadamente 30% de vida, Adam levará um momento para criar inicialmente quatro minas elétricas ao seu redor. Em seguida, as minas se espalharão lentamente por toda a arena, persistindo por um tempo. As minas detonarão ocasionalmente, causando dano ao seu redor sem desaparecer. O jogador sofrerá dano continuamente enquanto estiver em contato com uma mina.",
+      "translatedAt": "2026-05-19T23:23:54.450Z"
+    },
+    "adam-the-firstborn::meta.phases.1.body": {
+      "sourceHash": "8e87c15e93e29c95",
+      "text": "### BLOCO 2\nDepois que a vida de Adam for esgotada, ele cairá por um momento antes de quebrar seu braço-lâmina, substituindo-o por um braço de raio e iniciando a fase 2. Durante esta fase, Adam perde o acesso ao seu Slash Combo, Espetada, Pisotão e Sem Escapatória, mantendo todo o resto enquanto ganha novos ataques.\n*   **Lightning Swipes** - Adam fará swipes rápidos à sua frente, uma vez para a esquerda e depois uma vez para a direita, liberando linhas de eletricidade enquanto faz os swipes. Em seguida, Adam fará um dash rápido por trás do jogador e golpeará o chão, causando dano em linha reta à sua frente.\n*   **Hélice** - Se o jogador estiver muito longe de Adam, ele lançará dois projéteis rápidos de bola de raio em sua direção que viajam em um padrão de hélice dupla. Ambos os projéteis causam dano e incapacitam o jogador se o atingirem.\n*   **Raio da Morte** - Adam levará um momento para invocar um raio da morte sobre o jogador. Pouco depois de surgir, o raio da morte começará a causar dano ao jogador enquanto ele permanecer dentro de sua área de efeito. O raio da morte perseguirá o jogador e persistirá durante os ataques subsequentes de Adam.\n*   **Salto da Tempestade** - Adam saltará no ar, invocando uma tempestade enquanto salta. Como esperado, raios atingirão continuamente enquanto a tempestade estiver ativa. Assim que a tempestade terminar, Adam cairá sobre o jogador, causando dano e incapacitando em uma grande área.",
+      "translatedAt": "2026-05-19T23:23:54.452Z"
+    },
+    "adam-the-firstborn::meta.phases.2.body__0": {
+      "sourceHash": "bb8724480bfdcc00",
+      "text": "dessa forma, Adam ainda pode alcançar o jogador com seus golpes amplos, mesmo que ele não o veja. Você também deve esperar Adam começar seu 'slam' antes de atacar, pois ele pode virar muito rapidamente para atingi-lo. Qualquer ataque neste combo pode ser contra-atacado ou bloqueado.\nGrab: O 'grab' pode ser evitado andando para longe ou para o lado, embora isso seja bastante não confiável. Portanto, a maneira mais segura de evitar ser agarrado é usando sua Habilidade de Viagem (Travel Ability) ou outros efeitos semelhantes, como a segunda habilidade da greatsword ou das pistols. O 'grab' é o atordoamento mais longo de Adam e causará muito dano se ele decidir jogá-lo em cima do feixe de uma torre de raio. No entanto, se você for agarrado e cair perto de uma torre, Adam levará alguns segundos para alcançá-lo novamente, tempo que poderia ser usado para desativar uma torre. O 'grab' NÃO PODE ser contra-atacado ou bloqueado.\nStomp: O 'stomp' de Adam não tem um indicador de onde causará dano. Se o jogador ficar a uma distância modesta de Adam, o 'stomp' inicial será evitado. Se o jogador não tiver certeza do padrão da onda de rochas, é bastante seguro usar um contra-ataque ou bloqueio para evitar ser atingido por elas.\nEye of the Storm: Os raios são óbvios de desviar. No entanto, o lançamento inicial desta habilidade também pode ser perigoso dependendo do seu posicionamento em relação a Adam, pois isso pode jogá-lo para trás no feixe das torres de raio. Sendo assim, mantenha distância de Adam no momento em que ele estiver lançando ou posicione-se de tal forma que ir diretamente para trás não o leve a um feixe de raio, caso haja um por perto.\nShield: Como o shield torna impossível interagir diretamente com Adam, o jogador deve começar a danificar as torres de raio enquanto o shield durar. O jogador também deve ter cuidado se tiver algum projétil que permaneça, como a segunda habilidade de um reaper, pois isso fará com que o shield dispare raios assim que for aplicado.\nSkewer e No Escape: Esses dois ataques estão sendo abordados de uma vez devido ao fato de que podem ser facilmente confundidos um com o outro. Evitá-los geralmente se resume ao tempo de reação devido à velocidade com que Adam executa os ataques. De modo geral, 'dashing' para trás ou usando efeitos semelhantes irá desviar de ambos os ataques. Quanto aos detalhes, Skewer às vezes pode ser evitado andando para o lado, mas também pode ser contra-atacado ou bloqueado, enquanto No Escape pode ser evitado andando em direção a Adam e ligeiramente para o lado depois que ele 'dashes' atrás de você.",
+      "translatedAt": "2026-05-19T23:24:13.970Z"
+    },
+    "adam-the-firstborn::meta.phases.3.body": {
+      "sourceHash": "6c09540e2177a510",
+      "text": "O tempo que Adam leva para se levantar deve ser usado para desativar quaisquer torres de raio que possam estar atualmente ativadas.\nLightning Swipes: Embora os dois 'swipes' iniciais pudessem ser desviados de forma semelhante aos 'slashes' da primeira fase, eles são muito mais rápidos e difíceis de ver onde exatamente atingirão, tornando isso não confiável. Sendo assim, criar distância com seu 'dash', contra-atacar ou bloquear esses 'swipes' é a melhor escolha. Quanto ao 'slam', ele deve ser evitado andando para o lado. Notavelmente, este 'slam' não pode ser contra-atacado ou bloqueado.\nHelix: Devido à velocidade e ao padrão incomum dos dois projéteis, pode ser muito difícil desviar deste ataque usando apenas seu movimento. Sendo assim, é aconselhável ficar perto de Adam se o jogador não quiser lidar com este ataque. Dito tudo isso, o ataque pode ser desviado permanecendo dentro da lacuna que será formada no padrão de hélice dupla dos projéteis.\nStorm Leap: Você NÃO PODE 'dash' para fora da área de efeito que surge quando Adam cai ou contra-atacá-lo. Você pode, no entanto, usar o tempo de imunidade do 'dash' para evitar o dano ou usar outros efeitos semelhantes. Se, no entanto, você não tiver tais efeitos, NÃO use seu 'dash' durante a tempestade, mesmo que isso signifique ser atingido por um raio, pois você não o terá de volta a tempo e a queda de Adam causa mais dano. No entanto, para este ataque especificamente, poderia ser uma boa escolha para lhe dar pelo menos um 'dash' antes que Adam caia.",
+      "translatedAt": "2026-05-19T23:24:13.970Z"
+    },
+    "adam-the-firstborn::sections.0.body": {
+      "sourceHash": "e304b28115f6b1b1",
+      "text": "Adam pode ser encontrado no Castelo do Doutor Blackbrew, na borda ocidental de Gloomrot norte, acima dos Laboratórios Trancendum.\n\nO acesso ao chefe é bloqueado por um portão e uma porta. Cada um pode ser destruído por 1 hora usando um . Alternativamente, é possível voar sobre o portão usando  para economizar 1 EMP. Também é possível contornar ambos os obstáculos ao sair, passando por uma brecha na parede perto do interruptor e depois saltando do penhasco.\n__TOC__",
+      "translatedAt": "2026-05-19T23:24:24.777Z"
+    },
+    "adam-the-firstborn::sections.1.body": {
+      "sourceHash": "a620fc1d122e4a51",
+      "text": "### BLOCO 2\nAdam é um chefe incrivelmente rápido e agressivo, quase sempre permanecendo no alcance corpo a corpo do jogador. Isso, combinado com os perigos do cenário, ataques que cobrem quase toda a arena e uma segunda fase, torna Adam uma luta incrivelmente difícil, especialmente se enfrentado sozinho. Seus ataques são os seguintes:\nTorres de Raio - A arena onde Adam é enfrentado possui oito torres de raio, duas em cada parede. Torres opostas umas às outras criam um fluxo contínuo de raio que causa dano e retarda o jogador enquanto ele permanecer nele. Um par de torres pode ser desativado ao causar dano suficiente a uma das torres. Adam iniciará a luta ativando todas as torres. Ocasionalmente, Adam reativará um par de torres. Ele pode fazer isso em ambas as fases.",
+      "translatedAt": "2026-05-19T23:24:24.777Z"
+    },
+    "adam-the-firstborn::sections.2.body": {
+      "sourceHash": "d779f77db49a5c7f",
+      "text": "**Dash** - Se o jogador estiver muito longe de Adam, The Monster irá avançar em sua direção. Este avanço não tem outros efeitos além de mover Adam em direção ao jogador.\n**Slash Combo** - Adam irá golpear à sua frente com seu braço-lâmina, uma vez para a esquerda e depois uma vez para a direita. Cada golpe libera um projétil de onda de rocha na direção do golpe, causando dano ao jogador. Após os golpes, Adam irá golpear o chão à sua frente, causando dano em linha. Três ondas de rocha serão lançadas da ponta da lâmina de Adam em um cone depois que ele golpear o chão.\n**Grab** - Adam dará um passo à frente na tentativa de agarrar o jogador. Se ele conseguir, ele arremessará o jogador pela arena, causando dano e atordoando-o ao aterrissar.\n**Stomp** - Adam irá pisar no chão, causando dano ao seu redor e liberando ondas de rocha em um padrão fixo ao seu redor.\n**Eye of the Storm** - Adam irá parar para conjurar uma tempestade, empurrando os jogadores próximos para trás assim que ele terminar. Durante a tempestade, raios cairão por toda a arena, causando dano aos jogadores. Adam continuará a atacar normalmente enquanto a tempestade estiver acontecendo.\n**Shield** - Começando em cerca de 80% de vida, Adam irá rapidamente se proteger e empurrar o jogador para trás uma curta distância. Enquanto protegido, Adam não pode sofrer dano, mover-se ou atacar. Acertar Adam enquanto o escudo persistir fará com que projéteis de raio sejam lançados ao redor de The Monster em padrões aparentemente aleatórios.\n**Skewer** - Começando em cerca de 50% de vida, Adam irá avançar rapidamente na frente do jogador e então tentar empalá-lo. Se ele for bem-sucedido, ele pegará o jogador e causará dano a ele. Depois, ele o arremessará no chão ao lado dele, causando dano novamente e infligindo um breve atordoamento.\n**No Escape** - Começando em cerca de 50% de vida, Adam irá avançar rapidamente por trás do jogador e então golpear o chão, afetando a área em um cone à sua frente. Se o jogador estiver nessa área, ele sofrerá dano, será arremessado para longe de Adam e ficará incapacitado.\n**Lightning Field** - Começando em cerca de 30% de vida, Adam levará um momento para criar inicialmente quatro minas elétricas ao seu redor. Depois, as minas se espalharão lentamente por toda a arena, persistindo por um tempo. As minas detonarão ocasionalmente, causando dano ao seu redor sem desaparecer. O jogador sofrerá dano continuamente enquanto estiver em contato com uma mina.",
+      "translatedAt": "2026-05-19T23:24:43.148Z"
+    },
+    "adam-the-firstborn::sections.3.body": {
+      "sourceHash": "8e87c15e93e29c95",
+      "text": "### BLOCO 2\nDepois que a vida de Adam for esgotada, ele cairá por um momento antes de quebrar seu braço-lâmina, substituindo-o por um braço de raio e iniciando a fase 2. Durante esta fase, Adam perde acesso ao seu Slash Combo, Skewer, Stomp e No Escape, mantendo todo o resto enquanto ganha novos ataques.\n**Lightning Swipes** - Adam irá golpear rapidamente à sua frente, uma vez para a esquerda e depois uma vez para a direita, liberando linhas de eletricidade enquanto golpeia. Depois, Adam irá avançar rapidamente por trás do jogador e golpear o chão, causando dano em linha reta à sua frente.\n**Helix** - Se o jogador estiver muito longe de Adam, ele lançará dois projéteis rápidos de bola de raio em sua direção que viajam em um padrão de dupla hélice. Ambos os projéteis causam dano e incapacitam o jogador se eles se conectarem.\n**Death Ray** - Adam levará um momento para invocar um raio da morte em cima do jogador. Pouco depois de surgir, o raio da morte começará a causar dano ao jogador enquanto ele permanecer dentro de sua área de efeito. O raio da morte perseguirá o jogador e persistirá através dos ataques subsequentes de Adam.\n**Storm Leap** - Adam irá saltar no ar, invocando uma tempestade enquanto salta. Como esperado, raios cairão continuamente enquanto a tempestade se enfurece. Assim que a tempestade terminar, Adam cairá sobre o jogador, causando dano e incapacitando em uma grande área.",
+      "translatedAt": "2026-05-19T23:24:43.148Z"
+    },
+    "adam-the-firstborn::sections.4.body": {
+      "sourceHash": "d8686f841b1ade23",
+      "text": "Os golpes e ataques de Adam alcançam tanto os seus lados quanto um pouco atrás dele.\nAdam inicia a fase dois com metade da vida. Devido a isso, ele também não gera orbes de cura adicionais durante esta fase.\nAs Lightning Towers podem bloquear os projéteis de Adam.\nO dash de Adam pode, às vezes, fazê-lo avançar para trás do jogador.\nApenas para o Brutal: A luta dele permanece inalterada, exceto pelas suas Lightning Towers. Elas começarão com Escudo/Invulneráveis até que o escudo caia após um tempo definido, que você pode derrubar, mas ele voltará com escudo e o processo se repetirá.",
+      "translatedAt": "2026-05-19T23:24:59.949Z"
+    },
+    "adam-the-firstborn::sections.5.body": {
+      "sourceHash": "46f76415c46430eb",
+      "text": "### BLOCO 2\nAprimorados , e um aprimoramento do é o melhor equipamento para a luta. Para armas, bestas são muito difíceis de usar durante a luta devido a Adam dar pouco tempo ao jogador para atirar por ele estar sempre tão perto. No entanto, o jogador pode querer trazer uma besta como arma secundária para lidar com as Lightning Towers de mais longe. Pistolas não enfrentam tanto esse problema devido à sua cadência de tiro mais rápida e menor alcance. Na verdade, pistolas, assim como espadões, podem ser ótimas escolhas para lidar com um dos ataques mais problemáticos de Adam. Seja qual for a arma que o jogador acabar usando, ela deve ser Sanguine ou Ancestral.\n\nHabilidades de alto dano com bom alcance podem ser usadas para destruir as Lightning Towers e liberar espaço para o jogador. Contra-ataques e bloqueios têm menos ataques para se defender devido à altíssima quantidade de dano em área de Adam. Dito isso, essas habilidades defensivas ainda são úteis para lidar com os ataques corpo a corpo de Adam e ainda devem ser consideradas.\n\nPara as habilidades supremas, a mistura de defesa e ataque de funciona muito bem contra Adam, que geralmente permanecerá voluntariamente dentro da área de efeito da habilidade suprema, embora o jogador deva ter cuidado onde ele avança quando a habilidade termina.",
+      "translatedAt": "2026-05-19T23:24:59.949Z"
+    },
+    "adam-the-firstborn::sections.6.body": {
+      "sourceHash": "9800e15ee0d63f36",
+      "text": "Dicas Gerais: As torres de raio dividem efetivamente a arena em uma grade irregular de 3x3. Dependendo da área em que você se encontra, ficará muito mais difícil desviar de Adam se você não desativar as torres para abrir espaço ou se você não usar o dash sobre os feixes de raio para chegar a uma parte mais espaçosa. É aconselhável gastar o início da luta para desativar a maioria, se não todas, as torres. Depois disso, a luta se torna mais gerenciável. No entanto, o jogador deve se certificar de manter as torres desativadas. Caso contrário, o jogador se encontrará em situações onde será incrivelmente difícil desviar dos ataques de Adam ou até mesmo impossível sair de uma situação complicada sem sofrer dano. Por fim, os ataques de Adam que deslocam ou arremessam o jogador podem ser muito perigosos enquanto ainda houver torres de raio ativas, pois Adam pode forçá-lo para cima dos feixes, muitas vezes atordoando você sobre eles.",
+      "translatedAt": "2026-05-19T23:25:15.087Z"
+    },
+    "adam-the-firstborn::sections.7.body__0": {
+      "sourceHash": "436ee688b3f26007",
+      "text": "### BLOCO 2\nCombo de Corte: O ataque pode ser completamente evitado se o jogador mantiver uma curta distância de Adam e, em seguida, mover-se para a esquerda (direita de Adam) quando ele realizar o primeiro golpe, e depois na direção oposta no segundo golpe. Depois disso, o jogador só precisa desviar lateralmente do golpe no chão, pois as ondas de rocha surgirão atrás do jogador se ele se mantiver perto o suficiente de Adam, já que as ondas surgem da ponta de sua lâmina e não dele mesmo. O jogador também pode evitar este ataque criando distância entre si e Adam, pois ele não tentará se reposicionar uma vez que inicie o ataque, momento em que o jogador deve focar em desviar das ondas de rocha que se seguem. Por fim, o jogador também pode usar o dash para trás de Adam para evitar o ataque. No entanto, ao contrário de outros chefes que têm ataques evitados dessa forma, Adam ainda pode alcançar o jogador com seus golpes amplos, mesmo que ele não o veja. Você também deve esperar Adam iniciar seu golpe no chão antes de atacar, pois ele pode virar muito rapidamente para atingi-lo. Qualquer ataque neste combo pode ser contra-atacado ou bloqueado.\n\nAgarrar: O agarrar pode ser evitado andando para longe e desviando lateralmente, embora isso seja bastante não confiável. Portanto, a maneira mais segura de evitar ser agarrado é usando sua Habilidade de Viagem ou outros efeitos semelhantes, como a segunda habilidade da espada grande ou pistolas. O agarrar é o atordoamento mais longo de Adam e causará muito dano se ele decidir arremessá-lo sobre o feixe de uma torre de raio. No entanto, se você for agarrado e cair perto de uma torre, Adam levará alguns segundos para alcançá-lo novamente, tempo que poderia ser usado para desativar uma torre. O agarrar NÃO PODE ser contra-atacado ou bloqueado.\n\nPisotear: O pisotear de Adam não tem um indicador de onde causará dano. Se o jogador ficar a uma distância modesta de Adam, o pisotear inicial será evitado. Se o jogador não tiver certeza do padrão das ondas de rocha, é bastante seguro usar um contra-ataque ou bloqueio para evitar ser atingido por elas.\n\nOlho da Tempestade: Os raios são óbvios de desviar. No entanto, o lançamento inicial desta habilidade também pode ser perigoso dependendo do seu posicionamento em relação a Adam, pois isso pode empurrá-lo para trás, para o feixe das torres de raio. Sendo assim, mantenha distância de Adam quando ele estiver conjurando ou posicione-se de forma que ir diretamente para trás não o leve a um feixe de raio, caso haja um por perto.",
+      "translatedAt": "2026-05-19T23:25:15.087Z"
+    },
+    "adam-the-firstborn::sections.7.body__1": {
+      "sourceHash": "3da0c05cfc05b1cc",
+      "text": "Escudo: Como o escudo torna impossível interagir diretamente com Adam, o jogador deve começar a danificar as torres de raio enquanto o escudo se mantém. O jogador também deve ter cuidado se tiver qualquer projétil que permaneça, como a segunda habilidade de um reaper, pois isso fará com que o escudo dispare raios assim que for aplicado.\n\nSkewer e No Escape: Esses dois ataques estão sendo abordados de uma vez devido ao fato de que podem ser facilmente confundidos um com o outro. Evitar isso geralmente se resume ao tempo de reação devido à velocidade com que Adam executa os ataques. De modo geral, avançar para trás ou usar efeitos similares esquivará de ambos os ataques. Quanto aos detalhes, Skewer às vezes pode ser evitado com um passo lateral, mas também pode ser contra-atacado ou bloqueado, enquanto No Escape pode ser evitado andando em direção a Adam e ligeiramente para o lado depois que ele avançar para trás de você.",
+      "translatedAt": "2026-05-19T23:25:28.206Z"
+    },
+    "albert-the-duke-of-balaton::description": {
+      "sourceHash": "a0d5a81317299a9f",
+      "text": "### BLOCO 2\nO patriarca de uma família que outrora possuía terras quando esses pântanos eram adequadamente habitados. Com o tempo, a terra amaldiçoada os distorceu, deixando este sapo horrível e distorcido que apenas se lembra de sua luxúria por ouro e joias. Ele guarda ciosamente seu tesouro de moeda esquecida e sem valor.",
+      "translatedAt": "2026-05-19T23:25:28.206Z"
+    },
+    "albert-the-duke-of-balaton::meta.lore": {
+      "sourceHash": "a0d5a81317299a9f",
+      "text": "O patriarca de uma família que outrora possuía terras quando esses pântanos eram adequadamente habitados. Com o tempo, a terra amaldiçoada os distorceu, deixando este sapo horrível e distorcido que só se lembra de sua luxúria por ouro e joias. Ele guarda ciosamente seu tesouro de moedas esquecidas e sem valor.",
+      "translatedAt": "2026-05-19T23:25:35.961Z"
+    },
+    "albert-the-duke-of-balaton::sections.0.body": {
+      "sourceHash": "36ea8098c693a8f2",
+      "text": "Albert pode ser encontrado no [https://vrising.fandom.com/wiki/Map:Vardoran?marker=53 Swamp of Greed], na borda norte da Cursed Forest.",
+      "translatedAt": "2026-05-19T23:25:35.962Z"
+    },
+    "alpha-the-white-wolf::description": {
+      "sourceHash": "86c52ddcefb42c32",
+      "text": "A trilha deste cheiro carrega a assinatura inconfundível de Dracula, o Rei Imortal. Quando Dracula caiu, ele amaldiçoou o mundo de Vardoran com uma chuva de sangue, um flagelo no qual muitos pereceram. Alguns que sobreviveram foram, sem saber, distorcidos pela chuva, suas linhagens para sempre fortalecidas por sua malícia. Este poderoso predador está infundido com esse legado.",
+      "translatedAt": "2026-05-19T23:25:43.574Z"
+    },
+    "alpha-the-white-wolf::meta.lore": {
+      "sourceHash": "86c52ddcefb42c32",
+      "text": "A trilha deste cheiro carrega a assinatura inconfundível de Dracula, o Rei Imortal. Quando Dracula caiu, ele amaldiçoou o mundo de Vardoran com uma chuva de sangue, um flagelo no qual muitos pereceram. Alguns que sobreviveram foram, sem saber, distorcidos pela chuva, suas linhagens para sempre fortalecidas por sua malícia. Este poderoso predador está infundido com esse legado.",
+      "translatedAt": "2026-05-19T23:25:43.574Z"
+    },
+    "alpha-the-white-wolf::meta.fightGuide": {
+      "sourceHash": "04f1606fb0c647ed",
+      "text": "Mordida - Ataque corpo a corpo padrão.\nInvestida - O Alpha Wolf se agacha por um segundo em preparação e então se lança para frente em linha reta.\nFúria - O Alpha Wolf uiva e brilha em vermelho, se lança em linha reta e morde 2 vezes.\nInvocar Lacaios - O Alpha Wolf para por um momento, uiva e invoca 2 lobos comuns para se juntar à luta.",
+      "translatedAt": "2026-05-19T23:25:50.155Z"
+    },
+    "alpha-the-white-wolf::sections.0.body": {
+      "sourceHash": "c1851b30e2950449",
+      "text": "O Alpha Wolf pode ser encontrado vagando pelas estradas da região de Farbane Woods. Ele tende a caminhar pelas estradas em um circuito ao redor da parte central da região, perto da [https://vrising.fandom.com/wiki/Map:Vardoran?marker=81 Wolf Den]. Ele frequentemente cruzará caminhos e lutará contra Lidia the Chaos Archer e Goreswine the Ravager. Ele também lutará contra qualquer inimigo Bandit ou Undead que cruzar seu caminho.",
+      "translatedAt": "2026-05-20T15:13:58.553Z"
+    },
+    "alpha-the-white-wolf::sections.1.body": {
+      "sourceHash": "04f1606fb0c647ed",
+      "text": "Bite - Ataque corpo a corpo padrão.\nLunge - O Alpha Wolf se agacha por um segundo em preparação e então se lança para frente em linha reta.\nRage - O Alpha Wolf uiva e brilha em vermelho, se lança em linha reta e morde 2 vezes.\nSummon Minions - O Alpha Wolf para por um momento, uiva, e invoca 2 lobos comuns para se juntarem à luta.",
+      "translatedAt": "2026-05-19T23:26:02.140Z"
+    },
+    "angram-the-purifier::description": {
+      "sourceHash": "315121fb8712b794",
+      "text": "Um servo dedicado do Trancendum, Angram era um exterminador que possuía uma crueldade natural e resiliência incomparáveis a qualquer um de seus pares. Como qualquer bom soldado, ele deu a vida por sua causa... ou tentou, de qualquer forma. Doctor Henry Blackbrew não podia deixar tal recurso ser desperdiçado e o trouxe de volta à vida com uma cirurgia brutal que poucos outros seres poderiam sobreviver. Angram vive agora, ao mero custo de cada último pedaço de sua humanidade.",
+      "translatedAt": "2026-05-19T23:26:02.140Z"
+    },
+    "angram-the-purifier::sections.0.body": {
+      "sourceHash": "8fb9f8bff97573bf",
+      "text": "Angram pode ser encontrado patrulhando os [https://vrising.fandom.com/wiki/Map:Vardoran?marker=55 Pools of Rebirth] em Gloomrot South.",
+      "translatedAt": "2026-05-19T23:26:09.430Z"
+    },
+    "azariel-the-sunbringer::sections.0.body": {
+      "sourceHash": "e7e7296dbd45e6b5",
+      "text": "Azariel pode ser encontrado na região Oeste de Silverlight Hills; [https://vrising.fandom.com/wiki/Map:Vardoran?marker=46 Brighthaven Cathedral].",
+      "translatedAt": "2026-05-19T23:26:21.826Z"
+    },
+    "bane-the-shadowblade::meta.fightGuide": {
+      "sourceHash": "6b7fc53a709de7b9",
+      "text": "Triple Slash - Ele irá te golpear três vezes. O terceiro ataque é um avanço que irá te incapacitar.\nTriple Knife Throw - Ele irá se afastar rapidamente de você e lançar três facas em sua direção.\nDark Spin - Suas frases serão todas sobre Escuridão ou magia Negra. Ele fará um golpe AoE roxo que o cerca.\nTeleport Strike - Ele irá se teleportar para fora da vista e reaparecer perto de você para atacar, o que irá te incapacitar.\nInto the Shadows - Ele dirá uma de suas poucas frases enfatizando que irá desaparecer, mas irá invocar uma multidão de figuras encapuzadas (muito parecido com quando você o atinge para iniciar a luta), ele será uma delas, danificar uma que não seja ele irá invocar Skeletal Warrior e Undead Assassins.\nShadow Clone - Com menos de 50% de vida, seu avanço do lançamento de facas deixará uma sombra persistente que também lançará facas em você.\nBrutal and Incursion Rift: Seu ataque de Faca pode ser encadeado várias vezes seguidas. Apenas para Incursion, seu movimento Into the Shadow terá uma aura acima dele, mas os lacaios invocados são Draculin mobs.",
+      "translatedAt": "2026-05-19T23:26:40.939Z"
+    },
+    "bane-the-shadowblade::sections.0.body": {
+      "sourceHash": "0101c9ba8ddfdfb7",
+      "text": "Bane pode ser encontrado vagando pelas estradas de Dunley Farmlands, disfarçado de humano.\n\nEle só luta quando é atacado. As pessoas o atacam assim que sua camuflagem termina. Isso pode tornar a luta mais fácil se os guardas atacarem com você.",
+      "translatedAt": "2026-05-19T23:26:51.433Z"
+    },
+    "bane-the-shadowblade::sections.1.body": {
+      "sourceHash": "6b7fc53a709de7b9",
+      "text": "Triple Slash - Ele irá te golpear três vezes. O terceiro ataque é um avanço que irá te incapacitar.\nTriple Knife Throw - Ele irá se afastar rapidamente de você e lançar três facas em sua direção.\nDark Spin - Suas frases serão todas sobre Escuridão ou magia Negra. Ele fará um golpe AoE roxo que o cerca.\nTeleport Strike - Ele irá se teleportar para fora da vista e reaparecer perto de você para atacar, o que irá te incapacitar.\nInto the Shadows - Ele dirá uma de suas poucas frases enfatizando que irá desaparecer, mas irá invocar uma multidão de figuras encapuzadas (muito parecido com quando você o atinge para iniciar a luta), ele será uma delas, danificar uma que não seja ele irá invocar Skeletal Warrior e Undead Assassins.\nShadow Clone - Com menos de 50% de vida, seu avanço do lançamento de facas deixará uma sombra persistente que também lançará facas em você.\nBrutal e Incursion Rift: Seu ataque de Faca pode ser encadeado várias vezes seguidas. Apenas para Incursion, seu movimento Into the Shadow terá uma aura acima dele, mas os lacaios invocados são Draculin mobs.",
+      "translatedAt": "2026-05-19T23:26:59.133Z"
+    },
+    "angram-the-purifier::meta.lore": {
+      "sourceHash": "315121fb8712b794",
+      "text": "Um servo dedicado do Trancendum, Angram era um exterminador que possuía uma crueldade natural e resiliência incomparáveis a qualquer um de seus pares. Como qualquer bom soldado, ele deu a vida por sua causa... ou tentou, de qualquer forma. Doutor Henry Blackbrew não podia deixar tal recurso ser desperdiçado e o trouxe de volta à vida com uma cirurgia brutal à qual poucos outros seres poderiam sobreviver. Angram vive agora, ao mero custo de cada último pedaço de sua humanidade.",
+      "translatedAt": "2026-05-20T15:14:16.573Z"
+    },
+    "azariel-the-sunbringer::description": {
+      "sourceHash": "27de03b7d02ad0d7",
+      "text": "Um verdadeiro político, Azariel abriu caminho até o topo das fileiras da Church of Luminance com uma graça social fria e calculada. Poucos podem igualar seu poder e dedicação à Light, a não ser o próprio Solarus the Immaculate, e ninguém dentro da igreja ousaria contradizer sua palavra.",
+      "translatedAt": "2026-05-20T15:14:25.202Z"
+    },
+    "bane-the-shadowblade::description": {
+      "sourceHash": "4b5d4ce235804d03",
+      "text": "Era um espadachim formidável e um lendário ladrão de tumbas, Bane foi capturado pela Cult of the Damned durante um de seus muitos assaltos. Vendo o benefício de seu talento para infiltração, em vez de matá-lo, eles o corromperam, transformando-o em um servo da não-vida. Diz-se que suas habilidades clandestinas foram cruciais na captura e corrupção da Iron Mine sobre a Militia.",
+      "translatedAt": "2026-05-20T15:15:11.717Z"
+    },
+    "baron-du-bouchon-the-sommelier::description": {
+      "sourceHash": "4b64d0025a54350a",
+      "text": "Antigamente um espadachim mercenário viajante, o bom barão conquistou seu título de Grande Sommelier após vencer um concurso de degustação organizado pela Igreja da Luminância. Suas habilidades eram tão extraordinárias que diz-se que ele consegue nomear os ingredientes, suas idades e seu local de origem com apenas um gole da bebida. Embora sua nova posição lhe ofereça todos os bens mundanos que ele poderia desejar, aqueles que o conhecem bem suspeitam que ele possa sentir falta do gosto de sangue na ponta de sua lâmina acima de tudo.",
+      "translatedAt": "2026-05-20T15:15:45.929Z"
+    },
+    "baron-du-bouchon-the-sommelier::sections.0.body": {
+      "sourceHash": "677b66a6af164a43",
+      "text": "Baron pode ser encontrado nos [https://vrising.fandom.com/wiki/Map:Vardoran?marker=51 Brighthaven Vineyards] em Silverlight Hills.",
+      "translatedAt": "2026-05-20T15:16:34.077Z"
+    }
+  },
+  "updatedAt": "2026-05-20T15:16:34.077Z"
+}

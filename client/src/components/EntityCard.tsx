@@ -1,7 +1,8 @@
 import { Link } from 'wouter';
 import AssetImage from '@/components/AssetImage';
 import type { WikiEntity } from '@/data/entity-types';
-import { translateSchool } from '@/data/entity-translations';
+import { useTranslation } from '@/contexts/LocaleContext';
+import { entityDisplayName, schoolLabel } from '@/lib/entity-locale';
 import { entityDetailPath } from '@/lib/entity-paths';
 import { getBossPortraitBorder } from '@/lib/boss-portrait';
 import { getSoulShardBossTheme } from '@/lib/soul-shard-bosses';
@@ -13,6 +14,7 @@ interface EntityCardProps {
 }
 
 export default function EntityCard({ entity, index = 0 }: EntityCardProps) {
+  const { t, locale } = useTranslation();
   const soulShard =
     entity.type === 'boss' ? getSoulShardBossTheme(entity.id) : null;
   const portraitBorder =
@@ -23,7 +25,7 @@ export default function EntityCard({ entity, index = 0 }: EntityCardProps) {
       ? desc.length > 120
         ? `${desc.slice(0, 120)}…`
         : desc
-      : 'Abrir página';
+      : t('entity.openPage');
 
   return (
     <Link href={entityDetailPath(entity.type, entity.slug)}>
@@ -68,7 +70,7 @@ export default function EntityCard({ entity, index = 0 }: EntityCardProps) {
         </div>
         <div className="min-w-0 flex-1">
           <h2 className="font-gothic text-base font-bold text-white group-hover:text-[#e85a6f] transition-colors line-clamp-2">
-            {entity.name}
+            {entityDisplayName(entity, locale)}
           </h2>
           <p className="text-[11px] text-[#666] mt-1 uppercase tracking-wide">
             {soulShard && (
@@ -77,7 +79,7 @@ export default function EntityCard({ entity, index = 0 }: EntityCardProps) {
               </span>
             )}
             {entity.level != null && `Nv. ${entity.level}`}
-            {entity.school && ` · ${translateSchool(entity.school)}`}
+            {entity.school && ` · ${schoolLabel(entity.school, locale)}`}
           </p>
           <p className="text-[#888] text-sm mt-2 line-clamp-2 leading-snug">
             {preview}

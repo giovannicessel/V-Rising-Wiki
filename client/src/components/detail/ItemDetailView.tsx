@@ -2,13 +2,18 @@ import { useState } from 'react';
 import { Link } from 'wouter';
 import { ArrowLeft, ExternalLink } from 'lucide-react';
 import AssetImage from '@/components/AssetImage';
+import CraftRecipePanel from '@/components/detail/CraftRecipePanel';
+import FandomNotice from '@/components/FandomNotice';
 import WikiProse from '@/components/WikiProse';
 import type { WikiEntity } from '@/data/entity-types';
+import { useTranslation } from '@/contexts/LocaleContext';
+import { entityDisplayName, shouldShowFandomNotice } from '@/lib/entity-locale';
 import { entityListPath } from '@/lib/entity-paths';
 
 type Tab = 'overview' | 'craft';
 
 export default function ItemDetailView({ entity }: { entity: WikiEntity }) {
+  const { t, locale } = useTranslation();
   const [tab, setTab] = useState<Tab>('overview');
   const meta = entity.meta;
 
@@ -30,7 +35,9 @@ export default function ItemDetailView({ entity }: { entity: WikiEntity }) {
         </div>
         <div>
           <p className="text-[#888] text-xs uppercase tracking-widest mb-1">Item</p>
-          <h1 className="font-gothic text-3xl font-bold">{entity.name}</h1>
+          <h1 className="font-gothic text-3xl font-bold">
+            {entityDisplayName(entity, locale)}
+          </h1>
         </div>
       </header>
 
@@ -54,12 +61,14 @@ export default function ItemDetailView({ entity }: { entity: WikiEntity }) {
           {entity.description && (
             <section>
               <h2 className="font-gothic text-lg text-[#c41e3a] mb-3">Descrição</h2>
+              {shouldShowFandomNotice(locale, entity.description) && <FandomNotice />}
               <WikiProse text={entity.description} />
             </section>
           )}
           {meta?.requirements && (
             <section>
               <h2 className="font-gothic text-lg text-white mb-2">Requisitos</h2>
+              {shouldShowFandomNotice(locale, meta.requirements) && <FandomNotice />}
               <WikiProse text={meta.requirements} />
             </section>
           )}
@@ -68,20 +77,31 @@ export default function ItemDetailView({ entity }: { entity: WikiEntity }) {
 
       {tab === 'craft' && (
         <div className="space-y-6">
-          {meta?.crafts && (
+          {meta?.craftRecipe && (
+            <section>
+              <h2 className="font-gothic text-lg text-[#c41e3a] mb-3">Receita</h2>
+              <CraftRecipePanel recipe={meta.craftRecipe} />
+            </section>
+          )}
+          {meta?.crafts && !meta.craftRecipe && (
             <section>
               <h2 className="font-gothic text-lg text-[#c41e3a] mb-3">Receitas / craft</h2>
+              {shouldShowFandomNotice(locale, meta.crafts) && <FandomNotice />}
               <WikiProse text={meta.crafts} />
             </section>
           )}
           {meta?.drops && (
             <section>
               <h2 className="font-gothic text-lg text-[#c41e3a] mb-3">Onde obter / drops</h2>
+              {shouldShowFandomNotice(locale, meta.drops) && <FandomNotice />}
               <WikiProse text={meta.drops} />
             </section>
           )}
-          {!meta?.crafts && !meta?.drops && (
-            <p className="text-[#666] text-sm">Sem dados de craft na wiki curada.</p>
+          {!meta?.crafts && !meta?.drops && !meta?.craftRecipe && (
+            <p className="text-[#666] text-sm">
+              Sem dados de craft na wiki. Execute <code className="text-[#888]">npm run sync:entities</code>{' '}
+              e <code className="text-[#888]">npm run build:entities</code> para atualizar da Fandom.
+            </p>
           )}
         </div>
       )}
@@ -94,7 +114,7 @@ export default function ItemDetailView({ entity }: { entity: WikiEntity }) {
             rel="noopener noreferrer"
             className="text-sm text-[#c41e3a] inline-flex gap-2 items-center"
           >
-            Fandom <ExternalLink size={14} />
+            {t('content.externalWiki')} <ExternalLink size={14} />
           </a>
         </footer>
       )}

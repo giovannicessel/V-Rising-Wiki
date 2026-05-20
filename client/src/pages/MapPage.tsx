@@ -2,8 +2,10 @@ import { Link, useSearch } from 'wouter';
 import { Map } from 'lucide-react';
 import WikiPageShell from '@/components/WikiPageShell';
 import VardoranMap from '@/components/map/VardoranMap';
+import { useTranslation } from '@/contexts/LocaleContext';
 
 export default function MapPage() {
+  const { t } = useTranslation();
   const search = useSearch();
   const highlightBossId = new URLSearchParams(
     search.startsWith('?') ? search : `?${search}`
@@ -17,10 +19,10 @@ export default function MapPage() {
             Vardoran
           </p>
           <h1 className="font-gothic text-4xl md:text-5xl font-bold text-white tracking-wide">
-            Mapa interativo
+            {t('map.pageTitle')}
           </h1>
           <p className="text-[#888] mt-3 max-w-2xl">
-            Localização dos V Bloods no mapa oficial. Pins baseados nos dados da{' '}
+            {t('map.pageSubtitle')}{' '}
             <a
               href="https://vrising.fandom.com/wiki/Map:Vardoran"
               target="_blank"
@@ -37,11 +39,11 @@ export default function MapPage() {
 
         <p className="text-center text-[#555] text-sm mt-8">
           <Link href="/v-bloods" className="text-[#c41e3a] hover:underline">
-            Ver lista de V Bloods
+            {t('map.viewBossList')}
           </Link>
           {' · '}
           <Link href="/lore" className="text-[#c41e3a] hover:underline">
-            Lore de Vardoran
+            {t('map.viewLore')}
           </Link>
         </p>
       </div>

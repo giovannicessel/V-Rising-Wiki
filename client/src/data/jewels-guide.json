@@ -1,0 +1,31 @@
+{
+  "syncedAt": "2026-05-19T23:56:33.526Z",
+  "fandomUrl": "https://vrising.fandom.com/wiki/Jewels",
+  "introPt": "Joias de feitiço amplificam habilidades não-ultimate e podem ser trocadas sem custo. Cada escola de magia tem uma cor — os ícones abaixo alternam entre as escolas no mesmo tier.",
+  "fusionNotePt": "Joias também podem ser fundidas (transferir modificadores entre tiers do mesmo feitiço) ou desmanchadas por materiais nas estações de jewelcrafting.",
+  "tierImages": {
+    "1": "/images/jewels/blood-tier1.png",
+    "2": "/images/jewels/blood-tier2.png",
+    "3": "/images/jewels/blood-tier3.png",
+    "4": "/images/jewels/blood-tier4.png"
+  },
+  "tiers": [
+    {
+      "tier": 1,
+      "description": "1 modificador aleatório. Encontrada em baús dourados, V Bloods e incursões de fenda."
+    },
+    {
+      "tier": 2,
+      "description": "2 modificadores. Craft: Raziel the Shepherd (nível 57)."
+    },
+    {
+      "tier": 3,
+      "description": "3 modificadores. Craft: Mairwyn the Elementalist (nível 70)."
+    },
+    {
+      "tier": 4,
+      "description": "4 modificadores (primal). Craft: General Valencia the Depraved (nível 84)."
+    }
+  ],
+  "note": "Joias (spell jewels) são diferentes de Jewelry (anéis/pingentes). Soul Shards são artefatos únicos de endgame."
+}

@@ -34,7 +34,8 @@ export function sanitizeWikiText(raw) {
   let t = raw
     .replace(/<br\s*\/?>/gi, '\n')
     .replace(/<[^>]+>/g, '')
-    .replace(/''+/g, '');
+    .replace(/''+/g, '')
+    .replace(/\d+px\s*/gi, '');
 
   t = stripWikiTables(t);
   t = stripWikiTemplates(t);
@@ -99,8 +100,13 @@ export function isLowQualityText(text) {
   return false;
 }
 
-export function shouldSkipSection(title, body) {
+export function shouldSkipSection(title, body, { keepCraftSections = false } = {}) {
   const t = (title || '').trim();
+  if (keepCraftSections && /^(recipes?|crafting|building|recipe)$/i.test(t)) {
+    if (/\{\|/.test(body || '')) return false;
+    const cleaned = sanitizeWikiText(body);
+    return !cleaned || cleaned.length < 8;
+  }
   if (SKIP_SECTION_TITLES.test(t)) return true;
   if (/video showcase/i.test(t)) return false;
   const cleaned = sanitizeWikiText(body);

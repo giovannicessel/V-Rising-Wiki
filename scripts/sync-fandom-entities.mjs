@@ -165,7 +165,7 @@ function extractSections(wikitext) {
       continue;
     }
 
-    if (shouldSkipSection(title, body)) {
+    if (shouldSkipSection(title, body, { keepCraftSections: true })) {
       if (youtubeId) sections.push({ title, body: '', kind: 'video', youtubeId });
       continue;
     }

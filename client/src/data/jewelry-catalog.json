@@ -1,0 +1,224 @@
+{
+  "syncedAt": "2026-05-19T23:36:40.753Z",
+  "fandomUrl": "https://vrising.fandom.com/wiki/Jewelry",
+  "intro": "Jewelry, also classified as Magic Sources in the game, amplifies the power of vampire spells.\nHigher tiers can also offer other stat bonuses, such as Physical Power. Depending on the item they are crafted either by hand, at the  or the . For spell modifiers see Jewels.",
+  "introPt": "Jewelry (joalheria) amplifica feitiços vampíricos e pode conceder bônus como Poder Físico. Itens de nível mais alto exigem receitas e estações (Simple Workbench, Artisan Table). Para modificadores de feitiço encaixáveis, veja Joias (spell jewels) tier 1–4.",
+  "items": [
+    {
+      "name": "Bone Ring",
+      "slug": "bone-ring",
+      "gearLevel": 3,
+      "stats": "",
+      "source": "",
+      "materials": "",
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/5/59/Jewelry_BoneRing.png/revision/latest?cb=20240901114309"
+    },
+    {
+      "name": "Blood Bone Ring",
+      "slug": "blood-bone-ring",
+      "gearLevel": 6,
+      "stats": "",
+      "source": "",
+      "materials": "",
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/c/cb/Jewelry_BloodBoneRing.png/revision/latest?cb=20240516224430"
+    },
+    {
+      "name": "Gravedigger Ring",
+      "slug": "gravedigger-ring",
+      "gearLevel": 9,
+      "stats": "",
+      "source": "",
+      "materials": "",
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/e/e2/Jewelry_GravediggerRing.png/revision/latest?cb=20230521032802"
+    },
+    {
+      "name": "Ring of the Warrior",
+      "slug": "ring-of-the-warrior",
+      "gearLevel": 12,
+      "stats": "+9% Weapon Skill Power",
+      "source": "Shady Book Dealer",
+      "materials": "",
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/4/40/Jewelry_RingoftheWarrior.png/revision/latest?cb=20250430180426"
+    },
+    {
+      "name": "Ring of the Warlock",
+      "slug": "ring-of-the-warlock",
+      "gearLevel": 12,
+      "stats": "+8% Spell Critical Chance",
+      "source": "Shady Book Dealer",
+      "materials": "",
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/7/72/Jewelry_RingoftheWarlock.png/revision/latest?cb=20230521032933"
+    },
+    {
+      "name": "Ring of the Sorcerer",
+      "slug": "ring-of-the-sorcerer",
+      "gearLevel": 12,
+      "stats": "+4% Spell Life Leech",
+      "source": "Shady Book Dealer",
+      "materials": "",
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/a/a0/Jewelry_RingoftheSorcerer.png/revision/latest?cb=20250430180430"
+    },
+    {
+      "name": "Ring of the Dawnrunner",
+      "slug": "ring-of-the-dawnrunner",
+      "gearLevel": 12,
+      "stats": "+4% Bonus Movement Speed",
+      "source": "Shady Book Dealer",
+      "materials": "",
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/e/e4/Jewelry_RingoftheDawnrunner.png/revision/latest?cb=20230521032953"
+    },
+    {
+      "name": "Ring of the Spellweaver",
+      "slug": "ring-of-the-spellweaver",
+      "gearLevel": 12,
+      "stats": "+6% Spell Cooldown Rate",
+      "source": "Shady Book Dealer",
+      "materials": "",
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/4/46/Jewelry_RingoftheSpellweaver.png/revision/latest?cb=20230521033042"
+    },
+    {
+      "name": "Ring of the Duskwatcher",
+      "slug": "ring-of-the-duskwatcher",
+      "gearLevel": 12,
+      "stats": "+7% Weapon Attack Speed",
+      "source": "Shady Book Dealer",
+      "materials": "",
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/2/25/Jewelry_RingoftheDuskwatcher.png/revision/latest?cb=20230521190812"
+    },
+    {
+      "name": "Scourgestone Pendant",
+      "slug": "scourgestone-pendant",
+      "gearLevel": 15,
+      "stats": "",
+      "source": "",
+      "materials": "",
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/c/cc/Jewelry_ScourgestonePendant.png/revision/latest?cb=20230521033125"
+    },
+    {
+      "name": "Pendant of the Warrior",
+      "slug": "pendant-of-the-warrior",
+      "gearLevel": 18,
+      "stats": "+9% Weapon Skill Power\n10% chance on primary hit to inflict . Can only trigger once every 4s.",
+      "source": "Raziel the Shepherd (16.6%)\nRural Book Vendor",
+      "materials": "",
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/e/ee/Jewelry_PendantoftheWarrior.png/revision/latest?cb=20230521033217"
+    },
+    {
+      "name": "Pendant of the Warlock",
+      "slug": "pendant-of-the-warlock",
+      "gearLevel": 18,
+      "stats": "+8% Spell Critical Chance\n10% chance on primary hit to inflict . Can only trigger once every 4s.",
+      "source": "Raziel the Shepherd (16.6%)\nRural Book Vendor",
+      "materials": "",
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/3/31/Jewelry_PendantoftheWarlock.png/revision/latest?cb=20230521033230"
+    },
+    {
+      "name": "Pendant of the Sorcerer",
+      "slug": "pendant-of-the-sorcerer",
+      "gearLevel": 18,
+      "stats": "+4% Spell Life Leech\n10% chance on primary hit to inflict . Can only trigger once every 4s.",
+      "source": "Raziel the Shepherd (16.6%)\nRural Book Vendor",
+      "materials": "",
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/8/8f/Jewelry_PendantoftheSorcerer.png/revision/latest?cb=20230521033240"
+    },
+    {
+      "name": "Pendant of the Dawnrunner",
+      "slug": "pendant-of-the-dawnrunner",
+      "gearLevel": 18,
+      "stats": "+4% Bonus Movement Speed\n10% chance on primary hit to inflict . Can only trigger once every 4s.",
+      "source": "Raziel the Shepherd (16.6%)\nRural Book Vendor",
+      "materials": "",
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/9/99/Jewelry_PendantoftheDawnrunner.png/revision/latest?cb=20230521033253"
+    },
+    {
+      "name": "Pendant of the Spellweaver",
+      "slug": "pendant-of-the-spellweaver",
+      "gearLevel": 18,
+      "stats": "+6% Spell Cooldown Rate\n10% chance on primary hit to inflict . Can only trigger once every 4s.",
+      "source": "Raziel the Shepherd (16.6%)\nRural Book Vendor",
+      "materials": "",
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/2/25/Jewelry_PendantoftheSpellweaver.png/revision/latest?cb=20230521033327"
+    },
+    {
+      "name": "Pendant of the Duskwatcher",
+      "slug": "pendant-of-the-duskwatcher",
+      "gearLevel": 18,
+      "stats": "+7% Weapon Attack Speed\n10% chance on primary hit to inflict . Can only trigger once every 4s.",
+      "source": "Raziel the Shepherd (16.6%)\nRural Book Vendor",
+      "materials": "",
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/9/91/Jewelry_PendantoftheDuskwatcher.png/revision/latest?cb=20230521033338"
+    },
+    {
+      "name": "Blood Merlot Amulet",
+      "slug": "blood-merlot-amulet",
+      "gearLevel": 22,
+      "stats": "+15% Reduced Blood Drain Rate",
+      "source": "",
+      "materials": "",
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/2/29/Jewelry_BloodMerlotAmulet.png/revision/latest?cb=20230521033418"
+    },
+    {
+      "name": "Amulet of the Crimson Commander",
+      "slug": "amulet-of-the-crimson-commander",
+      "gearLevel": 25,
+      "stats": "+15% Reduced Blood Drain Rate\n+9% Weapon Skill Power\n10% chance on primary hit to gain . Can only trigger once every 10s.",
+      "source": "",
+      "materials": "",
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/4/41/Jewelry_AmuletoftheCrimsonCommander.png/revision/latest?cb=20230522193738"
+    },
+    {
+      "name": "Amulet of the Arch-Warlock",
+      "slug": "amulet-of-the-arch-warlock",
+      "gearLevel": 25,
+      "stats": "+15% Reduced Blood Drain Rate\n+8% Spell Critical Chance\n10% chance on primary hit to gain . Can only trigger once every 10s.",
+      "source": "",
+      "materials": "",
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/e/e7/Jewelry_AmuletoftheArch-Warlock.png/revision/latest?cb=20230521033622"
+    },
+    {
+      "name": "Amulet of the Wicked Prophet",
+      "slug": "amulet-of-the-wicked-prophet",
+      "gearLevel": 25,
+      "stats": "+15% Reduced Blood Drain Rate\n+4% Spell Life Leech\n10% chance on primary hit to gain . Can only trigger once every 10s.",
+      "source": "",
+      "materials": "",
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/f/fe/Jewelry_AmuletoftheWickedProphet.png/revision/latest?cb=20230522193620"
+    },
+    {
+      "name": "Amulet of the Unyielding Charger",
+      "slug": "amulet-of-the-unyielding-charger",
+      "gearLevel": 25,
+      "stats": "+15% Reduced Blood Drain Rate\n+4% Bonus Movement Speed\n10% chance on primary hit to spawn a . Can only trigger once every 10s.",
+      "source": "",
+      "materials": "",
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/2/23/Jewelry_AmuletoftheUnyieldingCharger.png/revision/latest?cb=20230521034027"
+    },
+    {
+      "name": "Amulet of the Master Spellweaver",
+      "slug": "amulet-of-the-master-spellweaver",
+      "gearLevel": 25,
+      "stats": "+15% Reduced Blood Drain Rate\n+6% Spell Cooldown Rate\n10% chance on primary hit to gain . Can only trigger once every 10s.",
+      "source": "",
+      "materials": "",
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/7/7e/Jewelry_AmuletoftheMasterSpellweaver.png/revision/latest?cb=20230521034054"
+    },
+    {
+      "name": "Amulet of the Blademaster",
+      "slug": "amulet-of-the-blademaster",
+      "gearLevel": 25,
+      "stats": "+15% Reduced Blood Drain Rate\n+7% Weapon Attack Speed\n10% chance on primary hit to gain . Can only trigger once every 10s.",
+      "source": "",
+      "materials": "",
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/4/4f/Jewelry_AmuletoftheBlademaster.png/revision/latest?cb=20230521034117"
+    },
+    {
+      "name": "Blood Key",
+      "slug": "blood-key",
+      "gearLevel": 25,
+      "stats": "+75 Sun Resistance Rating",
+      "source": "",
+      "materials": "",
+      "imageUrl": "https://static.wikia.nocookie.net/vrising/images/1/13/Jewelry_BloodKey.png/revision/latest?cb=20230521030703"
+    }
+  ]
+}

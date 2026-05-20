@@ -4,23 +4,28 @@ import type { BossUnlockEntry } from '@/data/entity-types';
 import { entityDetailPath } from '@/lib/entity-paths';
 import AssetImage from '@/components/AssetImage';
 import { getSchoolTheme } from '@/lib/school-theme';
+import { useTranslation } from '@/contexts/LocaleContext';
+import { unlockEntryName } from '@/lib/entity-locale';
+import type { Locale } from '@/i18n';
 
 export default function SpellChoiceList({
   choices,
   school,
   compact = false,
+  locale: localeProp,
 }: {
   choices: BossUnlockEntry[];
   school?: string;
   compact?: boolean;
+  locale?: Locale;
 }) {
+  const { t, locale: ctxLocale } = useTranslation();
+  const locale = localeProp ?? ctxLocale;
   const theme = school ? getSchoolTheme(school) : null;
 
   if (!choices.length) {
     return (
-      <p className="text-sm text-[#666] italic">
-        Opções desta escola ainda não catalogadas na wiki.
-      </p>
+      <p className="text-sm text-[#666] italic">{t('rewards.choicesEmpty')}</p>
     );
   }
 
@@ -44,7 +49,9 @@ export default function SpellChoiceList({
                 <Wand2 size={16} className="text-[#555]" />
               )}
             </div>
-            <span className="text-sm text-white font-medium truncate">{entry.name}</span>
+            <span className="text-sm text-white font-medium truncate">
+              {unlockEntryName(entry, locale)}
+            </span>
           </div>
         );
 

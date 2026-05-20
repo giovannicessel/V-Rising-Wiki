@@ -1,0 +1,406 @@
+{
+  "intro": "Cada tipo de arma oferece um estilo de combate único, com ataque primário e habilidades Q e E. Escolha sabiamente para complementar sua build de feitiços e sangue.",
+  "weaponTypes": [
+    {
+      "id": "sword",
+      "typeEn": "Sword",
+      "namePt": "Espadas",
+      "emoji": "⚔️",
+      "blurb": "Clássica e confiável — corta vegetação e inimigos com a mesma facilidade.",
+      "abilities": [
+        { "name": "Ataque primário", "description": "Dano físico de 35% / 35% / 40%." },
+        {
+          "name": "Redemoinho (Whirlwind) · Q",
+          "description": "175% de dano físico em 1,1s; aumenta velocidade de movimento.",
+          "unlock": "Espada de cobre"
+        },
+        {
+          "name": "Onda de choque (Shockwave) · E",
+          "description": "100% de dano, lança inimigos (1,6s). Recaste: teleporta e golpeia 3× (20% cada).",
+          "unlock": "Espada de ferro"
+        }
+      ]
+    },
+    {
+      "id": "axe",
+      "typeEn": "Axe",
+      "namePt": "Machados",
+      "emoji": "🪓",
+      "blurb": "Perfeitos para derrubar árvores e crânios. O Frenesi deixa você imparável.",
+      "abilities": [
+        { "name": "Ataque primário", "description": "Dano físico de 45% / 45% / 55%." },
+        {
+          "name": "Frenesi (Frenzy) · Q",
+          "description": "Avanço + 100% de dano. Acerto: +25% velocidade de movimento e +50% de ataque por 1,5s.",
+          "unlock": "Machados de cobre"
+        },
+        {
+          "name": "Golpe em X (X-Strike) · E",
+          "description": "2 machados (80% cada), lentidão 1,5s. Na interseção: incapacita 1s.",
+          "unlock": "Machados de ferro"
+        }
+      ]
+    },
+    {
+      "id": "mace",
+      "typeEn": "Mace",
+      "namePt": "Maças",
+      "emoji": "🔨",
+      "blurb": "Esmague minerais e ossos com força bruta. Lentidão garantida.",
+      "abilities": [
+        { "name": "Ataque primário", "description": "Dano físico de 50% / 50% / 60%." },
+        {
+          "name": "Golpe esmagador (Crushing Blow) · Q",
+          "description": "Salto + 150% de dano; lentidão decrescente por 2s.",
+          "unlock": "Maça de cobre"
+        },
+        {
+          "name": "Pancada (Smack) · E",
+          "description": "70% de dano, empurra e incapacita por 1s.",
+          "unlock": "Maça de ferro"
+        }
+      ]
+    },
+    {
+      "id": "spear",
+      "typeEn": "Spear",
+      "namePt": "Lanças",
+      "emoji": "🔱",
+      "blurb": "Mantenha inimigos à distância e perfure com precisão letal.",
+      "abilities": [
+        { "name": "Ataque primário", "description": "Dano físico de 40% / 40% / 50%." },
+        {
+          "name": "Mil lanças (A Thousand Spears) · Q",
+          "description": "8 estocadas (140% total), interrompe. Recaste: investida 50% e empurra.",
+          "unlock": "Lança de cobre"
+        },
+        {
+          "name": "Arpão (Harpoon) · E",
+          "description": "110% de dano, puxa o alvo; lentidão decrescente 1,5s.",
+          "unlock": "Lança de ferro"
+        }
+      ]
+    },
+    {
+      "id": "reaper",
+      "typeEn": "Reaper",
+      "namePt": "Ceifadoras",
+      "emoji": "💀",
+      "blurb": "Controle de grupo e dano contínuo — a arma dos mortos-vivos.",
+      "abilities": [
+        { "name": "Ataque primário", "description": "Dano físico de 50% / 50% / 55%." },
+        {
+          "name": "Ceifadora uivante (Howling Reaper) · Q",
+          "description": "Ceifadora giratória: 20% a cada 0,25s por 2,5s; lentidão nos atingidos.",
+          "unlock": "Ceifadora de ferro"
+        },
+        {
+          "name": "Golpe de tendão (Tendon Swing) · E",
+          "description": "125% de dano, empurra; lentidão decrescente 2s.",
+          "unlock": "Ceifadora de ferro"
+        }
+      ]
+    },
+    {
+      "id": "slasher",
+      "typeEn": "Slashers",
+      "namePt": "Lâminas",
+      "emoji": "🗡️",
+      "blurb": "Para vampiros furtivos — entre nas sombras e ataque quando menos esperarem.",
+      "abilities": [
+        { "name": "Ataque primário", "description": "Dano físico de 28% / 28% / 35%." },
+        {
+          "name": "Golpe elusivo (Elusive Strike) · Q",
+          "description": "Avanço ida e volta, 70% de dano e lentidão 1,5s.",
+          "unlock": "Lâminas de ferro"
+        },
+        {
+          "name": "Camuflagem (Camouflage) · E",
+          "description": "Furtivo 2,5s (+25% movimento). Próximo primário: 80% de dano e incapacita 2s.",
+          "unlock": "Lâminas de ferro"
+        }
+      ]
+    },
+    {
+      "id": "whip",
+      "typeEn": "Whip",
+      "namePt": "Chicotes",
+      "emoji": "🪢",
+      "blurb": "Controle do campo com estalos precisos e enraizamento.",
+      "abilities": [
+        {
+          "name": "Ataque primário",
+          "description": "35% / 35% / 40% em linha; 65% / 65% / 70% em raio na ponta.",
+          "unlock": "Chicote de ferro"
+        },
+        {
+          "name": "Giro aéreo (Aerial Whip Twirl) · Q",
+          "description": "100% de dano, empurra; lentidão decrescente 1,5s.",
+          "unlock": "Chicote de ferro"
+        },
+        {
+          "name": "Chicote enredante (Entangling Whip) · E",
+          "description": "100% de dano, enraíza por 2s.",
+          "unlock": "Chicote de ferro"
+        }
+      ]
+    },
+    {
+      "id": "greatsword",
+      "typeEn": "Greatsword",
+      "namePt": "Espadões",
+      "emoji": "🗡️",
+      "blurb": "Dano massivo e golpes devastadores para quem resolve na força bruta.",
+      "abilities": [
+        { "name": "Ataque primário", "description": "Dano físico de 70% / 70% / 80%." },
+        {
+          "name": "Cutelo grande (Great Cleaver) · Q",
+          "description": "125% de dano, lança inimigos (0,65s).",
+          "unlock": "Espadão de ferro"
+        },
+        {
+          "name": "Morte do alto (Death From Above) · E",
+          "description": "Salto + 125% de dano físico.",
+          "unlock": "Espadão de ferro"
+        }
+      ]
+    },
+    {
+      "id": "crossbow",
+      "typeEn": "Crossbow",
+      "namePt": "Bestas",
+      "emoji": "🏹",
+      "blurb": "Dano à distância com virotes precisos. Marque alvos para bônus.",
+      "abilities": [
+        {
+          "name": "Ataque primário",
+          "description": "100% de dano. Consome Marcado: +25% de dano e +7% velocidade de ataque (até 3 acúmulos)."
+        },
+        {
+          "name": "Chuva de virotes (Rain of Bolts) · Q",
+          "description": "5 virotes (40% cada), aplica Marcado e lentidão 1,5s.",
+          "unlock": "Besta de cobre"
+        },
+        {
+          "name": "Tiro rápido (Snapshot) · E",
+          "description": "75% de dano, interrompe, Marcado e lentidão 1,5s. Divide-se em dois ao acertar.",
+          "unlock": "Besta de ferro"
+        }
+      ]
+    },
+    {
+      "id": "longbow",
+      "typeEn": "Longbow",
+      "namePt": "Arcos longos",
+      "emoji": "🏹",
+      "blurb": "Carregue tiros para perfurar múltiplos inimigos e guie suas flechas.",
+      "abilities": [
+        {
+          "name": "Ataque primário",
+          "description": "60%–120% (carregado). Foco (até 3×). Tiro cheio perfura 2 inimigos."
+        },
+        {
+          "name": "Multishot · Q",
+          "description": "5 flechas (100% cada), empurra. Foco gera flechas extras.",
+          "unlock": "Arco longo de cobre"
+        },
+        {
+          "name": "Flecha guiada (Guided Arrow) · E",
+          "description": "120% de dano, lentidão 2s. Vira no mesmo alvo (50%). Foco = mais viradas.",
+          "unlock": "Arco longo de ferro"
+        }
+      ]
+    },
+    {
+      "id": "pistols",
+      "typeEn": "Pistols",
+      "namePt": "Pistolas",
+      "emoji": "🔫",
+      "blurb": "Mobilidade e explosões — role, atire e veja tudo voar.",
+      "abilities": [
+        { "name": "Ataque primário", "description": "65% / 50% / 50% de dano físico." },
+        {
+          "name": "Leque de tiros (Fan the Hammer) · Q",
+          "description": "10 tiros (25% cada), empurra. Pode se mover ao canalizar.",
+          "unlock": "Pistolas de ferro"
+        },
+        {
+          "name": "Bala explosiva (Explosive Bullet) · E",
+          "description": "Rolagem evasiva + tiro (25%). Explode após 3s: 115% em área.",
+          "unlock": "Pistolas de ferro"
+        }
+      ]
+    },
+    {
+      "id": "daggers",
+      "typeEn": "Daggers",
+      "namePt": "Adagas",
+      "emoji": "🗡️",
+      "blurb": "Ataques rápidos e letais — faça chover lâminas.",
+      "abilities": [
+        { "name": "Ataque primário", "description": "40% / 40% / 50% de dano físico." },
+        {
+          "name": "Arremessar adaga (Throw Dagger) · Q",
+          "description": "4 adagas (40% cada). +1 acúmulo a cada 1,1s.",
+          "unlock": "Adagas de ferro"
+        },
+        {
+          "name": "Chuva de adagas (Rain of Daggers) · E",
+          "description": "Salto + 4 adagas (40% cada); lentidão decrescente 2s.",
+          "unlock": "Adagas de ferro"
+        },
+        {
+          "name": "Liberar adagas (Release Daggers)",
+          "description": "Adagas próximas retornam, 40% de dano cada."
+        }
+      ]
+    },
+    {
+      "id": "claws",
+      "typeEn": "Claws",
+      "namePt": "Garras",
+      "emoji": "🐾",
+      "blurb": "Desperte a fera interior — perfure e rasgue com ferocidade.",
+      "abilities": [
+        {
+          "name": "Ataque primário",
+          "description": "40% / 40% / 50%. 3º golpe: Perfuração (3×). Ruptura: 75% no alvo, 50% em área."
+        },
+        {
+          "name": "Investida (Lunge) · Q",
+          "description": "90% de dano + Perfuração. Recaste uma vez.",
+          "unlock": "Garras de ferro"
+        },
+        {
+          "name": "Salto perfurante (Skewering Leap) · E",
+          "description": "100% de dano, Perfuração e incapacita 1,2s.",
+          "unlock": "Garras de ferro"
+        }
+      ]
+    }
+  ],
+  "uniqueWeapons": [
+    {
+      "name": "Machados do lenhador",
+      "nameEn": "Lumberjack's Axes",
+      "gearLevel": 7,
+      "bonus": "+50% de dano em madeira",
+      "source": "18 moedas de cobre — Comerciante de bens suspeitos (Farbane)"
+    },
+    {
+      "name": "Maça do minerador",
+      "nameEn": "Miner's Mace",
+      "gearLevel": 7,
+      "bonus": "+50% de dano em minerais",
+      "source": "18 moedas de cobre — Comerciante de bens suspeitos (Farbane)"
+    }
+  ],
+  "ancestral": {
+    "title": "Armas ancestrais",
+    "intro": "Versões aprimoradas infundidas com poder antigo. Forjadas na Forja Ancestral, com atributos aleatórios — cada peça é única.",
+    "forge": {
+      "unlock": "Derrote Octavian, o Capitão da Milícia.",
+      "materials": "1 Essência de sangue primordial, 8 ligas de rádio, 16 lingotes de ferro.",
+      "bonuses": [
+        "Sala de castelo confinada: +25% velocidade de crafting.",
+        "Piso de forja correspondente: −25% custo de material."
+      ]
+    },
+    "rarities": [
+      {
+        "tier": "Rara",
+        "craft": "1 arma de ferro impiedosa + 1 estilhaço raro + 8 ligas de rádio + 1 essência de sangue superior.",
+        "shards": "Mercador vampiro do sul (750 estilhaços de estígia); V Bloods nv. 53+; incursões de fenda T1."
+      },
+      {
+        "tier": "Épica",
+        "craft": "1 arma sanguínea + 1 estilhaço épico + liga de rádio + essência primordial.",
+        "shards": "Mercador vampiro (1500 estilhaços maiores); V Bloods nv. 77+; incursões T2."
+      },
+      {
+        "tier": "Lendária (ancestral)",
+        "craft": "15% de chance ao obter uma épica ancestral — 3 atributos aleatórios com valores mais altos.",
+        "shards": "Substitui drop épico; não craft direto."
+      }
+    ],
+    "infusions": [
+      { "school": "Blood", "schoolPt": "Sangue", "effect": "Leech (drena vida)" },
+      { "school": "Chaos", "schoolPt": "Caos", "effect": "Ignite (incendeia)" },
+      { "school": "Unholy", "schoolPt": "Profano", "effect": "Condemn (condena)" },
+      { "school": "Illusion", "schoolPt": "Ilusão", "effect": "Weaken (enfraquece)" },
+      { "school": "Frost", "schoolPt": "Gelo", "effect": "Chill (congela)" },
+      { "school": "Storm", "schoolPt": "Tempestade", "effect": "Static (estatiza)" }
+    ],
+    "infusionNote": "Todas as armas ancestrais recebem uma escola de magia aleatória. O 2º acerto da habilidade Q aplica o debuff correspondente."
+  },
+  "riftCrafting": {
+    "title": "Incursões da Fenda → craft ancestral e lendário",
+    "summary": "As Incursões da Fenda nas Ruínas de Mortium são a principal forma de farmar Estilhaços de Estígia. Com eles você compra estilhaços de arma nos Mercadores Vampiros e forja na Forja Ancestral — sem esse ciclo, armas raras/épicas/lendárias ficam fora do alcance.",
+    "prerequisite": "Construa o Olho de Mortium no castelo para ver no mapa onde e quando a incursão está ativa (evento periódico em Mortium).",
+    "flow": [
+      "Participe da incursão e derrote o Blood Soul para ganhar Estilhaços de Estígia.",
+      "Troque os estilhaços no Mercador Vampiro (Sul ou Norte, conforme o tier).",
+      "Use a Forja Ancestral com a arma base certa + estilhaço + materiais para craftar."
+    ],
+    "tiers": [
+      {
+        "name": "Tier 1 (Lesser)",
+        "level": "57+",
+        "currency": "Estilhaços de Estígia (comuns)",
+        "merchant": "Mercador Vampiro do Sul (Mortium)",
+        "buys": "Estilhaços de arma ancestral rara, joias tier 2–3, livros de estudo.",
+        "craftResult": "Armas ancestrais raras (a partir de ferro impiedoso + estilhaço raro)."
+      },
+      {
+        "name": "Tier 2 (Primal)",
+        "level": "80+",
+        "currency": "Estilhaços de Estígia maiores",
+        "merchant": "Mercador Vampiro do Norte (Mortium)",
+        "buys": "Estilhaços de arma ancestral épica, joias tier 4, pergaminhos — e chance de estilhaço de artefato lendário.",
+        "craftResult": "Armas ancestrais épicas; 15% de chance de vir lendária ao obter épica. Estilhaço lendário também pode sair na incursão T2."
+      }
+    ],
+    "legendaryChance": "Estilhaço de Artefato Lendário: ~15% ao comprar estilhaço épico no mercador norte ou como drop em incursões Primal (T2). Com o estilhaço, forje o artefato lendário na Forja Ancestral (modifica Q/E da arma base).",
+    "ancestralEpicCraft": {
+      "rare": "1 arma ferro impiedosa + 1 estilhaço raro + ligas de rádio + essência superior.",
+      "epic": "1 arma sanguínea + 1 estilhaço épico + liga de rádio + essência primordial.",
+      "legendaryRoll": "Ao craftar/obter épica ancestral, 15% de vir lendária (3 atributos, valores altos) — não é craft direto do estilhaço lendário em todos os casos."
+    },
+    "fandomUrl": "https://vrising.fandom.com/wiki/Rift_Incursions"
+  },
+  "legendaryArtifacts": {
+    "title": "Artefatos lendários",
+    "intro": "Artefatos são armas com nome próprio. Forje na Forja Ancestral usando estilhaço de artefato lendário (veja Incursões da Fenda acima).",
+    "names": [
+      "The Gravecaller",
+      "The Red Twins",
+      "Hand of Winter",
+      "The Thousand Storms",
+      "Mortira's Lament",
+      "Apocalypse",
+      "Talons of the Lich Beast",
+      "Cloud Dancers",
+      "Wings of the Fallen",
+      "The Morning Star",
+      "The Fate Dancers",
+      "The Siren's Wail",
+      "Oaksong",
+      "The Wraithblades",
+      "The Endbringers"
+    ],
+    "note": "Cada artefato altera Q/E da arma base de forma única — consulte a página individual na wiki."
+  },
+  "removedWeapons": [
+    {
+      "name": "The General's Soul Reaper",
+      "gearLevel": 18,
+      "bonus": "+25% dano físico vs mortos-vivos, +5% crítico de feitiço, +6 poder de feitiço",
+      "note": "Antiga arma única de V Blood; pode estar removida ou restrita a tier específico."
+    }
+  ],
+  "references": [
+    { "label": "Weapon Skills", "url": "https://vrising.fandom.com/wiki/Weapon_Skills" },
+    { "label": "Ancestral Forge", "url": "https://vrising.fandom.com/wiki/Ancestral_Forge" },
+    { "label": "Weapons", "url": "https://vrising.fandom.com/wiki/Weapons" }
+  ]
+}

@@ -1,0 +1,904 @@
+{
+  "syncedAt": "2026-05-19T23:38:19.240Z",
+  "fandomUrl": "https://vrising.fandom.com/wiki/Jewels",
+  "tierImages": {
+    "1": "/images/jewels/blood-tier1.png",
+    "2": "/images/jewels/blood-tier1.png",
+    "3": "/images/jewels/blood-tier1.png",
+    "4": "/images/jewels/blood-tier1.png"
+  },
+  "spells": [
+    {
+      "spellNameEn": "Veil of Blood",
+      "school": "Blood",
+      "modifiers": [
+        "Dashing through an enemy inflicts Leech.",
+        "Increases elude duration by 8 - 20%.",
+        "Increases healing on hit by 1.2 - 2% of max health.",
+        "Next primary attack within 3s on an enemy affected by Leech increases your physical damage output by 8 - 16% for 4s.",
+        "Next primary attack inflicts a fading snare lasting 1.2 - 2s.",
+        "Increases damage of next primary attack by 12 - 24%."
+      ]
+    },
+    {
+      "spellNameEn": "Shadowbolt",
+      "school": "Blood",
+      "modifiers": [
+        "Hitting a target affected by Leech deals 40 - 60% bonus damage.",
+        "Hitting a target affected by Leech heals self for 1.4 - 3% of your maximum health.",
+        "Explodes on hit dealing 14 - 30% damage and inflicting Leech on nearby enemies.",
+        "Inflicts Vampiric Curse dealing 140 - 180% damage and leeching 14 - 30% health after 3s but reduces damage done by the initial impact by 140%.",
+        "Increase projectile range and speed by 12 - 24%.",
+        "Increases cast rate by 12 - 24%.",
+        "Knock targets back 1.6 - 3.2 meters on hit.",
+        "Reduces cooldown by 8 - 12%."
+      ]
+    },
+    {
+      "spellNameEn": "Blood Rite",
+      "school": "Blood",
+      "modifiers": [
+        "Throw up to 1 - 5 daggers towards nearby enemies when triggered, each dagger dealing 16 - 24% damage and inflicting Leech.",
+        "When triggered heals self for 30 - 50% of your spell power.",
+        "Increases damage by 12 - 20%.",
+        "Increases movement speed when channeling by 20 - 36%.",
+        "Inflict a fading snare on enemies hit lasting 1.2 - 2.4s.",
+        "Turn invisible during the immaterial duration. (breaks on ability use)",
+        "Increases immaterial duration by 12 - 20%.",
+        "When triggered your next primary attack used within 5s deals 20 - 40% bonus damage."
+      ]
+    },
+    {
+      "spellNameEn": "Blood Rage",
+      "school": "Blood",
+      "modifiers": [
+        "Increases movement speed by 2 - 6%.",
+        "Increases physical power by 8 - 16% during the effect.",
+        "Increases the duration of the effect by 12 - 24%.",
+        "Inflicts a fading snare on enemies hit lasting 0.8 - 1.6s.",
+        "Killing an enemy unit during the effect heals you for 1.2 - 2.4% of your maximum health.",
+        "Removes all negative effects.",
+        "Shield self and nearby allies for 25 - 45% of your spell power."
+      ]
+    },
+    {
+      "spellNameEn": "Blood Fountain",
+      "school": "Blood",
+      "modifiers": [
+        "Eruption impact deals 16 - 32% bonus damage.",
+        "Increases healing of the eruption impact by 30 - 50%.",
+        "Increases healing of the initial hit by 16 - 32%.",
+        "Recast to conjure a lesser blood fountain. The initial hit heals allies for 20 - 36% <!--",
+        "Removes all negative effects from self and nearby allies on the initial hit.",
+        "The eruption hit increases target ally movement speed by 10 - 18% for 3s.",
+        "The eruption hit knocks enemies back 1.6 - 3.2 meters.",
+        "The initial hit inflicts Leech.",
+        "The initial impact inflicts a fading snare lasting 0.8 - 1.2s."
+      ]
+    },
+    {
+      "spellNameEn": "Sanguine Coil",
+      "school": "Blood",
+      "modifiers": [
+        "Hitting a target affected by Leech deals 12 - 24% bonus damage.",
+        "Increases life drain by 30 - 50%.",
+        "Bounces towards an additional target after first hit dealing 20 - 40% of the initial damage or healing. Can bounce back towards caster.",
+        "Increases maximum charges by 1.",
+        "Lethal attacks restore 1 charge.",
+        "Increases ally healing by 14 - 30%.",
+        "Increases damage by 8 - 16%.",
+        "Increases projectile range and speed by 12 - 24%"
+      ]
+    },
+    {
+      "spellNameEn": "Carrion Swarm",
+      "school": "Blood",
+      "modifiers": [
+        "Hitting the same target with all bats inflicts a 0.6 - 1s stun.",
+        "Inflicts a fading snare on enemies hit lasting 0.8 - 1.6s.",
+        "Explodes when reaching maximum distance dealing 16 - 32% damage and inflicting Leech on nearby enemies.",
+        "The first hit inflicts Lesser Vampiric Curse dealing 30 - 50% damage and leeching 12 - 24% health after 3s.",
+        "Increases damage done by each bat by 6 - 10%.",
+        "Hits leeches 4 - 8% health."
+      ]
+    },
+    {
+      "spellNameEn": "Veil of Chaos",
+      "school": "Chaos",
+      "modifiers": [
+        "Next primary attack within 3s on a target affected by Ignite engulfs the target in Agonizing Flames dealing 2 - 6% damage and healing self for 8 - 12% of your spell power 5 times.",
+        "Increases damage of next primary attack by 12 - 24%.",
+        "Increases damage done when an illusion explodes by 12 - 24%.",
+        "Increases elude duration by 8 - 20%.",
+        "Inflicts a fading snare lasting 0.8 - 1.6s when an illusion explodes.",
+        "Spawns a second illusion when recasting dealing 40 - 80% of the original damage."
+      ]
+    },
+    {
+      "spellNameEn": "Chaos Volley",
+      "school": "Chaos",
+      "modifiers": [
+        "Hitting a target affected by Ignite engulfs the target in Agonizing Flames dealing 2 - 6% damage and healing self for 8 - 12% of your spell power 5 times.",
+        "Hitting a different target with the second projectile deals 40 - 60% additional damage. (first projectile misses count)",
+        "Increases damage by 8 - 20%",
+        "Increases projectile range and speed by 12 - 24%.",
+        "Knock targets back 0.8 - 1.6 meters on hit.",
+        "Reduces cooldown by 8 - 12%."
+      ]
+    },
+    {
+      "spellNameEn": "Aftershock",
+      "school": "Chaos",
+      "modifiers": [
+        "Hitting a target affected by Ignite engulfs the target in Agonizing Flames dealing 2 - 6% damage and healing self for 8 - 12% of your spell power 5 times.",
+        "Increases damage by 12 - 24%.",
+        "Increases projectile range by 12 - 24%.",
+        "Knocks nearby enemies back 1.6 - 3.2 meters on cast.",
+        "Reduces cooldown by 8 - 12%.",
+        "The initial wave inflicts a fading snare on enemies hit lasting 1 - 1.8s."
+      ]
+    },
+    {
+      "spellNameEn": "Power Surge",
+      "school": "Chaos",
+      "modifiers": [
+        "Increases attack speed by 6 - 10%",
+        "Increases movement speed by 2 - 6%",
+        "Increases physical damage output by 8 - 16% during the effect.",
+        "Increases the duration of the effect by 12 - 24%.",
+        "Lethal attacks during the effect increases duration by 1s. Can trigger up to 1 - 5 times.",
+        "Recast to consume the effect triggering an explosion dealing 40 - 60% damage and inflicting Ignite.",
+        "Remove all negative effects.",
+        "Shield target for 40 - 60% of your spell power."
+      ]
+    },
+    {
+      "spellNameEn": "Void",
+      "school": "Chaos",
+      "modifiers": [
+        "Hitting a target affected by Ignite engulfs the target in Agonizing Flames dealing 2 - 6% damage and healing self for 8 - 12% of your spell power 5 times.",
+        "Flames engulf the area dealing 8 - 16% damage up to 3 times to enemies in the area.",
+        "Increases damage by 8 - 16%.",
+        "Increases range by 8 - 20%.",
+        "Increases the rate charges recharge by 8 - 12%.",
+        "Spawns 3 exploding fragments dealing 12 - 24% damage and inflicting Ignite."
+      ]
+    },
+    {
+      "spellNameEn": "Chaos Barrier",
+      "school": "Chaos",
+      "modifiers": [
+        "A charged chaos bolt stuns target on hit for 0.4 - 1.2s.",
+        "Absorbing an attack reduces cooldown by 0.4 - 0.8s from up to 3 attacks.",
+        "Explodes on hit dealing 30 - 50% damage and inflicting Ignite on nearby enemies.",
+        "Increases damage per charge by 8 - 16%.",
+        "Increases movement speed when channeling by 8 - 12%.",
+        "When fully charged, gain a lesser Power Surge lasting for 2.4 - 4s."
+      ]
+    },
+    {
+      "spellNameEn": "Rain of Chaos",
+      "school": "Chaos",
+      "modifiers": [
+        "Hitting a target affected by Ignite engulfs the target in Agonizing Flames dealing 2 - 6% damage and healing self for 8 - 12% of your spell power 5 times.",
+        "The first meteor engulf the area in fire dealing 8 - 16% damage up to 3 times to enemies in the area.",
+        "An additional meteor strikes the center of the location dealing 40 - 80% damage when the effect ends.",
+        "There is a 30% chance to spawn a greater meteor dealing 24 - 32% additional damage in a 30% bigger radius.",
+        "Reduces cooldown by 8 - 12%.",
+        "Inflicts a fading snare on enemies hit lasting 0.4 - 1.2s."
+      ]
+    },
+    {
+      "spellNameEn": "Veil of Bones",
+      "school": "Chaos",
+      "modifiers": [
+        "The skeleton spawned explodes after 3s dealing 40 - 80% damage and inflicting Condemn on nearby enemies.",
+        "Dashing through an enemy inflicts Condemn.",
+        "Heals all allied skeletons you dash through by 40 - 80% of their maximum health and reset their lifetime.",
+        "Increases elude duration by 8 - 20%.",
+        "Increases damage of next primary attack by 12 - 24%.",
+        "Next primary attack within 3s on a target below 20% max health deals 20 - 40% increased damage.",
+        "Next primary attack within 3s summons a skeleton mage instead of a skeleton warrior."
+      ]
+    },
+    {
+      "spellNameEn": "Corrupted Skull",
+      "school": "Chaos",
+      "modifiers": [
+        "Conjures a bone spirit that circles around the target dealing 9 - 16% damage and inflicting Condemn to any enemy it hits.",
+        "Hitting an ally skeleton causes it to explode after 2.5s dealing 40 - 80% damage and inflicting Condemn on nearby enemies.",
+        "Increases damage by 8 - 20%.",
+        "Increases projectile range and speed by 12 - 24%.",
+        "Knock targets back 1.6 - 3.2 meters on hit.",
+        "Launch two spiraling projectiles instead of one, each projectile deals 30 - 50% of the original damage."
+      ]
+    },
+    {
+      "spellNameEn": "Ward of the Damned",
+      "school": "Chaos",
+      "modifiers": [
+        "Hitting an ally skeleton causes it to explode after 2.5s dealing 40 - 80% damage and inflicting Condemn on nearby enemies.",
+        "Absorbing a projectile heals you for 25 - 45% of your spell power.",
+        "Empower allied skeletons hit by the recast increasing their damage output by 14 - 30% for 8s.",
+        "Increases damage done by the recast attack by 12 - 20%.",
+        "Increases movement speed when channeling by 8 - 12%.",
+        "Melee attackers take 30 - 50% damage when striking the barrier.",
+        "Shields allied skeletons hit by the recast for 60 - 120% of your spell power. The shield lasts for 4s.",
+        "The recast attack knocks targets back 1.6 - 3.2 meters on hit.",
+        "20 - 40% chance to spawn a Skeleton Mage instead of a Skeleton Warrior when triggered."
+      ]
+    },
+    {
+      "spellNameEn": "Bone Explosion",
+      "school": "Chaos",
+      "modifiers": [
+        "Hitting an ally skeleton causes it to explode after 2.5s dealing 40 - 80% damage and inflicting Condemn on nearby enemies.",
+        "Deals 18 - 30% bonus damage to enemies below 30% health, lethal attacks reduce cooldown by 1.2 - 2.4s.",
+        "Heals all allied skeletons hit by 40 - 80% of their maximum health and reset their lifetime.",
+        "Increases damage by 12 - 24%.",
+        "Increases range by 8 - 20%.",
+        "Reduces cooldown by 8 - 12%.",
+        "Inflicts a fading snare on enemies hit lasting 0.8 - 1.6s.",
+        "Spawns a nova of 8 projectiles from impact location, each projectile dealing 30 - 50% damage and inflicting Condemn.",
+        "Triggers a second lesser explosion at the same location dealing 30 - 50% damage."
+      ]
+    },
+    {
+      "spellNameEn": "Death Knight",
+      "school": "Chaos",
+      "modifiers": [
+        "Summon a Skeleton Mage with 20 - 40% increased power when the Death Knight lifetime expires.",
+        "Damage done by the Death Knight heals you for 12 - 24% of damage done.",
+        "Inflicts a fading snare lasting 1 - 1.8s on enemies nearby the summoning location.",
+        "Increases damage by 12 - 20%.",
+        "Increases Death Knight lifetime by 20 - 40%.",
+        "Increases Death Knight health by 20 - 40%."
+      ]
+    },
+    {
+      "spellNameEn": "Soulburn",
+      "school": "Chaos",
+      "modifiers": [
+        "Hitting an ally skeleton causes it to explode after 2.5s dealing 40 - 80% damage and inflicting Condemn on nearby enemies.",
+        "Increases cast rate by 12 - 24%.",
+        "Inflicts a fading snare on enemies hit lasting 1.2 - 2.4s.",
+        "Shield self for 24 - 40% of your spell power for each enemy hit.",
+        "Increases targets hit by 1.",
+        "Increases life drain by 12 - 24%",
+        "There is a 60 - 100% chance to summon a skeleton warrior for each enemy hit.",
+        "Increases damage by 8 - 16%"
+      ]
+    },
+    {
+      "spellNameEn": "Unholy Chains",
+      "school": "Chaos",
+      "modifiers": [
+        "Conjures a bone spirit that circles around the target dealing 8 - 16% damage and inflicting Condemn to any enemy it hits.",
+        "Increases movement speed while channeling by 4 - 12%.",
+        "Reduces movement speed of the affected target while channeling by 4 - 12%.",
+        "Spawns a nova of projectiles from impact location, each projectile dealing 30 - 50% damage and inflicting Condemn.",
+        "Deals 35 - 55% damage every 0.7s while channeling but reduces the impact damage by 50 - 90%.",
+        "Reduces damage taken while channeling by 12 - 24%.",
+        "Heal self for 12 - 20% of the damage done.",
+        "Inflicts a fading snare lasting 0.6 - 1.4s on the affected target when the effect ends.",
+        "Increases the duration of the effect by 0.2 - 0.4s and the damage done by 40 - 60%."
+      ]
+    },
+    {
+      "spellNameEn": "Veil of Illusion",
+      "school": "Chaos",
+      "modifiers": [
+        "Detonate your illusion dealing 20 - 36% damage and inflicting Weaken in an area on recast.",
+        "Hitting a target affected by Weaken with your next primary attack grants a shield absorbing 20 - 40% damage based on your spell power stacking up to 3 times.",
+        "Respawn your illusion when recasting and your illusion launches projectiles inflicting Weaken and granting Phantasm.",
+        "Increases damage of the next primary attack by 12 - 24%.",
+        "Increases elude duration by 8 - 20%.",
+        "Next primary attack grants 1 - 5 stacks of Phantasm.",
+        "Next primary attack inflicts a fading snare lasting 1.2 - 2s."
+      ]
+    },
+    {
+      "spellNameEn": "Spectral Wolf",
+      "school": "Chaos",
+      "modifiers": [
+        "Consumes Weaken to spawn a wisp healing self or ally for 30 - 50% of your spell power. (10s duration)",
+        "Hitting a target affected by Weaken grants 1 - 4 stacks of Phantasm.",
+        "Hitting a target affected by Weaken grants you a shield absorbing 20 - 40% damage based on your spell power stacking up to 3 times.",
+        "Increases maximum bounces by 1.",
+        "Increases projectile range and speed by 12 - 24%.",
+        "Initial projectile inflicts a fading snare on enemies hit lasting 1.6 - 2.4s.",
+        "Reduces damage penalty per bounce by 7 - 15%.",
+        "The wolf returns to you after the last bounce, healing for 60 - 100% of your spell power."
+      ]
+    },
+    {
+      "spellNameEn": "Phantom Aegis",
+      "school": "Chaos",
+      "modifiers": [
+        "Increases movement speed by 6 - 14%.",
+        "Increases target spell power by 12 - 24% while the barrier lasts.",
+        "Increases the duration of the effect by 16 - 32%.",
+        "Knock targets back 1.6 - 3.2 meters on hit.",
+        "Recast to consume the barrier from an allied target pulling the ally towards you.",
+        "Removes all negative effects.",
+        "The barrier explodes if destroyed inflicting a 0.8 - 1.6s Fear on nearby enemies."
+      ]
+    },
+    {
+      "spellNameEn": "Wraith Spear",
+      "school": "Chaos",
+      "modifiers": [
+        "Consumes Weaken to spawn a wisp healing self or ally for 30 - 50% of your spell power. (10s duration)",
+        "Damage penalty per hit is reduced by 6 - 10%.",
+        "Hitting a target affected by Weaken grants you a shield absorbing 20 - 40% damage based on your spell power stacking up to 3 times.",
+        "Hitting an ally shields them for 60 - 100% of your spell power.",
+        "Increases damage by 14 - 25%.",
+        "Increases projectile range by 15 - 24%.",
+        "Inflicts a fading snare on enemies hit lasting 0.8 - 1.6s."
+      ]
+    },
+    {
+      "spellNameEn": "Mosquito (Spell)",
+      "school": "Chaos",
+      "modifiers": [
+        "Increases damage by 20 - 40%.",
+        "Increases duration of fear by 0.4 - 0.8s.",
+        "Increases mosquito maximum health by 20 - 40%.",
+        "Shields nearby allies for 40 - 60% of your spell power when the mosquito is summoned.",
+        "Spawns 3 wisps healing self or ally for 30 - 50% of your spell power when the mosquito explodes. (10s duration)"
+      ]
+    },
+    {
+      "spellNameEn": "Mist Trance",
+      "school": "Chaos",
+      "modifiers": [
+        "Increases distance traveled by 8 - 20%.",
+        "Increases movement speed when channeling by 20 - 36%.",
+        "Knock targets back 1.6 - 3.2 meters on hit.",
+        "When triggered fears nearby enemies around you for 0.8 - 1.2s.",
+        "When triggered grants 1 - 5 stacks of Phantasm.",
+        "When triggered increases movement speed by 8 - 16% for 3s.",
+        "When triggered reduces the cooldown of your secondary weapon skill by 40 - 80%.",
+        "When triggered your next primary attack used within 5s deals 30 - 50% bonus damage."
+      ]
+    },
+    {
+      "spellNameEn": "Curse",
+      "school": "Chaos",
+      "modifiers": [
+        "Increases the damage modifier by 4 - 10%",
+        "Deals 20 - 40% magic damage on hit.",
+        "Increases the duration of the Curse by 0.4s - 1s.",
+        "Knock targets back 1.6 - 3.2 meters on hit.",
+        "Reapplies Weaken with 0.4s - 1s increased duration when when the Curse ends.",
+        "Spawns a Wisp healing ally or self for 20 - 40% of your spell power when the Curse effect ends. (10s duration)",
+        "Inflicts a fading snare on enemies lasting 0.4s - 1.2s"
+      ]
+    },
+    {
+      "spellNameEn": "Veil of Frost",
+      "school": "Frost",
+      "modifiers": [
+        "Illusion explodes in a nova of ice dealing 20 - 40% and inflicting Chill on nearby enemies.",
+        "Increase shield absorb amount by 20 - 40% of your spell power.",
+        "Increases damage of next primary attack by 12 - 24%.",
+        "Increases elude duration by 8 - 20%.",
+        "Next primary attack conjures a nova of frost dealing 30 - 50% damage and inflicting Chill on nearby enemies.",
+        "Next primary attack consumes Chill and inflicts Freeze lasting 1.4 - 3s."
+      ]
+    },
+    {
+      "spellNameEn": "Ice Nova",
+      "school": "Frost",
+      "modifiers": [
+        "Increases damage done to Chilled and Frozen targets by 30 - 50%.",
+        "Increases range by 8 - 20%.",
+        "Recast to conjure a lesser ice nova dealing 30 - 50% of the original damage.",
+        "Reduces cooldown by 8 - 12%.",
+        "The nova shields self and allies for 40 - 80% of your spell power."
+      ]
+    },
+    {
+      "spellNameEn": "Frost Bat",
+      "school": "Frost",
+      "modifiers": [
+        "Hitting a Chilled or Frozen target shatters the projectile into 8 splinters, each dealing 16 - 32% damage and inflicting Chill.",
+        "Hitting a Chilled or Frozen target shields you for 40 - 80% of your spell power.",
+        "Increases damage done to Chilled and Frozen targets by 20 - 32%.",
+        "Increases cast rate by 12 - 24%.",
+        "Increases projectile range and speed by 12 - 24%.",
+        "The frost impact blast deals 40 - 60% damage to surrounding enemies."
+      ]
+    },
+    {
+      "spellNameEn": "Cold Snap",
+      "school": "Frost",
+      "modifiers": [
+        "Increases damage by 8 - 20%.",
+        "Increases Freeze duration by 0.4 - 1.2s when hitting a Chilled target.",
+        "Increases movement speed when channeling by 20 - 36%.",
+        "The shield absorbs an additional 26 - 50% of your spell power.",
+        "When triggered increases movement speed by 4 - 8% while the shield last.",
+        "When triggered, charges target's weapon with arctic energy. Next primary attack deals 24 - 40% bonus damage and inflicts Chill."
+      ]
+    },
+    {
+      "spellNameEn": "Crystal Lance",
+      "school": "Frost",
+      "modifiers": [
+        "Hitting a Chilled or Frozen target shatters the projectile into 8 splinters, each dealing 16 - 32% damage and inflicting Chill.",
+        "Increases cast rate by 12 - 24%.",
+        "Increases damage done to Chilled and Frozen targets by 50 - 70%.",
+        "Increases Freeze duration by 0.4 - 1.2s when hitting a Chilled target.",
+        "Increases projectile range and speed by 12 - 24%.",
+        "Pierces up to 1 - 5 targets dealing 50% reduced damage per target."
+      ]
+    },
+    {
+      "spellNameEn": "Frost Barrier",
+      "school": "Frost",
+      "modifiers": [
+        "Absorbing an attack increases your spell power by 4 - 8% for 6s. Effect stacks up to 3 times.",
+        "Absorbing an attack reduces cooldown by 0.4 - 0.8s from up to 3 attacks.",
+        "Cone of cold consumes Chill and inflicts Freeze lasting 2 - 4s.",
+        "Cone of cold knocks targets back 1.6 - 3.2 meters on hit.",
+        "Hitting a Chilled or Frozen target with the cone of cold shields you for 40 - 80% of your spell power.",
+        "Increases damage by 8 - 20%.",
+        "Increases movement speed when channeling by 8 - 12%."
+      ]
+    },
+    {
+      "spellNameEn": "Arctic Storm",
+      "school": "Frost",
+      "modifiers": [
+        "Knocks enemies back 2 - 4 meters at the end of the effect.",
+        "Increases movement speed when channeling by 12 - 24%.",
+        "Heal self for 8 - 16% of damage done.",
+        "Increase damage done by 12 - 24%.",
+        "Increases Freeze duration by 0.4 - 0.8s when hitting a Chilled target.",
+        "Shields self for 34 - 50% of your spell power when activated."
+      ]
+    },
+    {
+      "spellNameEn": "Veil of Storm",
+      "school": "Storm",
+      "modifiers": [
+        "Consumes Static to stun the target for 0.3 - 0.5s.",
+        "Increases damage of next primary attack by 12 - 24%.",
+        "Increase elude duration by 8 - 20%.",
+        "Next primary attack inflicts a fading snare lasting 1.2 - 2s.",
+        "Dashing through an enemy inflicts Static.",
+        "Your illusion periodically shocks a nearby enemy dealing 10 - 20% damage and inflicting Static."
+      ]
+    },
+    {
+      "spellNameEn": "Cyclone",
+      "school": "Storm",
+      "modifiers": [
+        "Consumes Static to stun the target for 0.1s - 0.5s.",
+        "Consumes Static to charge your weapon up to 3 times. Next primary attack deals 12 - 24% bonus damage per stack and inflicts Static.",
+        "40 - 100% chance when the cyclone returns to spawn an additional Storm Shield.",
+        "Each active Storm Shield grants 2 - 6% spell life leech.",
+        "Increases damage done by Storm Shields by 8 - 20%",
+        "Increases damage by 20%- 40%",
+        "Increases projectile range and speed by 12 - 24%.",
+        "Increases cast rate by 12 - 24%"
+      ]
+    },
+    {
+      "spellNameEn": "Discharge",
+      "school": "Storm",
+      "modifiers": [
+        "Increases damage done by Storm Shields by 8 - 20%.",
+        "Increases duration of the stun effect by 0.1 - 0.3s.",
+        "Recast to end the effect triggering an explosion dealing 16 - 28% damage and inflicting a 1s fading snare.",
+        "Each active Storm Shield grants 2 - 6% spell life leech.",
+        "Increases movement speed when channeling by 20 - 36%.",
+        "When triggered charge your weapon up to 3 times. Next primary attack deals 12 - 24% bonus damage per stack and inflicts Static."
+      ]
+    },
+    {
+      "spellNameEn": "Ball Lightning",
+      "school": "Storm",
+      "modifiers": [
+        "Increases damage per shock by 3 - 7%.",
+        "Recast to detonate the orb early. The explosion deals 50 - 90% increased damage.",
+        "Increases nearby allies movement speed by 8 - 16% for 3s when the orb explodes.",
+        "Knocks enemies back 1.6 - 3.2 meters when the orb explodes.",
+        "Increases projectile range by 12 - 24%.",
+        "Consumes Static to stun enemies for 0.3 - 0.5s when the orb explodes."
+      ]
+    },
+    {
+      "spellNameEn": "Polarity Shift",
+      "school": "Storm",
+      "modifiers": [
+        "Inflicts a fading snare on enemies hit lasting 0.8 - 1.6s.",
+        "Increase projectile range and speed by 12 - 24%.",
+        "Consumes Static to charge your weapon up to 3 times. Next primary attack deals 12 - 24% bonus damage per stack and inflicts Static.",
+        "Triggers a lightning nova upon reaching the destination dealing 40 - 60% damage and inflicting Static on nearby enemies.",
+        "Triggers a lightning nova at the origin location dealing 40 - 60% damage and inflicting Static on nearby enemies."
+      ]
+    },
+    {
+      "spellNameEn": "Lightning Curtain",
+      "school": "Storm",
+      "modifiers": [
+        "Passing through the wall shields ally target for 30 - 50% of your spell power.",
+        "Increases damage per hit by 4 - 12%.",
+        "Blocking projectiles charges your weapon up to 3 times. Next primary attack deals 12 - 24% bonus damage per stack and inflicts Static.",
+        "Inflicts a fading snare lasting 0.8 - 1.6s on the initial hit.",
+        "Increase movement speed by an additional 8 - 16% when passing through the wall."
+      ]
+    },
+    {
+      "spellNameEn": "Lightning Tendrils",
+      "school": "Storm",
+      "modifiers": [
+        "Hitting 6 bolts in a row on the same target inflicts a 0.8 - 1.6 second stun.",
+        "Launch 1 additional lightning bolt.",
+        "Lightning bolts deal 6 - 12% increased damage.",
+        "There is a 18 - 36% chance to trigger Chain Lightning on hit.",
+        "Increase movement speed when casting and channelling by 16 - 24%.",
+        "Increases projectile range and speed by 12 - 24%.",
+        "Increases cast rate by 12 - 24%."
+      ]
+    },
+    {
+      "spellNameEn": "Veil of Bones",
+      "school": "Unholy",
+      "modifiers": [
+        "The skeleton spawned explodes after 3s dealing 40 - 80% damage and inflicting Condemn on nearby enemies.",
+        "Dashing through an enemy inflicts Condemn.",
+        "Heals all allied skeletons you dash through by 40 - 80% of their maximum health and reset their lifetime.",
+        "Increases elude duration by 8 - 20%.",
+        "Increases damage of next primary attack by 12 - 24%.",
+        "Next primary attack within 3s on a target below 20% max health deals 20 - 40% increased damage.",
+        "Next primary attack within 3s summons a skeleton mage instead of a skeleton warrior."
+      ]
+    },
+    {
+      "spellNameEn": "Corrupted Skull",
+      "school": "Unholy",
+      "modifiers": [
+        "Conjures a bone spirit that circles around the target dealing 9 - 16% damage and inflicting Condemn to any enemy it hits.",
+        "Hitting an ally skeleton causes it to explode after 2.5s dealing 40 - 80% damage and inflicting Condemn on nearby enemies.",
+        "Increases damage by 8 - 20%.",
+        "Increases projectile range and speed by 12 - 24%.",
+        "Knock targets back 1.6 - 3.2 meters on hit.",
+        "Launch two spiraling projectiles instead of one, each projectile deals 30 - 50% of the original damage."
+      ]
+    },
+    {
+      "spellNameEn": "Ward of the Damned",
+      "school": "Unholy",
+      "modifiers": [
+        "Hitting an ally skeleton causes it to explode after 2.5s dealing 40 - 80% damage and inflicting Condemn on nearby enemies.",
+        "Absorbing a projectile heals you for 25 - 45% of your spell power.",
+        "Empower allied skeletons hit by the recast increasing their damage output by 14 - 30% for 8s.",
+        "Increases damage done by the recast attack by 12 - 20%.",
+        "Increases movement speed when channeling by 8 - 12%.",
+        "Melee attackers take 30 - 50% damage when striking the barrier.",
+        "Shields allied skeletons hit by the recast for 60 - 120% of your spell power. The shield lasts for 4s.",
+        "The recast attack knocks targets back 1.6 - 3.2 meters on hit.",
+        "20 - 40% chance to spawn a Skeleton Mage instead of a Skeleton Warrior when triggered."
+      ]
+    },
+    {
+      "spellNameEn": "Bone Explosion",
+      "school": "Unholy",
+      "modifiers": [
+        "Hitting an ally skeleton causes it to explode after 2.5s dealing 40 - 80% damage and inflicting Condemn on nearby enemies.",
+        "Deals 18 - 30% bonus damage to enemies below 30% health, lethal attacks reduce cooldown by 1.2 - 2.4s.",
+        "Heals all allied skeletons hit by 40 - 80% of their maximum health and reset their lifetime.",
+        "Increases damage by 12 - 24%.",
+        "Increases range by 8 - 20%.",
+        "Reduces cooldown by 8 - 12%.",
+        "Inflicts a fading snare on enemies hit lasting 0.8 - 1.6s.",
+        "Spawns a nova of 8 projectiles from impact location, each projectile dealing 30 - 50% damage and inflicting Condemn.",
+        "Triggers a second lesser explosion at the same location dealing 30 - 50% damage."
+      ]
+    },
+    {
+      "spellNameEn": "Death Knight",
+      "school": "Unholy",
+      "modifiers": [
+        "Summon a Skeleton Mage with 20 - 40% increased power when the Death Knight lifetime expires.",
+        "Damage done by the Death Knight heals you for 12 - 24% of damage done.",
+        "Inflicts a fading snare lasting 1 - 1.8s on enemies nearby the summoning location.",
+        "Increases damage by 12 - 20%.",
+        "Increases Death Knight lifetime by 20 - 40%.",
+        "Increases Death Knight health by 20 - 40%."
+      ]
+    },
+    {
+      "spellNameEn": "Soulburn",
+      "school": "Unholy",
+      "modifiers": [
+        "Hitting an ally skeleton causes it to explode after 2.5s dealing 40 - 80% damage and inflicting Condemn on nearby enemies.",
+        "Increases cast rate by 12 - 24%.",
+        "Inflicts a fading snare on enemies hit lasting 1.2 - 2.4s.",
+        "Shield self for 24 - 40% of your spell power for each enemy hit.",
+        "Increases targets hit by 1.",
+        "Increases life drain by 12 - 24%",
+        "There is a 60 - 100% chance to summon a skeleton warrior for each enemy hit.",
+        "Increases damage by 8 - 16%"
+      ]
+    },
+    {
+      "spellNameEn": "Unholy Chains",
+      "school": "Unholy",
+      "modifiers": [
+        "Conjures a bone spirit that circles around the target dealing 8 - 16% damage and inflicting Condemn to any enemy it hits.",
+        "Increases movement speed while channeling by 4 - 12%.",
+        "Reduces movement speed of the affected target while channeling by 4 - 12%.",
+        "Spawns a nova of projectiles from impact location, each projectile dealing 30 - 50% damage and inflicting Condemn.",
+        "Deals 35 - 55% damage every 0.7s while channeling but reduces the impact damage by 50 - 90%.",
+        "Reduces damage taken while channeling by 12 - 24%.",
+        "Heal self for 12 - 20% of the damage done.",
+        "Inflicts a fading snare lasting 0.6 - 1.4s on the affected target when the effect ends.",
+        "Increases the duration of the effect by 0.2 - 0.4s and the damage done by 40 - 60%."
+      ]
+    },
+    {
+      "spellNameEn": "Veil of Illusion",
+      "school": "Illusion",
+      "modifiers": [
+        "Detonate your illusion dealing 20 - 36% damage and inflicting Weaken in an area on recast.",
+        "Hitting a target affected by Weaken with your next primary attack grants a shield absorbing 20 - 40% damage based on your spell power stacking up to 3 times.",
+        "Respawn your illusion when recasting and your illusion launches projectiles inflicting Weaken and granting Phantasm.",
+        "Increases damage of the next primary attack by 12 - 24%.",
+        "Increases elude duration by 8 - 20%.",
+        "Next primary attack grants 1 - 5 stacks of Phantasm.",
+        "Next primary attack inflicts a fading snare lasting 1.2 - 2s."
+      ]
+    },
+    {
+      "spellNameEn": "Spectral Wolf",
+      "school": "Illusion",
+      "modifiers": [
+        "Consumes Weaken to spawn a wisp healing self or ally for 30 - 50% of your spell power. (10s duration)",
+        "Hitting a target affected by Weaken grants 1 - 4 stacks of Phantasm.",
+        "Hitting a target affected by Weaken grants you a shield absorbing 20 - 40% damage based on your spell power stacking up to 3 times.",
+        "Increases maximum bounces by 1.",
+        "Increases projectile range and speed by 12 - 24%.",
+        "Initial projectile inflicts a fading snare on enemies hit lasting 1.6 - 2.4s.",
+        "Reduces damage penalty per bounce by 7 - 15%.",
+        "The wolf returns to you after the last bounce, healing for 60 - 100% of your spell power."
+      ]
+    },
+    {
+      "spellNameEn": "Phantom Aegis",
+      "school": "Illusion",
+      "modifiers": [
+        "Increases movement speed by 6 - 14%.",
+        "Increases target spell power by 12 - 24% while the barrier lasts.",
+        "Increases the duration of the effect by 16 - 32%.",
+        "Knock targets back 1.6 - 3.2 meters on hit.",
+        "Recast to consume the barrier from an allied target pulling the ally towards you.",
+        "Removes all negative effects.",
+        "The barrier explodes if destroyed inflicting a 0.8 - 1.6s Fear on nearby enemies."
+      ]
+    },
+    {
+      "spellNameEn": "Wraith Spear",
+      "school": "Illusion",
+      "modifiers": [
+        "Consumes Weaken to spawn a wisp healing self or ally for 30 - 50% of your spell power. (10s duration)",
+        "Damage penalty per hit is reduced by 6 - 10%.",
+        "Hitting a target affected by Weaken grants you a shield absorbing 20 - 40% damage based on your spell power stacking up to 3 times.",
+        "Hitting an ally shields them for 60 - 100% of your spell power.",
+        "Increases damage by 14 - 25%.",
+        "Increases projectile range by 15 - 24%.",
+        "Inflicts a fading snare on enemies hit lasting 0.8 - 1.6s."
+      ]
+    },
+    {
+      "spellNameEn": "Mosquito (Spell)",
+      "school": "Illusion",
+      "modifiers": [
+        "Increases damage by 20 - 40%.",
+        "Increases duration of fear by 0.4 - 0.8s.",
+        "Increases mosquito maximum health by 20 - 40%.",
+        "Shields nearby allies for 40 - 60% of your spell power when the mosquito is summoned.",
+        "Spawns 3 wisps healing self or ally for 30 - 50% of your spell power when the mosquito explodes. (10s duration)"
+      ]
+    },
+    {
+      "spellNameEn": "Mist Trance",
+      "school": "Illusion",
+      "modifiers": [
+        "Increases distance traveled by 8 - 20%.",
+        "Increases movement speed when channeling by 20 - 36%.",
+        "Knock targets back 1.6 - 3.2 meters on hit.",
+        "When triggered fears nearby enemies around you for 0.8 - 1.2s.",
+        "When triggered grants 1 - 5 stacks of Phantasm.",
+        "When triggered increases movement speed by 8 - 16% for 3s.",
+        "When triggered reduces the cooldown of your secondary weapon skill by 40 - 80%.",
+        "When triggered your next primary attack used within 5s deals 30 - 50% bonus damage."
+      ]
+    },
+    {
+      "spellNameEn": "Curse",
+      "school": "Illusion",
+      "modifiers": [
+        "Increases the damage modifier by 4 - 10%",
+        "Deals 20 - 40% magic damage on hit.",
+        "Increases the duration of the Curse by 0.4s - 1s.",
+        "Knock targets back 1.6 - 3.2 meters on hit.",
+        "Reapplies Weaken with 0.4s - 1s increased duration when when the Curse ends.",
+        "Spawns a Wisp healing ally or self for 20 - 40% of your spell power when the Curse effect ends. (10s duration)",
+        "Inflicts a fading snare on enemies lasting 0.4s - 1.2s"
+      ]
+    },
+    {
+      "spellNameEn": "Veil of Frost",
+      "school": "Illusion",
+      "modifiers": [
+        "Illusion explodes in a nova of ice dealing 20 - 40% and inflicting Chill on nearby enemies.",
+        "Increase shield absorb amount by 20 - 40% of your spell power.",
+        "Increases damage of next primary attack by 12 - 24%.",
+        "Increases elude duration by 8 - 20%.",
+        "Next primary attack conjures a nova of frost dealing 30 - 50% damage and inflicting Chill on nearby enemies.",
+        "Next primary attack consumes Chill and inflicts Freeze lasting 1.4 - 3s."
+      ]
+    },
+    {
+      "spellNameEn": "Ice Nova",
+      "school": "Illusion",
+      "modifiers": [
+        "Increases damage done to Chilled and Frozen targets by 30 - 50%.",
+        "Increases range by 8 - 20%.",
+        "Recast to conjure a lesser ice nova dealing 30 - 50% of the original damage.",
+        "Reduces cooldown by 8 - 12%.",
+        "The nova shields self and allies for 40 - 80% of your spell power."
+      ]
+    },
+    {
+      "spellNameEn": "Frost Bat",
+      "school": "Illusion",
+      "modifiers": [
+        "Hitting a Chilled or Frozen target shatters the projectile into 8 splinters, each dealing 16 - 32% damage and inflicting Chill.",
+        "Hitting a Chilled or Frozen target shields you for 40 - 80% of your spell power.",
+        "Increases damage done to Chilled and Frozen targets by 20 - 32%.",
+        "Increases cast rate by 12 - 24%.",
+        "Increases projectile range and speed by 12 - 24%.",
+        "The frost impact blast deals 40 - 60% damage to surrounding enemies."
+      ]
+    },
+    {
+      "spellNameEn": "Cold Snap",
+      "school": "Illusion",
+      "modifiers": [
+        "Increases damage by 8 - 20%.",
+        "Increases Freeze duration by 0.4 - 1.2s when hitting a Chilled target.",
+        "Increases movement speed when channeling by 20 - 36%.",
+        "The shield absorbs an additional 26 - 50% of your spell power.",
+        "When triggered increases movement speed by 4 - 8% while the shield last.",
+        "When triggered, charges target's weapon with arctic energy. Next primary attack deals 24 - 40% bonus damage and inflicts Chill."
+      ]
+    },
+    {
+      "spellNameEn": "Crystal Lance",
+      "school": "Illusion",
+      "modifiers": [
+        "Hitting a Chilled or Frozen target shatters the projectile into 8 splinters, each dealing 16 - 32% damage and inflicting Chill.",
+        "Increases cast rate by 12 - 24%.",
+        "Increases damage done to Chilled and Frozen targets by 50 - 70%.",
+        "Increases Freeze duration by 0.4 - 1.2s when hitting a Chilled target.",
+        "Increases projectile range and speed by 12 - 24%.",
+        "Pierces up to 1 - 5 targets dealing 50% reduced damage per target."
+      ]
+    },
+    {
+      "spellNameEn": "Frost Barrier",
+      "school": "Illusion",
+      "modifiers": [
+        "Absorbing an attack increases your spell power by 4 - 8% for 6s. Effect stacks up to 3 times.",
+        "Absorbing an attack reduces cooldown by 0.4 - 0.8s from up to 3 attacks.",
+        "Cone of cold consumes Chill and inflicts Freeze lasting 2 - 4s.",
+        "Cone of cold knocks targets back 1.6 - 3.2 meters on hit.",
+        "Hitting a Chilled or Frozen target with the cone of cold shields you for 40 - 80% of your spell power.",
+        "Increases damage by 8 - 20%.",
+        "Increases movement speed when channeling by 8 - 12%."
+      ]
+    },
+    {
+      "spellNameEn": "Arctic Storm",
+      "school": "Illusion",
+      "modifiers": [
+        "Knocks enemies back 2 - 4 meters at the end of the effect.",
+        "Increases movement speed when channeling by 12 - 24%.",
+        "Heal self for 8 - 16% of damage done.",
+        "Increase damage done by 12 - 24%.",
+        "Increases Freeze duration by 0.4 - 0.8s when hitting a Chilled target.",
+        "Shields self for 34 - 50% of your spell power when activated."
+      ]
+    },
+    {
+      "spellNameEn": "Veil of Storm",
+      "school": "Illusion",
+      "modifiers": [
+        "Consumes Static to stun the target for 0.3 - 0.5s.",
+        "Increases damage of next primary attack by 12 - 24%.",
+        "Increase elude duration by 8 - 20%.",
+        "Next primary attack inflicts a fading snare lasting 1.2 - 2s.",
+        "Dashing through an enemy inflicts Static.",
+        "Your illusion periodically shocks a nearby enemy dealing 10 - 20% damage and inflicting Static."
+      ]
+    },
+    {
+      "spellNameEn": "Cyclone",
+      "school": "Illusion",
+      "modifiers": [
+        "Consumes Static to stun the target for 0.1s - 0.5s.",
+        "Consumes Static to charge your weapon up to 3 times. Next primary attack deals 12 - 24% bonus damage per stack and inflicts Static.",
+        "40 - 100% chance when the cyclone returns to spawn an additional Storm Shield.",
+        "Each active Storm Shield grants 2 - 6% spell life leech.",
+        "Increases damage done by Storm Shields by 8 - 20%",
+        "Increases damage by 20%- 40%",
+        "Increases projectile range and speed by 12 - 24%.",
+        "Increases cast rate by 12 - 24%"
+      ]
+    },
+    {
+      "spellNameEn": "Discharge",
+      "school": "Illusion",
+      "modifiers": [
+        "Increases damage done by Storm Shields by 8 - 20%.",
+        "Increases duration of the stun effect by 0.1 - 0.3s.",
+        "Recast to end the effect triggering an explosion dealing 16 - 28% damage and inflicting a 1s fading snare.",
+        "Each active Storm Shield grants 2 - 6% spell life leech.",
+        "Increases movement speed when channeling by 20 - 36%.",
+        "When triggered charge your weapon up to 3 times. Next primary attack deals 12 - 24% bonus damage per stack and inflicts Static."
+      ]
+    },
+    {
+      "spellNameEn": "Ball Lightning",
+      "school": "Illusion",
+      "modifiers": [
+        "Increases damage per shock by 3 - 7%.",
+        "Recast to detonate the orb early. The explosion deals 50 - 90% increased damage.",
+        "Increases nearby allies movement speed by 8 - 16% for 3s when the orb explodes.",
+        "Knocks enemies back 1.6 - 3.2 meters when the orb explodes.",
+        "Increases projectile range by 12 - 24%.",
+        "Consumes Static to stun enemies for 0.3 - 0.5s when the orb explodes."
+      ]
+    },
+    {
+      "spellNameEn": "Polarity Shift",
+      "school": "Illusion",
+      "modifiers": [
+        "Inflicts a fading snare on enemies hit lasting 0.8 - 1.6s.",
+        "Increase projectile range and speed by 12 - 24%.",
+        "Consumes Static to charge your weapon up to 3 times. Next primary attack deals 12 - 24% bonus damage per stack and inflicts Static.",
+        "Triggers a lightning nova upon reaching the destination dealing 40 - 60% damage and inflicting Static on nearby enemies.",
+        "Triggers a lightning nova at the origin location dealing 40 - 60% damage and inflicting Static on nearby enemies."
+      ]
+    },
+    {
+      "spellNameEn": "Lightning Curtain",
+      "school": "Illusion",
+      "modifiers": [
+        "Passing through the wall shields ally target for 30 - 50% of your spell power.",
+        "Increases damage per hit by 4 - 12%.",
+        "Blocking projectiles charges your weapon up to 3 times. Next primary attack deals 12 - 24% bonus damage per stack and inflicts Static.",
+        "Inflicts a fading snare lasting 0.8 - 1.6s on the initial hit.",
+        "Increase movement speed by an additional 8 - 16% when passing through the wall."
+      ]
+    },
+    {
+      "spellNameEn": "Lightning Tendrils",
+      "school": "Illusion",
+      "modifiers": [
+        "Hitting 6 bolts in a row on the same target inflicts a 0.8 - 1.6 second stun.",
+        "Launch 1 additional lightning bolt.",
+        "Lightning bolts deal 6 - 12% increased damage.",
+        "There is a 18 - 36% chance to trigger Chain Lightning on hit.",
+        "Increase movement speed when casting and channelling by 16 - 24%.",
+        "Increases projectile range and speed by 12 - 24%.",
+        "Increases cast rate by 12 - 24%."
+      ]
+    }
+  ]
+}

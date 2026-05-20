@@ -4,7 +4,8 @@ import AssetImage from '@/components/AssetImage';
 import WikiPageShell from '@/components/WikiPageShell';
 import { getEntitiesByType } from '@/lib/entities';
 import { entityDetailPath } from '@/lib/entity-paths';
-import { translateSchool } from '@/data/entity-translations';
+import { useTranslation } from '@/contexts/LocaleContext';
+import { entityDisplayName, schoolLabel } from '@/lib/entity-locale';
 
 const WEAPON_TYPES = [
   'Sword',
@@ -21,6 +22,7 @@ const WEAPON_TYPES = [
 ];
 
 export default function BuildsPage() {
+  const { t, locale } = useTranslation();
   const spells = getEntitiesByType('spell').filter((s) => s.description);
   const jewels = getEntitiesByType('jewel');
   const weapons = getEntitiesByType('weapon');
@@ -41,15 +43,12 @@ export default function BuildsPage() {
   return (
     <WikiPageShell>
       <div className="container py-10 max-w-4xl">
-        <h1 className="font-gothic text-4xl font-bold mb-2">Montador de builds</h1>
-        <p className="text-[#888] mb-10 max-w-2xl">
-          Combine tipo de arma, escola de magia, feitiços e joia (Soul Shard). Salve
-          mentalmente ou anote — persistência local virá em atualização futura.
-        </p>
+        <h1 className="font-gothic text-4xl font-bold mb-2">{t('builds.title')}</h1>
+        <p className="text-[#888] mb-10 max-w-2xl">{t('builds.saveNote')}</p>
 
         <div className="grid md:grid-cols-2 gap-8">
           <div className="gothic-card p-6 space-y-4">
-            <h2 className="font-gothic text-lg text-[#c41e3a]">Arma</h2>
+            <h2 className="font-gothic text-lg text-[#c41e3a]">{t('builds.weaponSection')}</h2>
             <select
               className={selectClass}
               value={weaponType}
@@ -69,13 +68,13 @@ export default function BuildsPage() {
                 {weaponPick.image && (
                   <AssetImage src={weaponPick.image} alt="" className="w-10 h-10 object-contain" />
                 )}
-                <span className="text-sm">{weaponPick.name}</span>
+                <span className="text-sm">{entityDisplayName(weaponPick, locale)}</span>
               </Link>
             )}
           </div>
 
           <div className="gothic-card p-6 space-y-4">
-            <h2 className="font-gothic text-lg text-[#c41e3a]">Escola de magia</h2>
+            <h2 className="font-gothic text-lg text-[#c41e3a]">{t('builds.schoolSection')}</h2>
             <select
               className={selectClass}
               value={school}
@@ -87,7 +86,7 @@ export default function BuildsPage() {
               {['Blood', 'Chaos', 'Frost', 'Storm', 'Unholy', 'Illusion', 'Shadow'].map(
                 (s) => (
                   <option key={s} value={s}>
-                    {translateSchool(s)}
+                    {schoolLabel(s, locale)}
                   </option>
                 )
               )}
@@ -95,7 +94,7 @@ export default function BuildsPage() {
           </div>
 
           <div className="gothic-card p-6 space-y-4 md:col-span-2">
-            <h2 className="font-gothic text-lg text-[#c41e3a]">Feitiços (barra)</h2>
+            <h2 className="font-gothic text-lg text-[#c41e3a]">{t('builds.spellsSection')}</h2>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
               {spellSlots.map((slot, i) => (
                 <select
@@ -108,10 +107,10 @@ export default function BuildsPage() {
                     setSpellSlots(next);
                   }}
                 >
-                  <option value="">Slot {i + 1} — vazio</option>
+                  <option value="">{t('builds.slotEmpty', { n: i + 1 })}</option>
                   {schoolSpells.map((s) => (
                     <option key={s.id} value={s.id}>
-                      {s.name}
+                      {entityDisplayName(s, locale)}
                     </option>
                   ))}
                 </select>
@@ -120,41 +119,47 @@ export default function BuildsPage() {
           </div>
 
           <div className="gothic-card p-6 space-y-4 md:col-span-2">
-            <h2 className="font-gothic text-lg text-[#c41e3a]">Joia / Soul Shard</h2>
+            <h2 className="font-gothic text-lg text-[#c41e3a]">{t('builds.jewelSection')}</h2>
             <select
               className={selectClass}
               value={jewelId}
               onChange={(e) => setJewelId(e.target.value)}
             >
-              <option value="">Nenhuma</option>
+              <option value="">{t('builds.none')}</option>
               {jewels.map((j) => (
                 <option key={j.id} value={j.id}>
-                  {j.name}
+                  {entityDisplayName(j, locale)}
                 </option>
               ))}
             </select>
           </div>
 
           <div className="gothic-card p-6 md:col-span-2 border-[#c41e3a]/30">
-            <h2 className="font-gothic text-lg text-[#c41e3a] mb-4">Resumo da build</h2>
+            <h2 className="font-gothic text-lg text-[#c41e3a] mb-4">{t('builds.summaryTitle')}</h2>
             <ul className="text-[#e0e0e0] space-y-2 text-sm">
               <li>
-                <strong>Arma:</strong> {weaponType}
+                <strong>{t('builds.weapon')}:</strong> {weaponType}
               </li>
               <li>
-                <strong>Magia:</strong> {translateSchool(school)}
+                <strong>{t('builds.magic')}:</strong> {schoolLabel(school, locale)}
               </li>
               <li>
-                <strong>Feitiços:</strong>{' '}
+                <strong>{t('builds.spells')}:</strong>{' '}
                 {spellSlots.filter(Boolean).length
                   ? spellSlots
-                      .map((id) => spells.find((s) => s.id === id)?.name ?? '—')
+                      .map((id) => {
+                        const s = spells.find((sp) => sp.id === id);
+                        return s ? entityDisplayName(s, locale) : '—';
+                      })
                       .join(' · ')
                   : '—'}
               </li>
               <li>
-                <strong>Joia:</strong>{' '}
-                {jewels.find((j) => j.id === jewelId)?.name ?? '—'}
+                <strong>{t('builds.jewel')}:</strong>{' '}
+                {(() => {
+                  const j = jewels.find((jw) => jw.id === jewelId);
+                  return j ? entityDisplayName(j, locale) : '—';
+                })()}
               </li>
             </ul>
           </div>

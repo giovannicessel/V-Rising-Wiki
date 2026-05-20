@@ -7,6 +7,7 @@ import WikiPageShell from '@/components/WikiPageShell';
 import type { EntityType } from '@/data/entity-types';
 import { entityDetailRoute } from '@/lib/entity-paths';
 import { getEntityBySlug } from '@/lib/entities';
+import JewelDetailView from '@/components/detail/JewelDetailView';
 import EntityDetailPageDefault from '@/pages/EntityDetailPageDefault';
 import NotFound from '@/pages/NotFound';
 
@@ -32,7 +33,8 @@ export default function EntityDetailPage({ type }: EntityDetailPageProps) {
       {type === 'spell' && <SpellDetailView entity={entity} />}
       {type === 'item' && <ItemDetailView entity={entity} />}
       {type === 'weapon' && <WeaponDetailView entity={entity} />}
-      {(type === 'jewel' || type === 'building') && <GenericDetail type={type} />}
+      {type === 'jewel' && <JewelDetailView entity={entity} />}
+      {type === 'building' && <GenericDetail type={type} />}
     </WikiPageShell>
   );
 }

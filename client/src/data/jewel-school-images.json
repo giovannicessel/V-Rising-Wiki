@@ -1,0 +1,50 @@
+{
+  "syncedAt": "2026-05-19T23:56:33.526Z",
+  "schools": [
+    "Blood",
+    "Chaos",
+    "Frost",
+    "Storm",
+    "Unholy",
+    "Illusion",
+    "Shadow"
+  ],
+  "images": {
+    "Blood": {
+      "1": "/images/jewels/blood-tier1.png",
+      "2": "/images/jewels/blood-tier2.png",
+      "3": "/images/jewels/blood-tier3.png",
+      "4": "/images/jewels/blood-tier4.png"
+    },
+    "Chaos": {
+      "1": "/images/jewels/chaos-tier1.png",
+      "2": "/images/jewels/chaos-tier2.png",
+      "3": "/images/jewels/chaos-tier3.png",
+      "4": "/images/jewels/chaos-tier4.png"
+    },
+    "Frost": {
+      "1": "/images/jewels/frost-tier1.png",
+      "2": "/images/jewels/frost-tier2.png",
+      "3": "/images/jewels/frost-tier3.png",
+      "4": "/images/jewels/frost-tier4.png"
+    },
+    "Storm": {
+      "1": "/images/jewels/storm-tier1.png",
+      "2": "/images/jewels/storm-tier2.png",
+      "3": "/images/jewels/storm-tier3.png",
+      "4": "/images/jewels/storm-tier4.png"
+    },
+    "Unholy": {
+      "1": "/images/jewels/unholy-tier1.png",
+      "2": "/images/jewels/unholy-tier2.png",
+      "3": "/images/jewels/unholy-tier3.png",
+      "4": "/images/jewels/unholy-tier4.png"
+    },
+    "Illusion": {
+      "1": "/images/jewels/illusion-tier1.png",
+      "2": "/images/jewels/illusion-tier2.png",
+      "3": "/images/jewels/illusion-tier3.png",
+      "4": "/images/jewels/illusion-tier4.png"
+    }
+  }
+}

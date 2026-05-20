@@ -22,7 +22,17 @@
     "enrich:bosses": "node scripts/enrich-boss-rewards.mjs",
     "generate:wiki-art": "node scripts/generate-wiki-art.mjs",
     "enrich:videos": "node scripts/enrich-videos.mjs",
-    "wiki:update": "npm run sync:entities && npm run enrich:videos && npm run build:entities && npm run build:catalog"
+    "fetch:jewels": "node scripts/fetch-jewels-guide.mjs && node scripts/fetch-jewelry-catalog.mjs && node scripts/fetch-spell-jewel-modifiers.mjs",
+    "fetch:weapons-catalog": "node scripts/fetch-weapon-types-catalog.mjs",
+    "translate:pt": "node scripts/translate-content-pt.mjs",
+    "translate:pt:apply": "node scripts/translate-content-pt.mjs --apply",
+    "translate:pt:cache-only": "node scripts/translate-content-pt.mjs --apply --cache-only",
+    "translate:json": "node scripts/translate-json-pt.mjs",
+    "translate:json:apply": "node scripts/translate-json-pt.mjs --apply",
+    "translate:all": "node scripts/translate-all-pt.mjs",
+    "translate:all:apply": "node scripts/translate-all-pt.mjs --apply",
+    "wiki:update": "npm run sync:entities && npm run enrich:videos && npm run build:entities && npm run build:catalog",
+    "wiki:full": "npm run wiki:update && npm run fetch:jewels && npm run fetch:weapons-catalog && npm run translate:all:apply"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",

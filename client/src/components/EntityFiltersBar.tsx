@@ -1,7 +1,8 @@
 import type { EntityFilters } from '@/lib/entities';
 import { getFilterOptions } from '@/lib/entities';
 import type { EntityType } from '@/data/entity-types';
-import { REGION_PT, SCHOOL_PT, translateSchool } from '@/data/entity-translations';
+import { useTranslation } from '@/contexts/LocaleContext';
+import { regionLabel, schoolLabel } from '@/lib/entity-locale';
 
 interface EntityFiltersBarProps {
   type: EntityType;
@@ -14,6 +15,7 @@ export default function EntityFiltersBar({
   filters,
   onChange,
 }: EntityFiltersBarProps) {
+  const { t, locale } = useTranslation();
   const opts = getFilterOptions(type);
 
   const selectClass =
@@ -29,10 +31,10 @@ export default function EntityFiltersBar({
             onChange({ ...filters, school: e.target.value || undefined })
           }
         >
-          <option value="">Todas as escolas</option>
+          <option value="">{t('filter.allSchools')}</option>
           {opts.schools.map((s) => (
             <option key={s} value={s}>
-              {translateSchool(s) ?? SCHOOL_PT[s] ?? s}
+              {schoolLabel(s, locale) ?? s}
             </option>
           ))}
         </select>
@@ -46,10 +48,10 @@ export default function EntityFiltersBar({
             onChange({ ...filters, region: e.target.value || undefined })
           }
         >
-          <option value="">Todas as regiões</option>
+          <option value="">{t('filter.allRegions')}</option>
           {opts.regions.map((r) => (
             <option key={r} value={r}>
-              {REGION_PT[r] ?? r}
+              {regionLabel(r, locale) ?? r}
             </option>
           ))}
         </select>
@@ -66,10 +68,10 @@ export default function EntityFiltersBar({
             })
           }
         >
-          <option value="">Todos os atos</option>
+          <option value="">{t('filter.allActs')}</option>
           {opts.acts.map((a) => (
             <option key={a} value={a}>
-              Ato {a}
+              {t('filter.act', { act: a })}
             </option>
           ))}
         </select>
@@ -83,7 +85,7 @@ export default function EntityFiltersBar({
             onChange({ ...filters, weaponType: e.target.value || undefined })
           }
         >
-          <option value="">Todos os tipos</option>
+          <option value="">{t('filter.allTypes')}</option>
           {opts.weaponTypes.map((w) => (
             <option key={w} value={w}>
               {w}
@@ -98,7 +100,7 @@ export default function EntityFiltersBar({
           onClick={() => onChange({})}
           className="px-3 py-2 text-sm text-[#c41e3a] border border-[#c41e3a]/40 rounded hover:bg-[#c41e3a]/10"
         >
-          Limpar filtros
+          {t('filter.clear')}
         </button>
       )}
     </div>

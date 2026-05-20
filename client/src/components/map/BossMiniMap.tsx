@@ -2,35 +2,45 @@ import { Link } from 'wouter';
 import { MAP_IMAGE_SRC, getMarkersForBoss } from '@/lib/vardoran-map';
 import { entityDetailPath } from '@/lib/entity-paths';
 import type { WikiEntity } from '@/data/entity-types';
+import ZoomableMapViewport from '@/components/map/ZoomableMapViewport';
+import { useTranslation } from '@/contexts/LocaleContext';
 
 interface BossMiniMapProps {
   entity: WikiEntity;
 }
 
 export default function BossMiniMap({ entity }: BossMiniMapProps) {
+  const { t } = useTranslation();
   const markers = getMarkersForBoss(entity.id);
   const marker = markers[0];
 
   if (!marker) return null;
 
+  const transformOrigin = `${marker.x}% ${100 - marker.y}%`;
+
   return (
     <section className="rounded-xl border border-[#2a2a2a] bg-[#0a0a0a] overflow-hidden">
       <div className="px-4 py-3 border-b border-[#252525] flex flex-wrap items-center justify-between gap-2">
         <h2 className="font-gothic text-sm text-white uppercase tracking-wider">
-          Localização em Vardoran
+          {t('boss.locationMap')}
         </h2>
         <Link
           href={`/map?boss=${encodeURIComponent(entity.id)}`}
           className="text-xs text-[#c41e3a] hover:underline"
         >
-          Abrir mapa completo
+          {t('boss.openFullMap')}
         </Link>
       </div>
-      <div className="relative aspect-[4/3] max-h-[280px] overflow-hidden bg-[#050505]">
+      <ZoomableMapViewport
+        className="aspect-[4/3] max-h-[280px] bg-[#050505]"
+        transformOrigin={transformOrigin}
+        hint={t('boss.mapScrollHint')}
+      >
         <img
           src={MAP_IMAGE_SRC}
           alt="Mapa de Vardoran"
-          className="w-full h-full object-cover opacity-90"
+          className="w-full h-full object-cover opacity-90 select-none"
+          draggable={false}
         />
         {markers.map((m) => (
           <span
@@ -41,15 +51,16 @@ export default function BossMiniMap({ entity }: BossMiniMapProps) {
           />
         ))}
         <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-transparent pointer-events-none" />
-        <div className="absolute bottom-0 left-0 right-0 p-3 text-xs text-[#bbb]">
+        <div className="absolute bottom-0 left-0 right-0 p-3 text-xs text-[#bbb] pointer-events-none">
           {entity.location && <p className="mb-1">{entity.location}</p>}
           <p className="text-[#666]">
-            Pin{markers.length > 1 ? 's' : ''} do chefe no mapa
-            {marker.level != null ? ` · Nv. ${marker.level}` : ''}
+            {markers.length > 1 ? t('boss.mapPins') : t('boss.mapPin')}
+            {marker.level != null
+              ? t('boss.mapLevel', { level: marker.level })
+              : ''}
           </p>
         </div>
-      </div>
+      </ZoomableMapViewport>
     </section>
   );
 }
-

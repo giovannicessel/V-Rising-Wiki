@@ -1,6 +1,8 @@
 import type { EntitySection } from '@/data/entity-types';
-import { translateSectionTitle } from '@/data/entity-translations';
+import FandomNotice from '@/components/FandomNotice';
+import { useTranslation } from '@/contexts/LocaleContext';
 import WikiProse from '@/components/WikiProse';
+import { sectionDisplayTitle, shouldShowFandomNotice } from '@/lib/entity-locale';
 
 function YoutubeEmbed({ id }: { id: string }) {
   return (
@@ -25,6 +27,7 @@ export default function EntitySectionContent({
   sections,
   pageYoutubeId,
 }: EntitySectionContentProps) {
+  const { t, locale } = useTranslation();
   const mainVideoId =
     pageYoutubeId || sections.find((s) => s.youtubeId)?.youtubeId;
 
@@ -39,7 +42,7 @@ export default function EntitySectionContent({
       {mainVideoId && (
         <section>
           <h2 className="font-gothic text-lg text-[#c41e3a] mb-4 tracking-wide">
-            Demonstração
+            {t('content.demo')}
           </h2>
           <YoutubeEmbed id={mainVideoId} />
         </section>
@@ -48,8 +51,9 @@ export default function EntitySectionContent({
       {textSections.map((sec) => (
         <section key={sec.title} className="border-t border-[#2a2a2a] pt-8">
           <h2 className="font-gothic text-lg text-white mb-4 tracking-wide">
-            {sec.titlePt ?? translateSectionTitle(sec.title)}
+            {sectionDisplayTitle(sec, locale)}
           </h2>
+          {shouldShowFandomNotice(locale, sec.body) && <FandomNotice />}
           <WikiProse text={sec.body} />
         </section>
       ))}

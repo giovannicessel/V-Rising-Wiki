@@ -1,7 +1,8 @@
 import { Link } from 'wouter';
 import { Gem, MapPin, Skull } from 'lucide-react';
 import type { WikiEntity } from '@/data/entity-types';
-import { REGION_PT } from '@/data/entity-translations';
+import { useTranslation } from '@/contexts/LocaleContext';
+import { entityDisplayName, regionLabel } from '@/lib/entity-locale';
 import AssetImage from '@/components/AssetImage';
 import { assetUrl } from '@/lib/app-path';
 import { entityDetailPath } from '@/lib/entity-paths';
@@ -18,6 +19,7 @@ export default function PrismaticSoulShardHero({
   theme,
   onMap,
 }: PrismaticSoulShardHeroProps) {
+  const { t, locale } = useTranslation();
   return (
     <div
       className={`prismatic-hero relative mb-10 rounded-2xl overflow-hidden border-2 ${theme.borderClass} min-h-[240px] md:min-h-[300px]`}
@@ -82,7 +84,7 @@ export default function PrismaticSoulShardHero({
             Portador de Soul Shard
           </p>
           <h1 className="font-gothic text-4xl md:text-5xl font-bold text-white tracking-wide">
-            {entity.name}
+            {entityDisplayName(entity, locale)}
           </h1>
           <Link
             href={entityDetailPath('jewel', theme.jewelSlug)}
@@ -93,10 +95,14 @@ export default function PrismaticSoulShardHero({
             {theme.jewelNamePt}
           </Link>
           <div className="flex flex-wrap gap-3 mt-3 text-sm text-[#aaa]">
-            {entity.level != null && <span>Nível {entity.level}</span>}
-            {entity.act != null && <span>Ato {entity.act}</span>}
+            {entity.level != null && (
+              <span>{t('common.levelFull', { level: entity.level })}</span>
+            )}
+            {entity.act != null && (
+              <span>{t('filter.act', { act: entity.act })}</span>
+            )}
             {entity.region && (
-              <span>{REGION_PT[entity.region] ?? entity.region}</span>
+              <span>{regionLabel(entity.region, locale)}</span>
             )}
           </div>
           {entity.location && (

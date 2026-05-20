@@ -1,5 +1,7 @@
 import AssetImage from '@/components/AssetImage';
+import { useTranslation } from '@/contexts/LocaleContext';
 import type { WikiEntity } from '@/data/entity-types';
+import { entityDisplayName } from '@/lib/entity-locale';
 import { getBossPortraitBorder } from '@/lib/boss-portrait';
 
 interface BossPortraitProps {
@@ -15,7 +17,9 @@ const SIZES = {
 };
 
 export default function BossPortrait({ entity, size = 'md', className = '' }: BossPortraitProps) {
+  const { locale } = useTranslation();
   const border = getBossPortraitBorder(entity);
+  const name = entityDisplayName(entity, locale);
 
   return (
     <div
@@ -29,7 +33,7 @@ export default function BossPortrait({ entity, size = 'md', className = '' }: Bo
       {entity.image ? (
         <AssetImage
           src={entity.image}
-          alt={entity.name}
+          alt={name}
           className={`${SIZES[size]} object-contain rounded-lg bg-[#0a0a0a]/80`}
           style={
             border?.show

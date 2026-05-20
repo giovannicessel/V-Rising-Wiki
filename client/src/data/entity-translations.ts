@@ -74,6 +74,7 @@ export const WEAPON_TYPE_PT: Record<string, string> = {
   Slashers: 'Talhador',
   Spear: 'Lança',
   Sword: 'Espada',
+  Whip: 'Chicote',
 };
 
 export const REGION_PT: Record<string, string> = {

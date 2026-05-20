@@ -9,11 +9,14 @@ import type { EntityType } from '@/data/entity-types';
 import { routerBase } from '@/lib/app-path';
 import { Route, Router, Switch } from 'wouter';
 import ErrorBoundary from './components/ErrorBoundary';
+import { LocaleProvider } from './contexts/LocaleContext';
 import { ThemeProvider } from './contexts/ThemeContext';
 import Home from './pages/Home';
 import MapPage from './pages/MapPage';
 import LorePage from './pages/LorePage';
 import LegendaryWeaponsPage from './pages/LegendaryWeaponsPage';
+import WeaponsListPage from './pages/WeaponsListPage';
+import JewelsListPage from './pages/JewelsListPage';
 
 function makeList(type: EntityType) {
   return function List() {
@@ -37,14 +40,14 @@ function AppRouter() {
       <Route path="/v-bloods/:slug" component={makeDetail('boss')} />
       <Route path="/spells" component={makeList('spell')} />
       <Route path="/spells/:slug" component={makeDetail('spell')} />
-      <Route path="/weapons" component={makeList('weapon')} />
+      <Route path="/weapons" component={WeaponsListPage} />
       <Route path="/weapons/legendary" component={LegendaryWeaponsPage} />
       <Route path="/weapons/:slug" component={makeDetail('weapon')} />
       <Route path="/map" component={MapPage} />
       <Route path="/lore" component={LorePage} />
       <Route path="/items" component={makeList('item')} />
       <Route path="/items/:slug" component={makeDetail('item')} />
-      <Route path="/jewels" component={makeList('jewel')} />
+      <Route path="/jewels" component={JewelsListPage} />
       <Route path="/jewels/:slug" component={makeDetail('jewel')} />
       <Route path="/buildings" component={makeList('building')} />
       <Route path="/buildings/:slug" component={makeDetail('building')} />
@@ -57,14 +60,16 @@ function AppRouter() {
 function App() {
   return (
     <ErrorBoundary>
-      <ThemeProvider defaultTheme="dark">
-        <TooltipProvider>
-          <Toaster />
-          <Router base={routerBase()}>
-            <AppRoutes />
-          </Router>
-        </TooltipProvider>
-      </ThemeProvider>
+      <LocaleProvider>
+        <ThemeProvider defaultTheme="dark">
+          <TooltipProvider>
+            <Toaster />
+            <Router base={routerBase()}>
+              <AppRoutes />
+            </Router>
+          </TooltipProvider>
+        </ThemeProvider>
+      </LocaleProvider>
     </ErrorBoundary>
   );
 }

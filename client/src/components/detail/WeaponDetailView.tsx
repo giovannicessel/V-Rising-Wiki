@@ -3,12 +3,22 @@ import { Link } from 'wouter';
 import { ArrowLeft, ExternalLink, Sparkles, Sword } from 'lucide-react';
 import AssetImage from '@/components/AssetImage';
 import EntitySectionContent from '@/components/EntitySectionContent';
+import WeaponTypeAbilitiesPanel from '@/components/detail/WeaponTypeAbilitiesPanel';
 import WikiProse from '@/components/WikiProse';
 import type { WikiEntity } from '@/data/entity-types';
 import { WEAPON_TYPE_PT } from '@/data/entity-translations';
 import { allEntities } from '@/lib/entities';
 import { entityListPath } from '@/lib/entity-paths';
 import { isLegendaryWeapon } from '@/lib/legendary-weapons';
+import { getSchoolTheme } from '@/lib/school-theme';
+import {
+  getAncestralGuide,
+  getLegendaryObtainNote,
+  getRemovedWeaponGuide,
+  getUniqueWeaponGuide,
+  getWeaponTypeGuide,
+  isAncestralTierWeapon,
+} from '@/lib/weapon-guide';
 
 type Tab = 'overview' | 'abilities' | 'craft';
 
@@ -32,7 +42,13 @@ function getTypeAbilities(weaponType?: string): WikiEntity[] {
 
 export default function WeaponDetailView({ entity }: { entity: WikiEntity }) {
   const legendary = isLegendaryWeapon(entity);
+  const ancestral = isAncestralTierWeapon(entity);
   const [tab, setTab] = useState<Tab>('overview');
+
+  const typeGuide = useMemo(() => getWeaponTypeGuide(entity.weaponType), [entity.weaponType]);
+  const uniqueGuide = useMemo(() => getUniqueWeaponGuide(entity), [entity]);
+  const removedGuide = useMemo(() => getRemovedWeaponGuide(entity), [entity]);
+  const ancestralGuide = getAncestralGuide();
 
   const typeAbilities = useMemo(
     () => getTypeAbilities(entity.weaponType),
@@ -123,10 +139,39 @@ export default function WeaponDetailView({ entity }: { entity: WikiEntity }) {
       {tab === 'overview' && (
         <div className="space-y-6">
           {entity.description && <WikiProse text={entity.description} />}
+          {uniqueGuide && (
+            <section className="rounded-xl border border-[#333] bg-[#111]/60 p-5">
+              <h2 className="font-gothic text-lg text-white mb-2">Arma única</h2>
+              <dl className="grid sm:grid-cols-2 gap-3 text-sm">
+                <div>
+                  <dt className="text-[#666] text-xs uppercase">Nv. gear</dt>
+                  <dd className="text-white">{uniqueGuide.gearLevel}</dd>
+                </div>
+                <div>
+                  <dt className="text-[#666] text-xs uppercase">Bônus</dt>
+                  <dd className="text-[#ccc]">{uniqueGuide.bonus}</dd>
+                </div>
+                <div className="sm:col-span-2">
+                  <dt className="text-[#666] text-xs uppercase">Onde obter</dt>
+                  <dd className="text-[#aaa]">{uniqueGuide.source}</dd>
+                </div>
+              </dl>
+            </section>
+          )}
+          {removedGuide && (
+            <section className="rounded-xl border border-[#333] bg-[#111]/60 p-5">
+              <h2 className="font-gothic text-lg text-[#888] mb-2">Histórico</h2>
+              <p className="text-sm text-[#bbb]">{removedGuide.bonus}</p>
+              <p className="text-xs text-[#666] mt-2">{removedGuide.note}</p>
+            </section>
+          )}
+          {legendary && !style && (
+            <p className="text-sm text-[#888]">{getLegendaryObtainNote()}</p>
+          )}
           {style && style.length > 10 && (
             <section className="rounded-xl border border-amber-500/20 bg-[#15120a]/80 p-5">
               <h2 className="font-gothic text-lg text-amber-200/90 mb-2">
-                Efeito único
+                {legendary ? 'Modificador do artefato' : 'Efeito único'}
               </h2>
               <WikiProse text={style} />
             </section>
@@ -136,16 +181,19 @@ export default function WeaponDetailView({ entity }: { entity: WikiEntity }) {
 
       {tab === 'abilities' && (
         <div className="space-y-6">
+          {typeGuide && <WeaponTypeAbilitiesPanel typeGuide={typeGuide} />}
+
           {legendary && style && (
-            <section className="rounded-lg border border-[#333] p-5">
-              <h2 className="font-gothic text-white mb-2">Habilidade do artefato</h2>
+            <section className="rounded-lg border border-amber-500/25 bg-[#1a1408]/40 p-5">
+              <h2 className="font-gothic text-white mb-2">Modificador exclusivo deste artefato</h2>
               <WikiProse text={style} />
             </section>
           )}
+
           {typeAbilities.length > 0 && (
             <section>
-              <h2 className="font-gothic text-lg text-white mb-3">
-                Habilidades do tipo {entity.weaponType}
+              <h2 className="font-gothic text-lg text-[#888] mb-3">
+                Ícones de habilidade (jogo)
               </h2>
               <div className="grid sm:grid-cols-2 gap-3">
                 {typeAbilities.map((a) => (
@@ -171,7 +219,8 @@ export default function WeaponDetailView({ entity }: { entity: WikiEntity }) {
               </div>
             </section>
           )}
-          {typeAbilities.length === 0 && !style && (
+
+          {!typeGuide && !style && typeAbilities.length === 0 && (
             <p className="text-[#666] text-sm">Sem habilidades catalogadas para esta arma.</p>
           )}
         </div>
@@ -181,14 +230,59 @@ export default function WeaponDetailView({ entity }: { entity: WikiEntity }) {
         <div className="space-y-6">
           {craftSections.length > 0 ? (
             <EntitySectionContent sections={craftSections} />
+          ) : ancestral ? (
+            <section className="rounded-xl border border-amber-500/25 bg-[#1a1408]/30 p-5 space-y-5">
+              <p className="text-sm text-[#bbb]">{ancestralGuide.intro}</p>
+              <div>
+                <h3 className="font-gothic text-white mb-2">Forja Ancestral</h3>
+                <ul className="text-sm text-[#aaa] space-y-1">
+                  <li>
+                    <strong className="text-white">Desbloqueio:</strong> {ancestralGuide.forge.unlock}
+                  </li>
+                  <li>
+                    <strong className="text-white">Materiais da estação:</strong>{' '}
+                    {ancestralGuide.forge.materials}
+                  </li>
+                  {ancestralGuide.forge.bonuses.map((b) => (
+                    <li key={b}>· {b}</li>
+                  ))}
+                </ul>
+              </div>
+              {ancestralGuide.rarities.map((r) => (
+                <div key={r.tier} className="border-t border-[#333] pt-4">
+                  <p className="text-amber-300/90 text-sm font-medium mb-1">{r.tier}</p>
+                  <p className="text-sm text-[#bbb]">{r.craft}</p>
+                  <p className="text-xs text-[#777] mt-1">{r.shards}</p>
+                </div>
+              ))}
+              <div>
+                <p className="text-xs text-[#777] mb-2">{ancestralGuide.infusionNote}</p>
+                <ul className="space-y-1">
+                  {ancestralGuide.infusions.map((inf) => {
+                    const theme = getSchoolTheme(inf.school);
+                    return (
+                      <li
+                        key={inf.school}
+                        className="flex justify-between text-sm border-b border-[#222] pb-1"
+                      >
+                        <span style={{ color: theme?.accent }}>{inf.schoolPt}</span>
+                        <span className="text-[#999]">{inf.effect}</span>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+            </section>
+          ) : legendary ? (
+            <section className="rounded-xl border border-amber-500/20 p-5">
+              <p className="text-sm text-[#bbb]">{getLegendaryObtainNote()}</p>
+            </section>
           ) : (
             <p className="text-[#666] text-sm">
               Dados de craft e atributos variáveis ainda não sincronizados para esta arma.
             </p>
           )}
-          {entity.sections
-            .filter((s) => !craftSections.includes(s))
-            .length > 0 && (
+          {entity.sections.filter((s) => !craftSections.includes(s)).length > 0 && (
             <EntitySectionContent
               sections={entity.sections.filter((s) => !craftSections.includes(s))}
             />
@@ -212,4 +306,3 @@ export default function WeaponDetailView({ entity }: { entity: WikiEntity }) {
     </div>
   );
 }
-

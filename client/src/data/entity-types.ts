@@ -78,6 +78,14 @@ export interface BossRewardsMeta {
   vampirePowers: BossUnlockEntry[];
 }
 
+export interface CraftRecipeMeta {
+  output?: string;
+  structure?: string;
+  materials: { name: string; quantity: number }[];
+  summary?: string;
+  summaryPt?: string;
+}
+
 export interface EntityMeta {
   /** Texto de lore / overview do chefe */
   lore?: string;
@@ -101,6 +109,8 @@ export interface EntityMeta {
   dashBoss?: SpellPointBossRef;
   /** Joias que modificam o feitiço */
   jewels?: string;
+  /** Receita estruturada (quando a Fandom tem tabela Crafting) */
+  craftRecipe?: CraftRecipeMeta;
   /** O que crafta (itens) */
   crafts?: string;
   /** Onde obter / drops (itens) */

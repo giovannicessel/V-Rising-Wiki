@@ -5,11 +5,19 @@ import EntitySectionContent from '@/components/EntitySectionContent';
 import AssetImage from '@/components/AssetImage';
 import WikiProse from '@/components/WikiProse';
 import SpellChoiceList from '@/components/detail/SpellChoiceList';
+import SpellJewelModifiersPanel from '@/components/detail/SpellJewelModifiersPanel';
+import { getSpellJewelModifiers } from '@/lib/spell-jewels';
 import type { WikiEntity } from '@/data/entity-types';
-import { translateSchool } from '@/data/entity-translations';
+import { useTranslation } from '@/contexts/LocaleContext';
+import FandomNotice from '@/components/FandomNotice';
+import {
+  entityDisplayName,
+  schoolLabel,
+  shouldShowFandomNotice,
+  tierCategoryLabel,
+} from '@/lib/entity-locale';
 import { entityDetailPath, entityListPath } from '@/lib/entity-paths';
 import { getSchoolTheme } from '@/lib/school-theme';
-import { tierCategoryLabelPt } from '@/lib/spell-school-progression';
 
 const STAT_KEYS = [
   'cooldown',
@@ -34,12 +42,15 @@ const STAT_LABELS: Record<string, string> = {
 type Tab = 'overview' | 'stats';
 
 export default function SpellDetailView({ entity }: { entity: WikiEntity }) {
+  const { t, locale } = useTranslation();
   const [tab, setTab] = useState<Tab>('overview');
   const theme = getSchoolTheme(entity.school);
   const meta = entity.meta;
   const stats = Object.entries(entity.infobox).filter(([k]) => STAT_KEYS.includes(k));
   const progression = meta?.spellProgression;
   const isDash = progression?.category === 'dash';
+  const jewelEntry = getSpellJewelModifiers(entity);
+  const isUltimate = progression?.category === 'ultimate';
 
   const borderClass = theme?.border ?? 'border-[#333]';
 
@@ -50,7 +61,7 @@ export default function SpellDetailView({ entity }: { entity: WikiEntity }) {
         className="inline-flex items-center gap-2 text-[#888] hover:text-[#c41e3a] mb-8 text-sm"
       >
         <ArrowLeft size={16} />
-        Feitiços
+        {t('spell.back')}
       </Link>
 
       <header
@@ -69,11 +80,19 @@ export default function SpellDetailView({ entity }: { entity: WikiEntity }) {
             className="text-[11px] uppercase tracking-[0.2em] mb-2"
             style={{ color: theme?.accent ?? '#c41e3a' }}
           >
-            {progression?.labelPt ?? translateSchool(entity.school) ?? 'Feitiço'}
+            {progression
+              ? locale === 'pt'
+                ? progression.labelPt
+                : `${schoolLabel(progression.school, locale) ?? progression.school} · ${tierCategoryLabel(progression.category, locale)}`
+              : schoolLabel(entity.school, locale) ?? t('spell.defaultKind')}
           </p>
-          <h1 className="font-gothic text-3xl font-bold text-white">{entity.name}</h1>
+          <h1 className="font-gothic text-3xl font-bold text-white">
+            {entityDisplayName(entity, locale)}
+          </h1>
           {progression && !isDash && (
-            <p className="text-sm text-[#888] mt-2">{tierCategoryLabelPt(progression.category)}</p>
+            <p className="text-sm text-[#888] mt-2">
+              {tierCategoryLabel(progression.category, locale)}
+            </p>
           )}
         </div>
       </header>
@@ -91,7 +110,7 @@ export default function SpellDetailView({ entity }: { entity: WikiEntity }) {
             }`}
             style={tab === id && theme ? { borderColor: theme.accent } : undefined}
           >
-            {id === 'overview' ? 'Visão geral' : 'Atributos & joias'}
+            {id === 'overview' ? t('spell.tab.overview') : t('spell.tab.stats')}
           </button>
         ))}
       </div>
@@ -102,12 +121,9 @@ export default function SpellDetailView({ entity }: { entity: WikiEntity }) {
             <section className="rounded-xl border border-[#2a2a2a] p-5 bg-[#111]/60">
               <h2 className="font-gothic text-lg text-white mb-2 flex items-center gap-2">
                 <Zap size={18} className="text-[#c41e3a]" />
-                Como desbloquear
+                {t('spell.unlockTitle')}
               </h2>
-              <p className="text-sm text-[#888] mb-3">
-                Dash (Veil) — desbloqueio <strong className="text-[#bbb]">direto</strong> ao
-                derrotar o chefe (não usa ponto de feitiço).
-              </p>
+              <p className="text-sm text-[#888] mb-3">{t('spell.dashUnlockNote')}</p>
               <Link
                 href={entityDetailPath('boss', meta.dashBoss.bossSlug)}
                 className="inline-flex items-center gap-2 text-white hover:text-[#c41e3a] transition-colors"
@@ -132,13 +148,9 @@ export default function SpellDetailView({ entity }: { entity: WikiEntity }) {
             >
               <h2 className="font-gothic text-lg text-white mb-2 flex items-center gap-2">
                 <Zap size={18} style={{ color: theme?.accent }} />
-                Como desbloquear
+                {t('spell.unlockTitle')}
               </h2>
-              <p className="text-sm text-[#888] mb-4">
-                Derrote um chefe que concede o ponto de feitiço correspondente; depois{' '}
-                <strong className="text-[#bbb]">gaste o ponto</strong> e escolha este feitiço entre
-                as opções do mesmo tier.
-              </p>
+              <p className="text-sm text-[#888] mb-4">{t('spell.spellPointUnlock')}</p>
               <ul className="space-y-2">
                 {meta.spellPointBosses.map((boss) => (
                   <li key={boss.bossId}>
@@ -161,25 +173,32 @@ export default function SpellDetailView({ entity }: { entity: WikiEntity }) {
           {progression && progression.peers.length > 0 && (
             <section>
               <h2 className="font-gothic text-lg text-[#c41e3a] mb-2">
-                Outras opções no mesmo tier
+                {t('spell.peersTitle')}
               </h2>
-              <p className="text-sm text-[#888] mb-3">
-                Ao gastar o mesmo tipo de ponto, você escolhe apenas{' '}
-                <strong className="text-[#bbb]">uma</strong> destas habilidades:
-              </p>
-              <SpellChoiceList choices={progression.peers} school={progression.school} />
+              <p className="text-sm text-[#888] mb-3">{t('spell.peersNote')}</p>
+              <SpellChoiceList
+                choices={progression.peers}
+                school={progression.school}
+                locale={locale}
+              />
             </section>
+          )}
+
+          {jewelEntry && !isUltimate && (
+            <SpellJewelModifiersPanel entry={jewelEntry} />
           )}
 
           {entity.description && (
             <section>
-              <h2 className="font-gothic text-lg text-[#c41e3a] mb-3">O que faz</h2>
+              <h2 className="font-gothic text-lg text-[#c41e3a] mb-3">{t('spell.whatItDoes')}</h2>
+              {shouldShowFandomNotice(locale, entity.description) && <FandomNotice />}
               <WikiProse text={entity.description} />
             </section>
           )}
           {meta?.unlockRequirement && (
             <section className="rounded-lg border border-[#2a2a2a] p-5 bg-[#111]/60">
-              <h2 className="font-gothic text-lg text-white mb-2">Notas da wiki (Fandom)</h2>
+              <h2 className="font-gothic text-lg text-white mb-2">{t('spell.wikiNotes')}</h2>
+              {shouldShowFandomNotice(locale, meta.unlockRequirement) && <FandomNotice />}
               <WikiProse text={meta.unlockRequirement} />
             </section>
           )}
@@ -209,11 +228,16 @@ export default function SpellDetailView({ entity }: { entity: WikiEntity }) {
               ))}
             </dl>
           ) : (
-            <p className="text-[#666] text-sm">Sem atributos numéricos na Fandom.</p>
+            <p className="text-[#666] text-sm">{t('spell.noStats')}</p>
           )}
-          {meta?.jewels && (
+          {jewelEntry && !isUltimate && (
+            <SpellJewelModifiersPanel entry={jewelEntry} />
+          )}
+
+          {meta?.jewels && !jewelEntry && (
             <section>
-              <h2 className="font-gothic text-lg text-[#c41e3a] mb-3">Joias (modificadores)</h2>
+              <h2 className="font-gothic text-lg text-[#c41e3a] mb-3">{t('spell.jewelsMods')}</h2>
+              {shouldShowFandomNotice(locale, meta.jewels) && <FandomNotice />}
               <WikiProse text={meta.jewels} />
             </section>
           )}
@@ -236,7 +260,7 @@ export default function SpellDetailView({ entity }: { entity: WikiEntity }) {
             rel="noopener noreferrer"
             className="text-sm text-[#c41e3a] inline-flex items-center gap-2"
           >
-            Fandom <ExternalLink size={14} />
+            {t('content.externalWiki')} <ExternalLink size={14} />
           </a>
         </footer>
       )}

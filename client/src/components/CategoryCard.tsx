@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'wouter';
 import AssetImage from '@/components/AssetImage';
+import { useTranslation } from '@/contexts/LocaleContext';
 import { ChevronRight } from 'lucide-react';
 
 interface CategoryCardProps {
@@ -19,6 +20,7 @@ function CardInner({
   image,
   icon,
 }: Pick<CategoryCardProps, 'title' | 'description' | 'image' | 'icon'>) {
+  const { t } = useTranslation();
   return (
     <>
       <div className="absolute inset-0 opacity-20 group-hover/card:opacity-40 transition-opacity duration-300">
@@ -40,7 +42,7 @@ function CardInner({
         </h3>
         <p className="text-[#b0b0b0] text-sm mb-6 flex-grow leading-relaxed">{description}</p>
         <div className="flex items-center text-[#c41e3a] group-hover/card:text-white font-gothic text-sm">
-          <span className="mr-2">Explorar</span>
+          <span className="mr-2">{t('category.explore')}</span>
           <ChevronRight size={20} />
         </div>
       </div>
@@ -57,6 +59,7 @@ export default function CategoryCard({
   onClick,
   delay = 0,
 }: CategoryCardProps) {
+  const { t } = useTranslation();
   const shell = (
     <div
       className="gothic-card relative overflow-hidden h-full flex flex-col group/card cursor-pointer min-h-[280px]"

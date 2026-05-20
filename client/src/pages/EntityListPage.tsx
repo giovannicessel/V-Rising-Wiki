@@ -5,8 +5,8 @@ import EntityCard from '@/components/EntityCard';
 import EntityFiltersBar from '@/components/EntityFiltersBar';
 import WikiPageShell from '@/components/WikiPageShell';
 import type { EntityType, WikiEntity } from '@/data/entity-types';
-import { ENTITY_TYPE_PLURAL } from '@/data/entity-types';
-import { translateSchool } from '@/data/entity-translations';
+import { useTranslation } from '@/contexts/LocaleContext';
+import { entityTypePlural, schoolLabel } from '@/lib/entity-locale';
 import {
   filterEntities,
   getEntitiesByType,
@@ -15,6 +15,7 @@ import {
 } from '@/lib/entities';
 import { SCHOOL_ORDER, getSchoolTheme } from '@/lib/school-theme';
 import { entityDetailPath } from '@/lib/entity-paths';
+import { getWeaponsListIntro } from '@/lib/weapon-guide';
 import { Link } from 'wouter';
 
 interface EntityListPageProps {
@@ -32,6 +33,7 @@ function groupWeapons(list: WikiEntity[]) {
 }
 
 export default function EntityListPage({ type }: EntityListPageProps) {
+  const { t, locale } = useTranslation();
   const [query, setQuery] = useState('');
   const [filters, setFilters] = useState<EntityFilters>({});
   const all = getEntitiesByType(type);
@@ -67,16 +69,23 @@ export default function EntityListPage({ type }: EntityListPageProps) {
       <div className="container py-10">
         <header className="mb-8 max-w-xl">
           <h1 className="font-gothic text-4xl font-bold tracking-wide mb-3">
-            {ENTITY_TYPE_PLURAL[type]}
+            {entityTypePlural(type, locale)}
           </h1>
-          <p className="text-[#888] text-sm">{filtered.length} entradas</p>
+          <p className="text-[#888] text-sm">
+            {t('entity.entries', { count: filtered.length })}
+          </p>
           {type === 'weapon' && (
-            <Link
-              href="/weapons/legendary"
-              className="inline-block mt-3 text-sm text-amber-400/90 hover:text-amber-300"
-            >
-              Ver armas lendárias →
-            </Link>
+            <>
+              <p className="text-sm text-[#999] mt-3 max-w-2xl leading-relaxed">
+                {getWeaponsListIntro()}
+              </p>
+              <Link
+                href="/weapons/legendary"
+                className="inline-block mt-3 text-sm text-amber-400/90 hover:text-amber-300 hover:underline"
+              >
+                {t('entity.legendaryLink')}
+              </Link>
+            </>
           )}
         </header>
 
@@ -86,7 +95,7 @@ export default function EntityListPage({ type }: EntityListPageProps) {
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Buscar…"
+            placeholder={t('entity.filter.search')}
             className="w-full pl-10 pr-4 py-2.5 bg-[#111]/90 border border-[#2a2a2a] rounded-lg text-white text-sm focus:border-[#c41e3a]/60 focus:outline-none"
           />
         </div>
@@ -105,7 +114,7 @@ export default function EntityListPage({ type }: EntityListPageProps) {
                     className={`font-gothic text-2xl font-bold mb-4 pb-2 border-b-2 ${theme?.border ?? 'border-[#333]'}`}
                     style={{ color: theme?.accent }}
                   >
-                    {translateSchool(school)}
+                    {schoolLabel(school, locale)}
                   </h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
                     {list.map((entity, i) => (

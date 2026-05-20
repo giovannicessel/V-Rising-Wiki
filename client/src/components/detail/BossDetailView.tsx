@@ -7,8 +7,15 @@ import BossPortrait from '@/components/detail/BossPortrait';
 import BossRewardsPanel from '@/components/detail/BossRewardsPanel';
 import BossMiniMap from '@/components/map/BossMiniMap';
 import type { WikiEntity } from '@/data/entity-types';
-import { REGION_PT } from '@/data/entity-translations';
+import FandomNotice from '@/components/FandomNotice';
+import { useTranslation } from '@/contexts/LocaleContext';
 import { assetUrl } from '@/lib/app-path';
+import {
+  entityDisplayName,
+  entityTypePlural,
+  regionLabel,
+  shouldShowFandomNotice,
+} from '@/lib/entity-locale';
 import { entityListPath } from '@/lib/entity-paths';
 import { getMarkersForBoss } from '@/lib/vardoran-map';
 import { getSoulShardBossTheme } from '@/lib/soul-shard-bosses';
@@ -30,7 +37,15 @@ function hasRewardsTab(entity: WikiEntity): boolean {
   );
 }
 
-function StandardBossHero({ entity }: { entity: WikiEntity }) {
+function StandardBossHero({
+  entity,
+  locale,
+  t,
+}: {
+  entity: WikiEntity;
+  locale: 'pt' | 'en';
+  t: (key: import('@/i18n').MessageKey, vars?: Record<string, string | number>) => string;
+}) {
   return (
     <div className="relative mb-10 rounded-2xl overflow-hidden border border-[#c41e3a]/30 min-h-[220px] md:min-h-[280px]">
       <div
@@ -57,13 +72,15 @@ function StandardBossHero({ entity }: { entity: WikiEntity }) {
             V Blood
           </p>
           <h1 className="font-gothic text-4xl md:text-5xl font-bold text-white tracking-wide">
-            {entity.name}
+            {entityDisplayName(entity, locale)}
           </h1>
           <div className="flex flex-wrap gap-3 mt-3 text-sm text-[#aaa]">
-            {entity.level != null && <span>Nível {entity.level}</span>}
-            {entity.act != null && <span>Ato {entity.act}</span>}
+            {entity.level != null && (
+              <span>{t('common.levelFull', { level: entity.level })}</span>
+            )}
+            {entity.act != null && <span>{t('filter.act', { act: entity.act })}</span>}
             {entity.region && (
-              <span>{REGION_PT[entity.region] ?? entity.region}</span>
+              <span>{regionLabel(entity.region, locale) ?? entity.region}</span>
             )}
           </div>
         </div>
@@ -73,6 +90,7 @@ function StandardBossHero({ entity }: { entity: WikiEntity }) {
 }
 
 export default function BossDetailView({ entity }: { entity: WikiEntity }) {
+  const { t, locale } = useTranslation();
   const meta = entity.meta;
   const soulShard = getSoulShardBossTheme(entity.id);
   const onMap = getMarkersForBoss(entity.id).length > 0;
@@ -90,13 +108,13 @@ export default function BossDetailView({ entity }: { entity: WikiEntity }) {
         className="inline-flex items-center gap-2 text-[#888] hover:text-[#c41e3a] mb-8 text-sm"
       >
         <ArrowLeft size={16} />
-        V Bloods
+        {entityTypePlural('boss', locale)}
       </Link>
 
       {soulShard ? (
         <PrismaticSoulShardHero entity={entity} theme={soulShard} onMap={onMap} />
       ) : (
-        <StandardBossHero entity={entity} />
+        <StandardBossHero entity={entity} locale={locale} t={t} />
       )}
 
       <div className="flex gap-1 mb-8 border-b border-[#252525]">
@@ -109,7 +127,7 @@ export default function BossDetailView({ entity }: { entity: WikiEntity }) {
               : 'border-transparent text-[#777] hover:text-[#ccc]'
           }`}
         >
-          Como enfrentar
+          {t('boss.tab.overview')}
         </button>
         {showRewards && (
           <button
@@ -121,7 +139,7 @@ export default function BossDetailView({ entity }: { entity: WikiEntity }) {
                 : 'border-transparent text-[#777] hover:text-[#ccc]'
             }`}
           >
-            Recompensas
+            {t('boss.tab.rewards')}
           </button>
         )}
       </div>
@@ -130,7 +148,8 @@ export default function BossDetailView({ entity }: { entity: WikiEntity }) {
         <div className="space-y-8">
           {loreText && (
             <section>
-              <h2 className="font-gothic text-lg text-[#c41e3a] mb-3">História</h2>
+              <h2 className="font-gothic text-lg text-[#c41e3a] mb-3">{t('boss.lore')}</h2>
+              {shouldShowFandomNotice(locale, loreText) && <FandomNotice />}
               <WikiProse text={loreText} />
             </section>
           )}
@@ -143,8 +162,9 @@ export default function BossDetailView({ entity }: { entity: WikiEntity }) {
                 <section className="rounded-xl border border-[#333] bg-[#111]/60 p-6">
                   <h2 className="font-gothic text-lg text-white mb-3 flex items-center gap-2">
                     <Swords size={18} className="text-[#c41e3a]" />
-                    Como enfrentar
+                    {t('boss.fightGuide')}
                   </h2>
+                  {shouldShowFandomNotice(locale, meta.fightGuide) && <FandomNotice />}
                   <WikiProse text={meta.fightGuide} />
                 </section>
               )}
